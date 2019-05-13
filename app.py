@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import json
 import pandas as pd
 
 # CREATE FLASK APP INSTANCE
@@ -10,12 +9,12 @@ data = []
 # LOAD DATA FROM CSV
 def load_data():
     global data
-    data = pandas.read_csv('Crime.csv', low_memory=False)
+    data = pd.read_csv('Crime.csv', low_memory=False)
     print("-----------DATA LOADED--------------")
 
 
 #########################
-###### ROUTES ###########
+#        ROUTES         #
 #########################
 
 
@@ -38,7 +37,7 @@ def participation_all(year):
         try:
             year = int(year)
             df = df[df.Year == year]
-        except:
+        except Exception:
             pass
     return df.to_json(orient='table')
 
@@ -51,7 +50,7 @@ def participation_country(country, year):
     if year:
         try:
             df = df[df.Year == int(year)]
-        except:
+        except Exception:
             pass
     return df.to_json(orient='table')
 
