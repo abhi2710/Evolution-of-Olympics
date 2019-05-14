@@ -1,0 +1,15 @@
+.title-holder {
+	text-align: center;
+	vertical-align: bottom;
+	padding: 10px 0px;
+}
+.context-menu {
+	cursor: context-menu;
+}
+.hide {
+	visibility: hidden;
+}
+.show {
+	visibility: visible;
+}
+

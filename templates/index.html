@@ -2,14 +2,17 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bubble.css')}}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
 		<script src="https://d3js.org/d3.v4.min.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-light bg-light">
 			<a class="navbar-brand" href="#">Navbar</a>
+			<input type="range" min="0" max="54" value="1" id="season-slider"/>
 		</nav>
 		<p></p>
 		<div class="container-fluid">
@@ -42,17 +45,9 @@
 					</div>
 				</div>
 				<div class="col-md-5">
-					<div class="card card-body">Participation
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
+					<div class="">
+						<svg height="306" width="416">
+						</svg>
 					</div>
 					<div class="card card-body">Medal choropleth
 						<br/>
@@ -71,5 +66,9 @@
 			</div>
 		</div>
 		<script src="{{ url_for('static', filename='js/index.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/index.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/constants.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/bubblechart.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/barchart.js')}}"></script>
 	</body>
 </html>
