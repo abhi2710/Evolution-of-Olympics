@@ -9,7 +9,7 @@ data = []
 # LOAD DATA FROM CSV
 def load_data():
     global data
-    data = pd.read_csv('Crime.csv', low_memory=False)
+    data = pd.read_csv('olympics.csv', low_memory=False)
     print("-----------DATA LOADED--------------")
 
 
@@ -56,4 +56,5 @@ def participation_country(country, year):
 
 
 if __name__ == "__main__":
-    app.run()
+    # load_data()
+    app.run(debug=True)
