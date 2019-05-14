@@ -12,7 +12,7 @@ data = []
 # LOAD DATA FROM CSV
 def load_data():
     global data
-    data = pandas.read_csv('Crime.csv', low_memory=False)
+    data = pandas.read_csv('olympics.csv', low_memory=False)
     print("-----------DATA LOADED--------------")
 
 
@@ -25,8 +25,15 @@ def load_data():
 @app.route("/")
 def landing_page():
     global data
-
     return render_template('index.html')
 
+
+# LANDING PAGE ROUTE
+@app.route("/timeline")
+def timeline():
+    global data
+
+    return render_template('timeline.html')
 if __name__ == "__main__":
-    app.run()
+    #load_data()
+    app.run(debug=True)
