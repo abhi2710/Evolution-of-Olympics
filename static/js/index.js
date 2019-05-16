@@ -27,17 +27,22 @@ function calculate_year(year_idx) {
 $(function() {
 	let season_slider  = $("#season-slider");
 	let bubbleSVG = d3.select("#bubble-chart")
-				.append('svg')
-				.classed('svg-content', true);
+						.append('svg')
+						.classed('svg-content', true);
+	let svgMap = d3.select("#map")
+					.append('svg')
+					.classed("svg-content", true);
+
 	let year_idx = season_slider[0].value;
 
 	season_slider.on('change', function () {
-		console.log(this.value);
 		let year = calculate_year(this.value);
 		init_participation_bubble(bubbleSVG, year, init_participation_bar);
+		init_medal_choropleth(svgMap, year, init_participation_bar);
 	});
 
 	let year = calculate_year(year_idx);
 	init_participation_bubble(bubbleSVG, year, init_participation_bar);
+	init_medal_choropleth(svgMap, year, init_participation_bar);
 
 });

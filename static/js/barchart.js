@@ -8,8 +8,8 @@ function show_participation_bar(svg, country, on_click_callbk) {
 	let url = `/participation/${country}`;
 	svg.selectAll("*").remove();
 
-	let width = svg.attr('width') - 2*margin,
-		height = svg.attr('height') - 2*margin,
+	let width = parseInt(svg.style('width')) - 2*margin,
+		height = parseInt(svg.style('height')) - 2*margin,
 		x_label = "Years",
 		y_label = "Participation Count",
 		title = `Participation of ${country} over the years`;
@@ -87,7 +87,7 @@ function plot_bar_chart(svg, data, width, height) {
 
         x.selectAll('text')
             .attr('transform', `translate(0, 10) rotate(15)`);
-		
+
 		let chart_data = [];
 		data.forEach((d) => chart_data.push({
 			'x': xScale(d.Year),
