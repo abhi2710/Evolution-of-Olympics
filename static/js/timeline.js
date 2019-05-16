@@ -2,6 +2,8 @@ let minYear = 1896,
 	maxYear = 1996,
     tickValues = [];
 
+var yearSelected = minYear;
+
 for(let i=minYear;i<=maxYear;i+=4){
 	tickValues.push(i);
 }
@@ -38,6 +40,8 @@ slider.append("line")
     .call(d3.drag()
         .on("start.interrupt", function() { slider.interrupt(); })
         .on("start drag", function() {
+        console.log("year",x.invert(d3.event.x));
+        yearSelected = x.invert(d3.event.x)
         hue(x.invert(d3.event.x));
         }));
 
@@ -54,7 +58,7 @@ slider
 
 let handle = slider.insert("svg:image",".track-overlay")
 .attr("class", "handle")
-.attr('x', -9)
+.attr('x', -2)
 .attr('y', -20)
 .attr('width', 20)
 .attr('height', 24)

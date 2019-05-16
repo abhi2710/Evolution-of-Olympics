@@ -66,13 +66,14 @@ def medals_all(year):
         try:
             year = int(year)
             df = df[df.Year == year]
+            pass
         except Exception:
             pass
     data ={}
     for index, row in df.iterrows():
         data[row['NOC']] = row['Count']
         data[row['Region']] = row['Count']
-    return json.dumps(data);
+    return json.dumps(data)
 
 
 @app.route("/medals/<string:country>", defaults={"year": "all"})
@@ -82,7 +83,8 @@ def medals_country(country, year):
     df = df[df.NOC == country]
     if year:
         try:
-            df = df[df.Year == int(year)]
+            # df = df[df.Year == int(year)]
+            pass
         except Exception:
             pass
     return df.to_json(orient='table')

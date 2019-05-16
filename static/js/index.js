@@ -29,8 +29,6 @@ $(function() {
 	let bubbleSVG = d3.select("#bubble-chart")
 				.append('svg')
 				.classed('svg-content', true);
-
-	console.log("bubbleSVG",bubbleSVG);
 	let year_idx = season_slider[0].value;
 
 	season_slider.on('change', function () {

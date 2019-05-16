@@ -1,0 +1,9 @@
+
+let findClosest = (arr,target) => {
+
+
+
+
+
+
+}

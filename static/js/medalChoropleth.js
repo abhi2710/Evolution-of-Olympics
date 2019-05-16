@@ -18,7 +18,7 @@ let data = d3.map();
 let colorScheme = d3.schemeReds[6];
 colorScheme.unshift("#eee")
 let colorScale = d3.scaleThreshold()
-    .domain([1, 6, 11, 26, 101, 1001])
+    .domain([1, 6, 16, 31,51,101,301,501])
     .range(colorScheme);
 
 // Legend
@@ -29,8 +29,8 @@ g.append("text")
     .attr("class", "caption")
     .attr("x", 0)
     .attr("y", -6)
-    .text("Students");
-let labels = ['0', '1-5', '6-10', '11-25', '26-100', '101-1000', '> 1000'];
+    .text("Medals");
+let labels = ['0', '1-5', '6-15', '16-30', '31-50', '51-100', '101-300','301-500','> 500'];
 let legend = d3.legendColor()
     .labels(function (d) { return labels[d.i]; })
     .shapePadding(4)
@@ -53,8 +53,7 @@ $.get(url, function(data) {
 
 function ready(error, topo) {
     if (error) throw error;
-    let mydata = [];
-            let mydata2 = [];
+
     svgMap
         .append("g")
         .attr("class", "countries")
@@ -63,16 +62,12 @@ function ready(error, topo) {
         .enter().append("path")
         .attr("fill", function (d){
             // Pull data for this country
-
             d.total = 0;
             if(d.id in medalData){
                 d.total = medalData[d.id]
             }
             else if(d.properties.name in medalData){
                 d.total = medalData[d.properties.name];
-            }
-            else{
-                console.log(d)
             }
             // Set the color
             return colorScale(d.total);
@@ -87,12 +82,7 @@ function ready(error, topo) {
             plotMedalBar();
         });
 
-         console.log(mydata)
-            console.log(mydata2)
-
 }
-
-
 let plotMedalBar = ()=>{
 
 };
