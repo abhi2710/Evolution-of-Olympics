@@ -1,3 +1,27 @@
 body {
     margin: 0;
 }
+
+
+.map{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.map-card{
+    height: 400px;
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+}
