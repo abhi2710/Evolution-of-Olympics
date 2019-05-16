@@ -71,6 +71,7 @@ def medals_all(year):
     data ={}
     for index, row in df.iterrows():
         data[row['NOC']] = row['Count']
+        data[row['Region']] = row['Count']
     return json.dumps(data);
 
 
