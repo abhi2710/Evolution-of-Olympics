@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import pandas as pd
+import json
 
 # CREATE FLASK APP INSTANCE
 app = Flask(__name__)  # creates the Flask instance
@@ -67,7 +68,10 @@ def medals_all(year):
             df = df[df.Year == year]
         except Exception:
             pass
-    return df.to_json(orient='table')
+    data ={}
+    for index, row in df.iterrows():
+        data[row['NOC']] = row['Count']
+    return json.dumps(data);
 
 
 @app.route("/medals/<string:country>", defaults={"year": "all"})

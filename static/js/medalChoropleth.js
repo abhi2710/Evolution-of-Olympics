@@ -3,27 +3,26 @@ let svgMap = d3.select("#map")
     .classed("svg-content", true);
 let mapWidth = 600,
     mapHeight = 400;
+let medalData =[];
+let year = 2008;
 
-// let hoverText = document.getElementById("hoverText");
 
-// Map and projection
-var path = d3.geoPath();
-var projection = d3.geoNaturalEarth()
+let projection = d3.geoNaturalEarth()
     .scale(mapWidth / 2 / Math.PI)
     .translate([mapWidth / 2, mapHeight / 2])
-var path = d3.geoPath()
+let path = d3.geoPath()
     .projection(projection);
 
 // Data and color scale
-var data = d3.map();
-var colorScheme = d3.schemeReds[6];
+let data = d3.map();
+let colorScheme = d3.schemeReds[6];
 colorScheme.unshift("#eee")
-var colorScale = d3.scaleThreshold()
+let colorScale = d3.scaleThreshold()
     .domain([1, 6, 11, 26, 101, 1001])
     .range(colorScheme);
 
 // Legend
-var g = svgMap.append("g")
+let g = svgMap.append("g")
     .attr("class", "legendThreshold")
     .attr("transform", "translate(20,20)");
 g.append("text")
@@ -31,8 +30,8 @@ g.append("text")
     .attr("x", 0)
     .attr("y", -6)
     .text("Students");
-var labels = ['0', '1-5', '6-10', '11-25', '26-100', '101-1000', '> 1000'];
-var legend = d3.legendColor()
+let labels = ['0', '1-5', '6-10', '11-25', '26-100', '101-1000', '> 1000'];
+let legend = d3.legendColor()
     .labels(function (d) { return labels[d.i]; })
     .shapePadding(4)
     .scale(colorScale);
@@ -40,19 +39,22 @@ var legend = d3.legendColor()
 svgMap.select(".legendThreshold")
     .call(legend);
 
-// Load external data and boot
-d3.queue()
-    .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
-    .defer(d3.csv, "/static/medalChoropleth.csv", function(d) { 
-		data.set(d.code, +d.total); 
-	})
-    .await(ready);
+year = parseInt(year) || '1896';
+url = `/medals/all/${year}`;
+
+$.get(url, function(data) {
+    if (data) {
+        medalData = JSON.parse(data);
+        d3.queue()
+            .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+            .await(ready);
+    }
+});
 
 function ready(error, topo) {
-     console.log("topo",topo);
     if (error) throw error;
-
-    // Draw the map
+    let mydata = [];
+            let mydata2 = [];
     svgMap
         .append("g")
         .attr("class", "countries")
@@ -61,13 +63,22 @@ function ready(error, topo) {
         .enter().append("path")
         .attr("fill", function (d){
             // Pull data for this country
-            d.total = data.get(d.id) || 0;
+
+            d.total = 0;
+            if(d.id in medalData){
+                d.total = medalData[d.id]
+            }
+            else if(d.properties.name in medalData){
+                d.total = medalData[d.properties.name];
+            }
+            else{
+                console.log(d)
+            }
             // Set the color
             return colorScale(d.total);
         })
         .attr("d", path)
         .on("mouseover", function(d) {
-            console.log("d",d)
         })
         .on("mouseout", function(d) {
 
@@ -75,6 +86,10 @@ function ready(error, topo) {
         .on("click", function (d) {
             plotMedalBar();
         });
+
+         console.log(mydata)
+            console.log(mydata2)
+
 }
 
 
