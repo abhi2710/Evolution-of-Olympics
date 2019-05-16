@@ -1,0 +1,7 @@
+.DS_Store
+**/*.swp
+**/*.ipynb
+static/dataset/**/*
+**/*/.DS_STORE
+flask_app/*
+.idea/

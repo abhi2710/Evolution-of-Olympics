@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Project - History of Olympics</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="{{ url_for('static', filename='js/index.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/constants.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/bubblechart.js')}}"></script>
+		<script src="{{ url_for('static', filename='js/barchart.js')}}"></script>
+		<style>
+			body {
+				background-color: whitesmoke;
+			}
+			.main {
+				margin-top: 30px;
+				padding-top: 15px;
+			}
+			.title-holder {
+				text-align: center;
+				vertical-align: bottom;
+				padding: 10px 0px;
+			}
+			.context-menu {
+				cursor: context-menu;
+			}
+			.hide {
+				visibility: hidden;
+			}
+			.show {
+				visibility: visible;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark justify-content-between">
+			<div class="collapse navbar-collapse" id="navMenu">
+				<ul class="navbar-nav mr-auto">
+
+				</ul>
+			</div>
+		</nav>
+		<div class="container main">
+			<div class="row">
+				<span class="col-11"></span>
+				<span class="col-1">
+					<input type="range" min="0" max="54" value="1" id="season-slider"/>
+				</span>
+			</div>
+
+			<div class="row">
+				<span class="col-1"></span>
+				<span class="col-10">
+					<svg height="600" width="920"></svg>
+				</span>
+				<span class="col-1"></span>
+			</div>
+		</div>
+	</body>
+</html>
