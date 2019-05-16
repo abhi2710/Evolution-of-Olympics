@@ -1,7 +1,6 @@
 let minYear = 1896,
 	maxYear = 1996,
-	margin = {right: 50, left: 50};
-let tickValues = [];
+    tickValues = [];
 
 for(let i=minYear;i<=maxYear;i+=4){
 	tickValues.push(i);
@@ -14,7 +13,7 @@ let svg = d3.select("#timeline")
 
 let timelineWidth = parseInt(svg.style("width")),
     timelineHeight = parseInt(svg.style("height"));
-let width = +timelineWidth - margin.left - margin.right,
+let width = +timelineWidth - margin - margin,
     height = +timelineHeight;
 
 let x = d3.scaleLinear()
@@ -24,7 +23,7 @@ let x = d3.scaleLinear()
 
 let slider = svg.append("g")
     .attr("class", "slider")
-    .attr("transform", "translate(" + margin.left + "," + height / 2 + ")")
+    .attr("transform", "translate(" + margin + "," + height / 2 + ")")
     .attr('width',width);
 
 
@@ -32,9 +31,9 @@ slider.append("line")
     .attr("class", "track")
     .attr("x1", x.range()[0])
     .attr("x2", x.range()[1])
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+	.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
     .attr("class", "track-inset")
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+	.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
     .attr("class", "track-overlay")
     .call(d3.drag()
         .on("start.interrupt", function() { slider.interrupt(); })

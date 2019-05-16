@@ -1,1 +1,1 @@
-const margin = 60;
+const margin = 50;
