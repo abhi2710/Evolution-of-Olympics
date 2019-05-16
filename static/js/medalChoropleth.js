@@ -36,13 +36,16 @@ var legend = d3.legendColor()
     .labels(function (d) { return labels[d.i]; })
     .shapePadding(4)
     .scale(colorScale);
+
 svgMap.select(".legendThreshold")
     .call(legend);
 
 // Load external data and boot
 d3.queue()
     .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
-    .defer(d3.csv, "/static/medalChoropleth.csv", function(d) { data.set(d.code, +d.total); })
+    .defer(d3.csv, "/static/medalChoropleth.csv", function(d) { 
+		data.set(d.code, +d.total); 
+	})
     .await(ready);
 
 function ready(error, topo) {
