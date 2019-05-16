@@ -40,9 +40,10 @@ slider.append("line")
     .call(d3.drag()
         .on("start.interrupt", function() { slider.interrupt(); })
         .on("start drag", function() {
-        console.log("year",x.invert(d3.event.x));
-        yearSelected = x.invert(d3.event.x)
-        hue(x.invert(d3.event.x));
+        handle.attr("x", x(x.invert(d3.event.x)));
+        let year = findClosest(tickValues, x.invert(d3.event.x));
+        updateMaps(year);
+//        hue(x.invert(d3.event.x));
         }));
 
 slider
