@@ -26,7 +26,11 @@ function calculate_year(year_idx) {
 
 $(function() {
 	let season_slider  = $("#season-slider");
-	let svg = d3.select("svg");
+	let svg = d3.select("#bubble-chart")
+				.append('svg')
+				.classed('svg-content', true);
+
+	console.log(svg);
 	let year_idx = season_slider[0].value;
 
 	season_slider.on('change', function () {
