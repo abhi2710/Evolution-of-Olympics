@@ -55,6 +55,33 @@ def participation_country(country, year):
     return df.to_json(orient='table')
 
 
+
+
+@app.route("/medals/all", defaults={"year": None})
+@app.route("/medals/all/<string:year>")
+def medals_all(year):
+    df = pd.read_csv("static/data/medals_all.csv")
+    if year:
+        try:
+            year = int(year)
+            df = df[df.Year == year]
+        except Exception:
+            pass
+    return df.to_json(orient='table')
+
+
+@app.route("/medals/<string:country>", defaults={"year": "all"})
+@app.route("/medals/<string:country>/<string:year>")
+def medals_country(country, year):
+    df = pd.read_csv("static/data/medals_all.csv")
+    df = df[df.NOC == country]
+    if year:
+        try:
+            df = df[df.Year == int(year)]
+        except Exception:
+            pass
+    return df.to_json(orient='table')
+
 if __name__ == "__main__":
     # load_data()
     app.run(debug=True)

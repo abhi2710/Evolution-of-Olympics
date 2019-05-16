@@ -6,13 +6,13 @@ for(let i=minYear;i<=maxYear;i+=4){
 	tickValues.push(i);
 }
 
-let svg = d3.select("#timeline")
+let timelineSVG = d3.select("#timeline")
     .append('svg')
     .classed("svg-content", true);
 
 
-let timelineWidth = parseInt(svg.style("width")),
-    timelineHeight = parseInt(svg.style("height"));
+let timelineWidth = parseInt(timelineSVG.style("width")),
+    timelineHeight = parseInt(timelineSVG.style("height"));
 let width = +timelineWidth - margin - margin,
     height = +timelineHeight;
 
@@ -21,7 +21,7 @@ let x = d3.scaleLinear()
     .range([0, width])
     .clamp(true);
 
-let slider = svg.append("g")
+let slider = timelineSVG.append("g")
     .attr("class", "slider")
     .attr("transform", "translate(" + margin + "," + height / 2 + ")")
     .attr('width',width);
@@ -70,5 +70,5 @@ slider.transition()
 
 function hue(h) {
     handle.attr("x", x(h));
-    svg.style("background-color", d3.hsl(0.8, 0.8, 0.8));
+    timelineSVG.style("background-color", d3.hsl(0.8, 0.8, 0.8));
 }

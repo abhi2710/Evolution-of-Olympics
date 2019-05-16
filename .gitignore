@@ -5,3 +5,4 @@ static/dataset/**/*
 **/*/.DS_STORE
 flask_app/*
 .idea/
+__pycache__/
