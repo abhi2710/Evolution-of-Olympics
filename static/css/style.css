@@ -16,6 +16,10 @@ body {
     height: 400px;
 }
 
+.bubble-card{
+    height: 400px;
+}
+
 .svg-content {
     display: inline-block;
     position: absolute;

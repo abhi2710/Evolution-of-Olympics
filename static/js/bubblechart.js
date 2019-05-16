@@ -40,8 +40,8 @@ function show_participation_bubble(svg, year, on_click_callbk) {
 }
 
 var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
-	let height = svg.attr('height'),
-		width = svg.attr('width'),
+	let height =  parseInt(svg.style("height")),
+		width =  parseInt(svg.style("width")),
 		color = d3.scaleOrdinal(d3.schemeCategory20),
 		bubble = d3.pack(dataset)
 					.size([width, height])
