@@ -1,11 +1,15 @@
 console.log("JS Loaded");
-let bubbleSVG;
+let bubbleSVG,svgMap;
 
 $(function() {
 	bubbleSVG = d3.select("#bubble-chart")
 				.append('svg')
 				.classed('svg-content', true);
-	console.log("init");
+	svgMap = d3.select("#map")
+					.append('svg')
+					.classed("svg-content", true);
+
+	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 });
 
@@ -16,6 +20,6 @@ let updateMaps = (year)=>{
         return
     }
     yearSelected = year;
-	console.log("update");
-		init_participation_bubble(bubbleSVG, year, init_participation_bar);
+	init_participation_bubble(bubbleSVG, year, init_participation_bar);
+	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 }
