@@ -12,6 +12,9 @@ html, body {
     height: 50%;
 }
 
+#center-card {
+	height: 36em;
+}
 
 .svg-content {
     /*display: inline-block;*/
