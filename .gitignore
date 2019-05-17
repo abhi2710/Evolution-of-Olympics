@@ -1,6 +1,6 @@
 .DS_Store
 **/*.swp
-**/*.ipynb
+**/*/.ipynb*
 static/dataset/*.zip
 **/*/.DS_STORE
 flask_app/*
