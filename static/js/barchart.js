@@ -1,18 +1,19 @@
 function init_participation_bar(svg, country, type, on_click_callbk) {
 	setTimeout(() => {
-		show_participation_bar(svg, country, on_click_callbk);
+		show_participation_bar(svg, country, type, on_click_callbk);
 	}, 0);
 }
 
-function show_participation_bar(svg, country, on_click_callbk) {
-	let url = `/participation/${country}`;
+function show_participation_bar(svg, country, type, on_click_callbk) {
+	let url = `/${type}/${country}`;
 	svg.selectAll("*").remove();
+    let text = type == 'participation'?'Participations':'Medals'
 
 	let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,
 		x_label = "Years",
-		y_label = "Participation Count",
-		title = `Participation of ${country} over the years`;
+		y_label = `${text} Count`,
+		title = `${text} of ${country} over the years`;
 
 	$.get(url, (data) => {
 		if (data) {

@@ -1,6 +1,7 @@
 let mapSVG,medalData=[], topo, colorScale, path;
 
 let init_medal_choropleth = (svg, year)=>{
+    svg.selectAll("*").remove()
     mapSVG = svg;
     let mapWidth = parseInt(mapSVG.style('width'))
 		mapHeight = parseInt(mapSVG.style('height'));
@@ -74,7 +75,7 @@ let update_medal_choropleth = (year)=>{
 
                 })
                 .on("click", function (d) {
-//                    init_participation_bar()
+                    init_participation_bar(mapSVG, d.id, 'medals', init_medal_choropleth)
                 });
 		}
 	});
