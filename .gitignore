@@ -1,7 +1,7 @@
 .DS_Store
 **/*.swp
 **/*.ipynb
-static/dataset/**/*
+static/dataset/*.zip
 **/*/.DS_STORE
 flask_app/*
 .idea/
