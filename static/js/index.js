@@ -15,6 +15,7 @@ $(function() {
 
 	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
+	init_scatter(centrSVG, );
 });
 
 
