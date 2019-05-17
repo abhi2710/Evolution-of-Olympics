@@ -1,3 +1,15 @@
+.timeline {
+	height: 12%
+}
+
+.timeline-svg {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 .ticks {
   font: 10px sans-serif;

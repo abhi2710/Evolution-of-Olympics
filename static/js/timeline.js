@@ -10,7 +10,7 @@ for(let i=minYear;i<=maxYear;i+=4){
 
 let timelineSVG = d3.select("#timeline")
     .append('svg')
-    .classed("svg-content", true);
+    .classed("timeline-svg", true);
 
 
 let timelineWidth = parseInt(timelineSVG.style("width")),
@@ -75,5 +75,4 @@ slider.transition()
 
 function hue(h) {
     handle.attr("x", x(h));
-    timelineSVG.style("background-color", d3.hsl(0.8, 0.8, 0.8));
 }

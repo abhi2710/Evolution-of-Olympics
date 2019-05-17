@@ -19,41 +19,26 @@
 	<body>
 		<nav class="navbar navbar-light bg-light">
 			<a class="navbar-brand" href="#">Navbar</a>
-			<input type="range" min="0" max="54" value="1" id="season-slider"/>
 		</nav>
 		<p></p>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-7">
-					<div class="card card-body">MIX CHARTS
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
-						<br/>
+				<div class="col-7 mh-100">
+					<div class="card center-card">
+						<span id="center-card" class="class-body">
+
+						</span>
 					</div>
-					<div class="card card-body ">TIMELINE
-						<div id="timeline"></div>
+					<div class="card timeline">
+						<span id="timeline" class="card-body"></span>
 					</div>
 				</div>
-				<div class="col-md-5">
-					<div class="card card-body bubble-card">
-						<div id="bubble-chart" ></div>
+				<div class="col-5 mh-100">
+					<div class="card side-card">
+						<span id="bubble-chart" class="card-body"></span>
 					</div>
-					<div class="card card-body map-card">
-						<div id="map"></div>
+					<div class="side-card card">
+						<span id="map" class="card-body"></span>
 					</div>
 				</div>
 			</div>
@@ -65,5 +50,5 @@
 		<script src="{{ url_for('static', filename='js/medalChoropleth.js') }}"></script>
 		<script src="{{ url_for('static', filename='js/bubblechart.js')}}"></script>
 		<script src="{{ url_for('static', filename='js/barchart.js')}}"></script>
-</body>
+	</body>
 </html>

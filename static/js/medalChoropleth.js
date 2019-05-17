@@ -51,9 +51,6 @@ let init_medal_choropleth = (svg, year)=>{
 }
 
 let update_medal_choropleth = (year)=>{
-
-    console.log("djjdd",year)
-
     year = parseInt(year) || '1896';
     url = `/medals/all/${year}`;
 	$.get(url, function(data) {
