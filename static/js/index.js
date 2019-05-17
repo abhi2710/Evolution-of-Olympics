@@ -20,6 +20,6 @@ let updateMaps = (year)=>{
         return
     }
     yearSelected = year;
-	init_participation_bubble(bubbleSVG, year, init_participation_bar);
-	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
+	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
+	update_medal_choropleth(yearSelected);
 }

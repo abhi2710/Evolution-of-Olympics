@@ -1,4 +1,4 @@
-function init_participation_bar(svg, country, on_click_callbk) {
+function init_participation_bar(svg, country, type, on_click_callbk) {
 	setTimeout(() => {
 		show_participation_bar(svg, country, on_click_callbk);
 	}, 0);

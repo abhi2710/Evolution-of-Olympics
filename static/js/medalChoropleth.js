@@ -1,59 +1,21 @@
-var choropleth_callbk, mapSVG;
-function init_medal_choropleth(svg, year, on_click_callbk) {
-	setTimeout(() => {
-		show_medal_choropleth(svg, year, on_click_callbk);
-	}, 0);
-}
+let mapSVG,medalData=[], topo, colorScale, path;
 
-var show_medal_choropleth = function(svg, year, on_click_callbk) {
-	let	url;
-
-	function year_as_clojure(year) {
-		choropleth_callbk = function () {
-			let clojure_year = year;
-			return function(svg, on_click_callbk) {
-				init_medal_choropleth(svg, clojure_year, on_click_callbk);
-			};
-		}
-	}
-
-	if (parseInt(year)) {
-		url = `/participation/all/${year}`;
-		year_as_clojure(year);
-	} else {
-		url = '/participation/all/1896';
-		year_as_clojure(1896);
-	}
-
-	$.get(url, function(data) {
-		if (data) {
-			medalData = JSON.parse(data);
-			mapSVG = svg;
-			d3.queue()
-				.defer(d3.json, "/static/js/world-110m.geojson")
-				.await(ready);
-		}
-	});
-}
-
-function ready(error, topo) {
-	if (error) throw error;
-
-	let mapWidth = parseInt(mapSVG.style('height'))
-		mapHeight = parseInt(mapSVG.style('width'));
-	let medalData =[];
+let init_medal_choropleth = (svg, year)=>{
+    mapSVG = svg;
+    let mapWidth = parseInt(mapSVG.style('width'))
+		mapHeight = parseInt(mapSVG.style('height'));
 
 	let projection = d3.geoNaturalEarth()
 						.scale(mapWidth / 2 / Math.PI)
 						.translate([mapWidth / 2, mapHeight / 2])
-	let path = d3.geoPath()
+	path = d3.geoPath()
 				.projection(projection);
 
 	// Data and color scale
 	let data = d3.map();
 	let colorScheme = d3.schemeReds[6];
 	colorScheme.unshift("#eee")
-	let colorScale = d3.scaleThreshold()
+	colorScale = d3.scaleThreshold()
 						.domain([1, 6, 16, 31,51,101,301,501])
 						.range(colorScheme);
 
@@ -74,38 +36,52 @@ function ready(error, topo) {
 
 	mapSVG.select(".legendThreshold")
 			.call(legend);
-
-
-	mapSVG
-		.append("g")
-		.attr("class", "countries")
-		.selectAll("path")
-		.data(topo.features)
-		.enter().append("path")
-		.attr("fill", function (d){
-			// Pull data for this country
-			d.total = 0;
-			if(d.id in medalData){
-				d.total = medalData[d.id]
-			}
-			else if(d.properties.name in medalData){
-				d.total = medalData[d.properties.name];
-			}
-			// Set the color
-			return colorScale(d.total);
-		})
-		.attr("d", path)
-		.on("mouseover", function(d) {
-
-		})
-		.on("mouseout", function(d) {
-
-		})
-		.on("click", function (d) {
-			plotMedalBar(mapSVG);
-		});
-
+    d3.queue()
+		.defer(d3.json, "/static/js/world-110m.geojson")
+		.await(ready);
 }
-let plotMedalBar = ()=>{
 
-};
+let update_medal_choropleth = (year)=>{
+    year = parseInt(year) || '1896';
+    url = `/medals/all/${year}`;
+	$.get(url, function(data) {
+		if (data) {
+			medalData = JSON.parse(data);
+			d3.selectAll(".countries").remove()
+			 mapSVG
+                .append("g")
+                .attr("class", "countries")
+                .selectAll("path")
+                .data(topo.features)
+                .enter().append("path")
+                .attr("fill", function (d){
+                    // Pull data for this country
+                    d.total = 0;
+                    if(d.id in medalData){
+                        d.total = medalData[d.id]
+                    }
+                    else if(d.properties.name in medalData){
+                        d.total = medalData[d.properties.name];
+                    }
+                    // Set the color
+                    return colorScale(d.total);
+                })
+                .attr("d", path)
+                .on("mouseover", function(d) {
+
+                })
+                .on("mouseout", function(d) {
+
+                })
+                .on("click", function (d) {
+//                    init_participation_bar()
+                });
+		}
+	});
+}
+
+let ready = (error, topoResult,year)=> {
+	if (error) throw error;
+    topo = topoResult;
+    update_medal_choropleth(year);
+}
