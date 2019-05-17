@@ -4,16 +4,16 @@ html, body {
 }
 
 .center-card {
-	height: 88%;
+	height: 34em;
 }
 
 .side-card{
 	/*max-width: 100%;*/
-    height: 50%;
+    height: 52%;
 }
 
 #center-card {
-	height: 36em;
+	height: 88%;
 }
 
 .svg-content {

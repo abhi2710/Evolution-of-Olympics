@@ -30,6 +30,19 @@ def env_vloki():
     return render_template('vloki.html')
 
 
+@app.route("/scatter/bmi", defaults={"year": None})
+@app.route("/scatter/bmi/<int:year>")
+def scatter_bmi(year):
+    df = pd.read_csv("static/data/bmi_scatter.csv")
+    if year:
+        try:
+            year = int(year)
+            df = df[df.Year == year]
+        except Exception:
+            pass
+    return df[['Age', 'bmi']].to_json(orient='table')
+
+
 @app.route("/participation/all", defaults={"year": None})
 @app.route("/participation/all/<string:year>")
 def participation_all(year):
@@ -43,7 +56,7 @@ def participation_all(year):
     return df.to_json(orient='table')
 
 
-@app.route("/participation/<string:country>", defaults={"year": "all"})
+@app.route("/participation/<string:country>", defaults={"year": None})
 @app.route("/participation/<string:country>/<string:year>")
 def participation_country(country, year):
     df = pd.read_csv("static/data/participation_all.csv")
@@ -54,8 +67,6 @@ def participation_country(country, year):
         except Exception:
             pass
     return df.to_json(orient='table')
-
-
 
 
 @app.route("/medals/all", defaults={"year": None})
@@ -69,7 +80,7 @@ def medals_all(year):
             pass
         except Exception:
             pass
-    data ={}
+    data = {}
     for index, row in df.iterrows():
         data[row['NOC']] = row['Count']
         data[row['Region']] = row['Count']
@@ -88,6 +99,7 @@ def medals_country(country, year):
         except Exception:
             pass
     return df.to_json(orient='table')
+
 
 if __name__ == "__main__":
     # load_data()
