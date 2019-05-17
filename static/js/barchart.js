@@ -1,13 +1,19 @@
-function init_participation_bar(svg, country, type, on_click_callbk) {
+function init_participation_bar(svg, country, type, region, on_click_callbk) {
 	setTimeout(() => {
-		show_participation_bar(svg, country, type, on_click_callbk);
+		show_participation_bar(svg, country, type, region, on_click_callbk);
 	}, 0);
 }
 
-function show_participation_bar(svg, country, type, on_click_callbk) {
+function show_participation_bar(svg, country, type, region, on_click_callbk) {
 	let url = `/${type}/${country}`;
+	let text = 'Participations';
+
+	if(type == 'medals'){
+	    url = `/${type}/${country}/regions/${region}`;
+	    text = 'Medals';
+	}
+
 	svg.selectAll("*").remove();
-    let text = type == 'participation'?'Participations':'Medals'
 
 	let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,

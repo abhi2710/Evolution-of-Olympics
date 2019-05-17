@@ -110,7 +110,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 			d3.event.stopPropagation(); 
 			d.slider.hide();
 			let country = $(this).data('country');
-			d.callbk(d.svg, country, 'participation', d.on_click_callbk);
+			d.callbk(d.svg, country, 'participation', null, d.on_click_callbk);
 		});
 	}
 

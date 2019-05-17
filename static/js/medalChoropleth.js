@@ -13,9 +13,11 @@ let init_medal_choropleth = (svg, year)=>{
 				.projection(projection);
 
 	// Data and color scale
-	let data = d3.map();
-	let colorScheme = d3.schemeReds[6];
-	colorScheme.unshift("#eee")
+	let colorScheme = d3.schemeReds[8];
+	if(!colorScale){
+	    colorScheme.unshift("#eee")
+	}
+
 	colorScale = d3.scaleThreshold()
 						.domain([1, 6, 16, 31,51,101,301,501])
 						.range(colorScheme);
@@ -37,18 +39,28 @@ let init_medal_choropleth = (svg, year)=>{
 
 	mapSVG.select(".legendThreshold")
 			.call(legend);
+
+	if(typeof year == "function"){
+        year = yearSelected;
+    }
+
     d3.queue()
 		.defer(d3.json, "/static/js/world-110m.geojson")
+		.defer(returnYear,year)
 		.await(ready);
 }
 
 let update_medal_choropleth = (year)=>{
+
+    console.log("djjdd",year)
+
     year = parseInt(year) || '1896';
     url = `/medals/all/${year}`;
 	$.get(url, function(data) {
 		if (data) {
 			medalData = JSON.parse(data);
 			d3.selectAll(".countries").remove()
+			d3.selectAll(".path").remove()
 			 mapSVG
                 .append("g")
                 .attr("class", "countries")
@@ -75,7 +87,7 @@ let update_medal_choropleth = (year)=>{
 
                 })
                 .on("click", function (d) {
-                    init_participation_bar(mapSVG, d.id, 'medals', init_medal_choropleth)
+                    init_participation_bar(mapSVG, d.id, 'medals', d.properties.name, init_medal_choropleth)
                 });
 		}
 	});
@@ -85,4 +97,8 @@ let ready = (error, topoResult,year)=> {
 	if (error) throw error;
     topo = topoResult;
     update_medal_choropleth(year);
+}
+
+let returnYear = function(year,callback){
+    callback(null,year);
 }

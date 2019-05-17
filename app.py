@@ -76,17 +76,12 @@ def medals_all(year):
     return json.dumps(data)
 
 
-@app.route("/medals/<string:country>", defaults={"year": "all"})
-@app.route("/medals/<string:country>/<string:year>")
-def medals_country(country, year):
+@app.route("/medals/<string:country>", defaults={"region": None})
+@app.route("/medals/<string:country>/regions/<string:region>")
+def medals_country(country, region):
     df = pd.read_csv("static/data/medals_all.csv")
-    df = df[df.NOC == country]
-    if year:
-        try:
-            # df = df[df.Year == int(year)]
-            pass
-        except Exception:
-            pass
+    df = df.ix[(df['NOC'] == country) | (df['Region'] == region)]
+    df = df.groupby(['Region','Year']).sum()
     return df.to_json(orient='table')
 
 if __name__ == "__main__":
