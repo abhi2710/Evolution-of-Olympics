@@ -106,8 +106,8 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 			'slider': $("#season-slider"),
 			'callbk': on_click_callbk,
 			'on_click_callbk': generate_callback_with_year()
-		}).on('click', function(d) {	
-			d3.event.stopPropagation(); 
+		}).on('click', function(d) {
+			d3.event.stopPropagation();
 			d.slider.hide();
 			let country = $(this).data('country');
 			d.callbk(d.svg, country, 'participation', d.on_click_callbk);

@@ -7,7 +7,7 @@ function init_participation_bar(svg, country, type, on_click_callbk) {
 function show_participation_bar(svg, country, type, on_click_callbk) {
 	let url = `/${type}/${country}`;
 	svg.selectAll("*").remove();
-    let text = type == 'participation'?'Participations':'Medals'
+    let text = type == 'participation'? 'Participations': 'Medals'
 
 	let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,
@@ -20,15 +20,16 @@ function show_participation_bar(svg, country, type, on_click_callbk) {
 			data = JSON.parse(data);
 			plot_bar_chart(
 				svg,
-				data.data, 
-				width, 
+				data.data,
+				width,
 				height
 			)
 		}
 	});
+	//
 	// label for y-axis
 	svg.append('text')
-		.attr('x', -(height / 2) - margin)
+		.attr('x', - (height / 2) - margin)
 		.attr('y', margin / 3.4)
 		.attr('transform', 'rotate(-90)')
 		.attr('text-anchor', 'middle')
@@ -55,7 +56,7 @@ function show_participation_bar(svg, country, type, on_click_callbk) {
 		svg.datum({
 			'svg': svg,
 			'callbk': on_click_callbk,
-			'on_click_callbk': init_participation_bar	
+			'on_click_callbk': init_participation_bar
 		}).on('click', function(d) {
 			d['svg'].on('click', null);
 			d['callbk'](svg, d['on_click_callbk']);
@@ -72,7 +73,7 @@ function plot_bar_chart(svg, data, width, height) {
 
 		const xScale = d3.scaleBand(),
 			  yScale = d3.scaleLinear();
-		
+
 		let domainX = data.map(d => d.Year)
 			domainY = [0, d3.max(data.map(d => d.Count)) * 1.10];
 
@@ -87,7 +88,7 @@ function plot_bar_chart(svg, data, width, height) {
             .call(d3.axisBottom(xScale));
 
         x.selectAll('text')
-            .attr('transform', `translate(0, 10) rotate(15)`);
+            .attr('transform', `translate(0, 10) rotate(-45)`);
 
 		let chart_data = [];
 		data.forEach((d) => chart_data.push({
@@ -155,10 +156,10 @@ function change_bar_dimension(cbar, color, data, nx =0, ny =0, nwidth =0, nheigh
     cbar.transition()
         .duration(200)
         .style('fill', color)
-        .attr('x', data.x + nx)
-        .attr('y', data.y + ny)
-        .attr('width', data.width + nwidth)
-        .attr('height', data.height + nheight);
+       /* .attr('x', data.x + nx)*/
+        //.attr('y', data.y + ny)
+        //.attr('width', data.width + nwidth)
+        //.attr('height', data.height + nheight);
 
     return cbar;
 }
