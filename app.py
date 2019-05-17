@@ -109,6 +109,9 @@ def gender_year_country(year, region,season):
             pass
     else:
         df = df[df.Region == region]
+
+    if season:
+        df = df[df.Season == season]
     df = df.groupby(['Region','Year','Sex']).mean()
     return df.to_json(orient='table')
 

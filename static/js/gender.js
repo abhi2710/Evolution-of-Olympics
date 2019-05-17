@@ -1,10 +1,10 @@
-function init_gender_scatter(svg, type, year, region){
+function init_gender_scatter(svg, type, year, region, season){
 	setTimeout(() => {
-		show_gender_scatter(svg, type, year, region);
+		show_gender_scatter(svg, type, year, region, season);
 	}, 50);
 }
 
-function show_gender_scatter(svg, type, year, region) {
+function show_gender_scatter(svg, type, year, region, season) {
 
     let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,
@@ -13,9 +13,9 @@ function show_gender_scatter(svg, type, year, region) {
 		title = `Gender Distribution`;
 
 
-	let url = `/gender/all/regions/${region}`;
+	let url = `/gender/all/regions/${region}/seasons/${season}`;
 	if(type == "Regions"){
-	    url = `/gender/${year}/regions/all`;
+	    url = `/gender/${year}/regions/all/seasons/${season}`;
 	}
 
 	$.get(url, function(data) {

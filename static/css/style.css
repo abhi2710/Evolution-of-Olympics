@@ -1,5 +1,6 @@
-html, body {
-    margin: 0;
+html,
+body {
+	margin: 0;
 	height: 100%;
 }
 
@@ -7,9 +8,9 @@ html, body {
 	height: 34em;
 }
 
-.side-card{
+.side-card {
 	/*max-width: 100%;*/
-    height: 52%;
+	height: 52%;
 }
 
 #center-card {
@@ -17,46 +18,49 @@ html, body {
 }
 
 .svg-content {
-    /*display: inline-block;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    height: 100%;
-    width:100%;
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	height: 100%;
+	width: 100%;
 }
 
+.label {
+	font-size: 15px;
+}
 
+.legend text,
+.axis text {
+	font-size: 13px;
+	fill: #333;
+}
 
-.label{
-			font-size: 15px;
-		}
+.axis path,
+.axis line {
+	fill: none;
+	stroke-width: 1px;
+	stroke: #777;
+}
 
-		.legend text,
-		.axis text {
-			font-size: 13px;
-			fill: #333;
-		}
+.circle {
+	fill-opacity: 0.65;
+}
 
-		.axis path,
-		.axis line{
-			fill: none;
-			stroke-width: 1px;
-			stroke: #777;
-		}
+.bubble {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
 
-		.circle{
-			fill-opacity: 0.65;
-		}
+.bubble:hover text {
+	opacity: 1;
+}
 
-		.bubble{
-			opacity: 1;
-			transition: opacity 0.3s;
-		}
+.bubble:hover circle {
+	fill-opacity: 1;
+}
 
-		.bubble:hover text{
-			opacity: 1;
-		}
-
-		.bubble:hover circle{
-			fill-opacity: 1;
-		}
+.margin-15 {
+	margin-right: 15px;
+	margin-left: 15px;
+}
