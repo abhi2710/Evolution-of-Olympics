@@ -3,6 +3,7 @@ let minYear = 1896,
     tickValues = [];
 
 var yearSelected = minYear;
+var updateMapsTimer;
 
 for(let i=minYear;i<=maxYear;i+=4){
 	tickValues.push(i);
@@ -40,9 +41,16 @@ slider.append("line")
     .call(d3.drag()
         .on("start.interrupt", function() { slider.interrupt(); })
         .on("start drag", function() {
-        handle.attr("x", x(x.invert(d3.event.x)));
-        let year = findClosest(tickValues, x.invert(d3.event.x));
-        updateMaps(year);
+			clearTimeout(updateMapsTimer);
+			console.log("Event Triggered");
+			handle.attr("x", x(x.invert(d3.event.x)));
+			let year = findClosest(tickValues, x.invert(d3.event.x));
+			if ( year != yearSelected ) {
+				updateMapsTimer = setTimeout(() => {
+					console.log('Timeout triggered');
+					updateMaps(year);
+				}, 50);
+			}
 //        hue(x.invert(d3.event.x));
         }));
 
@@ -66,8 +74,7 @@ let handle = slider.insert("svg:image",".track-overlay")
 .attr("xlink:href", "static/athlete.svg")
 
 
-slider.transition()
-    .duration(750)
+slider.transition(globalTransition)
     .tween("hue", function() {
       var i = d3.interpolate(0, 70);
       return function(t) { hue(i(t)); };

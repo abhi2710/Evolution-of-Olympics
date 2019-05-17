@@ -1,35 +1,31 @@
-function init_gender_scatter(svg, type, year, region){
+function init_bmi_scatter(svg, year) {
 	setTimeout(() => {
-		show_gender_scatter(svg, type, year, region);
+		show_bmi_scatter(svg, year);
 	}, 50);
 }
 
-function show_gender_scatter(svg, type, year, region) {
+function show_bmi_scatter(svg, year) {
+	let url = `/scatter/bmi/${year}`;
 
-    let width = parseInt(svg.style('width')) - 2*margin,
+	let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,
-		x_label = type,
-		y_label = "Count",
-		title = `Gender Distribution`;
+		x_label = "Age",
+		y_label = "BMI",
+		title = "Variation of BMI of athletes with Age (A measure of fitness)";
 
-
-	let url = `/gender/all/regions/${region}`;
-	if(type == "Regions"){
-	    url = `/gender/${year}/regions/all`;
-	}
-
-	$.get(url, function(data) {
+	$.get(url, (data) => {
 		if (data) {
-		    data = JSON.parse(data).data;
-            plot_gender_scatter(
+			data = JSON.parse(data);
+            plot_bmi_scatter(
 				svg,
-				data,
+				data.data,
 				width,
-				height,
-				type
+				height
 			)
 	    }
 	});
+	//
+	// label for y-axis
 	svg.append('text')
 		.attr('x', - (height / 2) - margin)
 		.attr('y', margin / 3.4)
@@ -49,22 +45,20 @@ function show_gender_scatter(svg, type, year, region) {
 	// label for x-axis
 	svg.append('text')
 		.attr('x', width / 2 + margin)
-		.attr('y', 2*margin + height) // - the overflow
+		.attr('y', 2*margin + height - 10) // - the overflow
 		.attr('text-anchor', 'middle')
 		.attr('class', 'labels')
 		.text(x_label);
 }
 
-function plot_gender_scatter(svg, data, width, height,type) {
+function plot_bmi_scatter(svg, data, width, height) {
 
 	let chart, x, y;
-	const xScale = d3.scaleBand(),
+	const xScale = d3.scaleLinear(),
 		yScale = d3.scaleLinear();
-    let domainX = [];
-    data.forEach(function(d){
-        domainX.push(type=="Years"?d.Year:d.Region)
-    })
-	let domainY = [0, d3.max(data.map(d => d.Count)) * 1.10];
+
+	let domainX = [0, d3.max(data.map(d => d.Age)) * 1.10];
+	let domainY = [0, d3.max(data.map(d => d.bmi)) * 1.10];
 
 	yScale.range([height, 0]).domain(domainY);
 	xScale.range([0, width]).domain(domainX);
@@ -79,6 +73,8 @@ function plot_gender_scatter(svg, data, width, height,type) {
 		x = chart.append('g')
 			.attr('class', 'xaxis')
 			.attr('transform', `translate(0, ${height})`)
+
+
 	} else {
 		chart = svg.select('g#chart');
 		chart.selectAll('.scatter_circle').exit()
@@ -87,24 +83,12 @@ function plot_gender_scatter(svg, data, width, height,type) {
 			.attr("cy", yScale(0))
 			.remove();
 
-        d3.selectAll(".scatter_circle").remove()
-
 		x = chart.selectAll('.xaxis');
 		y = chart.selectAll('.yaxis');
 	}
 
-	y.transition(globalTransition).call(d3.axisLeft(yScale))
+	y.transition(globalTransition).call(d3.axisLeft(yScale));
 	x.transition(globalTransition).call(d3.axisBottom(xScale));
-
-    let rotateAngle = -45,translate = 10,translateX = 0;
-    if(domainX.length>20){
-        rotateAngle = -90;
-        translate = 35
-        translateX = -(xScale.bandwidth()/2)
-    }
-    x.selectAll('text')
-    .attr('transform', `translate(${translateX},${translate}) rotate(${rotateAngle})`);
-
 
 	let count = 0;
 
@@ -113,16 +97,26 @@ function plot_gender_scatter(svg, data, width, height,type) {
 		.enter()
 		.append('circle')
 		.attr('class', 'scatter_circle')
-		.attr('cx', s => xScale(type=="Years"?s.Year:s.Region) + (xScale.bandwidth()/2))
-		.attr('cy', s => yScale(s.Count))
+		.attr('cx', s => xScale(s.Age))
+		.attr('cy', s => yScale(s.bmi))
 		.attr('r', 3.5)
+		.style('opacity', 0.6)
 		.style('fill', s => {
 			count++;
-			if(s.Sex =="M"){
-			    return 'blue';
-		    }
-		    return 'pink';
+			if (s.bmi < 18) {
+				return 'skyblue';
+			} else if (s.bmi > 29.9) {
+				return 'red';
+			} else if (s.bmi > 34.9) {
+				return 'magenta';
+			} else if (s.bmi > 24.9) {
+				return 'orange';
+			} else {
+				return 'green';
+			}
 		});
+
+	console.log(count);
 	//bars.select('text')
 	//.data(data)
 	//.enter()

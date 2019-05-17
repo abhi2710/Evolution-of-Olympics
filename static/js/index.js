@@ -1,5 +1,6 @@
 console.log("JS Loaded");
 var bubbleSVG,svgMap,centrSVG;
+var globalTransition;
 
 $(function() {
 	bubbleSVG = d3.select("#bubble-chart")
@@ -16,7 +17,9 @@ $(function() {
 	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 
-	init_gender_scatter(centrSVG,'Regions',1896,'USA');
+	init_gender_scatter(centrSVG,'Regions',yearSelected,'USA');
+//	init_gender_scatter(centrSVG,'Years',yearSelected,'USA');
+//	init_bmi_scatter(centrSVG, yearSelected);
 });
 
 
@@ -29,4 +32,10 @@ let updateMaps = (year) => {
     yearSelected = year;
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 	update_medal_choropleth(yearSelected);
+//	init_bmi_scatter(centrSVG, year);
+    init_gender_scatter(centrSVG,'Regions',yearSelected,'USA');
+	globalTransition = d3.transition().duration(750);
+
+
+
 }
