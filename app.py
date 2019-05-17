@@ -84,6 +84,22 @@ def medals_country(country, region):
     df = df.groupby(['Region','Year']).sum()
     return df.to_json(orient='table')
 
+
+
+@app.route("/gender/<string:year>/regions/<string:region>")
+def gender_year_country(year, region):
+    df = pd.read_csv("static/data/sex_scatter.csv")
+    if year:
+        try:
+            year = int(year)
+            df = df[df.Year == year]
+        except Exception:
+            pass
+    else:
+        df = df[df.Region == region]
+    df = df.groupby(['Region','Year','Sex']).mean()
+    return df.to_json(orient='table')
+
 if __name__ == "__main__":
     # load_data()
     app.run(debug=True)

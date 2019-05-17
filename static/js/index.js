@@ -1,5 +1,5 @@
 console.log("JS Loaded");
-var bubbleSVG,svgMap;
+var bubbleSVG,svgMap,centrSVG;
 
 $(function() {
 	bubbleSVG = d3.select("#bubble-chart")
@@ -9,13 +9,14 @@ $(function() {
 					.append('svg')
 					.classed("svg-content", true);
 
-	let centrSVG = d3.select("#center-card")
+	centrSVG = d3.select("#center-card")
 					.append('svg')
 					.classed("svg-content", true);
 
 	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
-	init_scatter(centrSVG, );
+
+	init_gender_scatter(centrSVG,'Regions',1896,'USA');
 });
 
 
