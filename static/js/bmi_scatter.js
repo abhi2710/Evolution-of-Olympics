@@ -67,42 +67,46 @@ function plot_bmi_scatter(svg, data, width, height) {
 		chart = svg.append('g')
 			.attr('id', 'chart')
 			.attr('transform', `translate(${margin},${margin})`);
+
 		y = chart.append('g')
-			.attr('class', 'yaxis')
+			.attr('class', 'yaxis');
 
 		x = chart.append('g')
 			.attr('class', 'xaxis')
-			.attr('transform', `translate(0, ${height})`)
-
+			.attr('transform', `translate(0, ${height})`);
 
 	} else {
 		chart = svg.select('g#chart');
-		chart.selectAll('.scatter_circle').exit()
+
+		d3.selectAll('.scatter_circle')
 			.transition(globalTransition)
+			.attr('cy', yScale(0))
 			.attr("fill-opacity", 0.1)
-			.attr("cy", yScale(0))
 			.remove();
 
-		x = chart.selectAll('.xaxis');
-		y = chart.selectAll('.yaxis');
+		x = chart.select('.xaxis');
+		y = chart.select('.yaxis');
 	}
+
 
 	y.transition(globalTransition).call(d3.axisLeft(yScale));
 	x.transition(globalTransition).call(d3.axisBottom(xScale));
 
 	let count = 0;
+	let circles = chart
+					.selectAll()
+					.data(data);
 
-	let circles = chart.selectAll()
-		.data(data)
+	circles
 		.enter()
 		.append('circle')
 		.attr('class', 'scatter_circle')
 		.attr('cx', s => xScale(s.Age))
 		.attr('cy', s => yScale(s.bmi))
 		.attr('r', 3.5)
-		.style('opacity', 0.6)
+		.style('opacity', 0.3)
 		.style('fill', s => {
-			count++;
+			count += 1;
 			if (s.bmi < 18) {
 				return 'skyblue';
 			} else if (s.bmi > 29.9) {
@@ -115,60 +119,7 @@ function plot_bmi_scatter(svg, data, width, height) {
 				return 'green';
 			}
 		});
-
-	console.log(count);
-	//bars.select('text')
-	//.data(data)
-	//.enter()
-	//.append('text')
-	//.attr('x', s => xScale(s.Year))
-	//.attr('y', s => yScale(s.Count) - 15)
-	//.attr('class', (d, i) => {return `hide label${i}`})
-	//.text(s => s.Count);
-
-	chart.selectAll('rect')
-		.on('mouseover', highlight_bar)
-		.on('mouseout', revert_highlight);
+	console.log(data.length, count);
 
 }
 
-function highlight_bar(data, index) {
-    change_bar_dimension(d3.select(this), 'orange', data, -5, -15, 10, 15);
-
-    d3.select('.label' + index)
-        .transition()
-        .duration(400)
-        .attr('class', 'show label' + index);
-}
-
-function revert_highlight(data, index) {
-    change_bar_dimension(d3.select(this), 'steelblue', data);
-
-    d3.select('.label' + index)
-        .transition()
-        .duration(400)
-        .attr('class', 'hide label' + index);
-}
-
-function change_bar_dimension(cbar, color, data, nx =0, ny =0, nwidth =0, nheight =0) {
-    /*
-        :input types:
-            cbar -> variable referencing to the bar on which event was called
-            nx -> new value of x for the bar
-            ny -> new value of y for the bar
-            nwidth -> new value of width for the bar
-            nheight -> new value of height for the bar
-            color -> color to fill in the bar
-            data -> bar data received by the event
-     */
-
-    cbar.transition()
-        .duration(200)
-        .style('fill', color)
-       /* .attr('x', data.x + nx)*/
-        //.attr('y', data.y + ny)
-        //.attr('width', data.width + nwidth)
-        //.attr('height', data.height + nheight);
-
-    return cbar;
-}
