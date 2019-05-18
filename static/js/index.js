@@ -2,30 +2,29 @@ console.log("JS Loaded");
 var bubbleSVG,svgMap,centrSVG, current_selection,current_country_selection;
 var globalTransition,countrySelected,nocSelected;
 var season, showBars = false;
+var current_center_plot = init_gender_scatter;
 
 $(function() {
 	$(".current-selection").text('Year: ' + yearSelected);
 	season = $("#dropdownMenuButton").text().trim();
-
 	createTimeline();
-
 	bubbleSVG = d3.select("#bubble-chart")
-				.append('svg')
-				.classed('svg-content', true);
+		.append('svg')
+		.classed('svg-content', true);
 	svgMap = d3.select("#map")
-					.append('svg')
-					.classed("svg-content", true);
+		.append('svg')
+		.classed("svg-content", true);
 
 	centrSVG = d3.select("#center-card")
-					.append('svg')
-					.classed("svg-content", true);
+		.append('svg')
+		.classed("svg-content", true);
 
-   init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
+	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 
-	init_gender_scatter(centrSVG,'Regions',yearSelected,'USA');
-//	init_gender_scatter(centrSVG,'Years',yearSelected,'USA');
-//	init_bmi_scatter(centrSVG, yearSelected);
+	init_gender_scatter(centrSVG, yearSelected);
+	//	init_gender_scatter(centrSVG,'Years',yearSelected,'USA');
+	//	init_bmi_scatter(centrSVG, yearSelected);
 
 	$(".dropdown-item").on('click', function(e) {
 		$('.active').removeClass('active');
@@ -44,31 +43,29 @@ let updateMaps = (year, update=true) => {
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 	console.log("update",update)
 	if(update){
-	    update_medal_choropleth(yearSelected);
+		update_medal_choropleth(yearSelected);
 	}
 	else{
-	    init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
+		init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	}
 
-//	init_bmi_scatter(centrSVG, year);
-    init_gender_scatter(centrSVG,'Regions',yearSelected,'USA');
+	//	init_bmi_scatter(centrSVG, year);
+	init_gender_scatter(centrSVG, yearSelected);
 	globalTransition = d3.transition().duration(750);
 
-    $(".current-selection").text('Year: ' + yearSelected);
+	$(".current-selection").text('Year: ' + yearSelected);
 }
 
 let updateCountry = (noc,country)=>{
-    showBars = true;
+	showBars = true;
 
-    countrySelected = country;
-    nocSelected = noc;
+	countrySelected = country;
+	nocSelected = noc;
 
-    init_participation_bar(bubbleSVG, noc, 'participation', country, init_participation_bubble);
-    init_participation_bar(mapSVG, noc, 'medals', country, init_medal_choropleth)
+	init_participation_bar(bubbleSVG, noc, 'participation', country, init_participation_bubble);
+	init_participation_bar(mapSVG, noc, 'medals', country, init_medal_choropleth)
 
-    if(false){//Current selected graph == genderRegion
-        init_gender_scatter(centrSVG,'Years',yearSelected,'USA','Summer');
-    }
+	init_gender_scatter(centrSVG, yearSelected);
 
-    $(".current-selection").text('Country: ' + countrySelected);
+	$(".current-selection").text('Country: ' + countrySelected);
 }

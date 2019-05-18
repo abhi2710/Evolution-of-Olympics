@@ -1,20 +1,23 @@
-function init_gender_scatter(svg, type, year, region){
+function init_gender_scatter(svg, year){
 	setTimeout(() => {
-		show_gender_scatter(svg, type, year, region);
+		show_gender_scatter(svg, year);
 	}, 50);
 }
 
-function show_gender_scatter(svg, type, year, region) {
+function show_gender_scatter(svg, year) {
 
     let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,
-		x_label = type,
+		x_label = "Years",
 		y_label = "Count",
-		title = `Gender Distribution`;
+		title = 'Gender Distribution',
+		type = 'Years';
 
 
-	let url = `/gender/all/regions/${region}/seasons/${season}`;
-	if(type == "Regions"){
+	let url = `/gender/all/regions/${countrySelected}/seasons/${season}`;
+	if(!showBars){
+		x_label = "Regions"
+		type = "Regions"
 	    url = `/gender/${year}/regions/all/seasons/${season}`;
 	}
 
@@ -30,6 +33,7 @@ function show_gender_scatter(svg, type, year, region) {
 			)
 	    }
 	});
+
 	svg.append('text')
 		.attr('x', - (height / 2) - margin)
 		.attr('y', margin / 3.4)
