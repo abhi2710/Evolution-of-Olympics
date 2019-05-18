@@ -62,7 +62,8 @@ function createTimeline(redrawMaps) {
 					if ( year != yearSelected ) {
 						updateMapsTimer = setTimeout(() => {
 							console.log('Timeout triggered');
-							updateMaps(year);
+							if (!showBars)
+								updateMaps(year);
 						}, 50);
 					}
 					//        hue(x.invert(d3.event.x));
@@ -97,7 +98,7 @@ function createTimeline(redrawMaps) {
 			handle.attr("x", x(h));
 		}
 		if (redrawMaps === true)
-			updateMaps(yearSelected);
-
+			if (!showBars)
+				updateMaps(yearSelected);
 	});
 }

@@ -1,10 +1,10 @@
 console.log("JS Loaded");
 var bubbleSVG,svgMap,centrSVG, current_selection,current_country_selection;
 var globalTransition,countrySelected,nocSelected;
-var season;
+var season, showBars = false;
 
 $(function() {
-    $(".current-selection").text('Year: ' + yearSelected);
+	$(".current-selection").text('Year: ' + yearSelected);
 	season = $("#dropdownMenuButton").text().trim();
 
 	createTimeline();
@@ -39,6 +39,7 @@ $(function() {
 
 //UPDATE ALL MAPS
 let updateMaps = (year, update=true) => {
+	showBars = false;
 	yearSelected = year;
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 	console.log("update",update)
@@ -57,10 +58,8 @@ let updateMaps = (year, update=true) => {
 }
 
 let updateCountry = (noc,country)=>{
-    console.log("Country Updated",noc,country)
-    if(country == countrySelected){
-        return
-    }
+    showBars = true;
+
     countrySelected = country;
     nocSelected = noc;
 
@@ -71,7 +70,5 @@ let updateCountry = (noc,country)=>{
         init_gender_scatter(centrSVG,'Years',yearSelected,'USA','Summer');
     }
 
-    if(current_country_selection){
-        current_country_selection.innerText = 'Region: '+countrySelected
-    }
+    $(".current-selection").text('Country: ' + countrySelected);
 }
