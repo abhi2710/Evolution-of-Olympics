@@ -5,11 +5,12 @@ function init_participation_bar(svg, country, type, region, on_click_callbk) {
 }
 
 function show_participation_bar(svg, country, type, region, on_click_callbk) {
-	let url = `/${type}/${country}`;
+
+	let url = `/${type}/${country}/${season}`;
 	let text = 'Participations';
 
 	if(type == 'medals'){
-	    url = `/${type}/${country}/regions/${region}`;
+	    url = `/${type}/${country}/regions/${region}/${season}`;
 	    text = 'Medals';
 	}
 

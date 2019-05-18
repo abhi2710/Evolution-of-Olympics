@@ -44,26 +44,37 @@ def scatter_bmi(year):
 
 
 @app.route("/participation/all", defaults={"year": None})
-@app.route("/participation/all/<string:year>")
-def participation_all(year):
+@app.route("/participation/all/<string:year>", defaults={"season": None})
+def participation_all(year, season):
     df = pd.read_csv("static/data/participation_all.csv")
     if year:
         try:
             year = int(year)
-            df = df[df.Year == year]
+            df = df[df.Year == year][["Region","NOC", "Year", "Count"]]
+        except Exception:
+            pass
+    else:
+        try:
+            df = df[df.Season == season][["Region","NOC", "Year", "Count"]]
         except Exception:
             pass
     return df.to_json(orient='table')
 
 
-@app.route("/participation/<string:country>", defaults={"year": None})
-@app.route("/participation/<string:country>/<string:year>")
-def participation_country(country, year):
+@app.route(
+        "/participation/<string:country>/<string:season>",
+        defaults={"year": None})
+def participation_country(country, year, season):
     df = pd.read_csv("static/data/participation_all.csv")
     df = df[df.NOC == country]
     if year:
         try:
             df = df[df.Year == int(year)]
+        except Exception:
+            pass
+    if season:
+        try:
+            df = df[df.Season == season]
         except Exception:
             pass
     return df.to_json(orient='table')
@@ -87,21 +98,25 @@ def medals_all(year):
     return json.dumps(data)
 
 
-@app.route("/medals/<string:country>", defaults={"region": None})
-@app.route("/medals/<string:country>/regions/<string:region>")
-def medals_country(country, region):
+@app.route(
+        "/medals/<string:country>/<string:season>",
+        defaults={"region": None})
+@app.route("/medals/<string:country>/regions/<string:region>/<string:season>")
+def medals_country(country, region, season):
     df = pd.read_csv("static/data/medals_all.csv")
+    df = df[df['Season'] == season]
     df = df.ix[(df['NOC'] == country) | (df['Region'] == region)]
-    df = df.groupby(['Region','Year']).sum()
+    df = df.groupby(['Region', 'Year']).sum()
     return df.to_json(orient='table')
 
 
-
-@app.route("/gender/<string:year>/regions/<string:region>/seasons/<string:season>")
-def gender_year_country(year, region,season):
+@app.route(
+        "/gender/<string:year>/regions/<string:region>/seasons/<string:season>"
+        )
+def gender_year_country(year, region, season):
     df = pd.read_csv("static/data/sex_scatter.csv")
     print(year, region)
-    if year!="all":
+    if year != "all":
         try:
             year = int(year)
             df = df[df.Year == year]
@@ -112,7 +127,7 @@ def gender_year_country(year, region,season):
 
     if season:
         df = df[df.Season == season]
-    df = df.groupby(['Region','Year','Sex']).mean()
+    df = df.groupby(['Region', 'Year', 'Sex']).mean()
     return df.to_json(orient='table')
 
 
