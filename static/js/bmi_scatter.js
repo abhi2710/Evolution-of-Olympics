@@ -5,7 +5,9 @@ function init_bmi_scatter(svg, year) {
 }
 
 function show_bmi_scatter(svg, year) {
-	let url = `/scatter/bmi/${year}`;
+	let url = `/scatter/bmi/${year}/${season}`;
+	if (showBars)
+		url = `/scatter/bmi/${countrySelected}/${season}`;
 
 	let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,

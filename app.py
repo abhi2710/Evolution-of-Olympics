@@ -41,14 +41,36 @@ def list_season_years(season):
     return pd.DataFrame(df.Year.unique()).to_json(orient="table")
 
 
-@app.route("/scatter/bmi", defaults={"year": None})
-@app.route("/scatter/bmi/<int:year>")
-def scatter_bmi(year):
+@app.route("/scatter/bmi", defaults={"year": None, "season": None})
+@app.route("/scatter/bmi/<int:year>/<string:season>")
+def scatter_bmi(year, season):
     df = pd.read_csv("static/data/bmi_scatter.csv")
     if year:
         try:
             year = int(year)
             df = df[df.Year == year]
+        except Exception:
+            pass
+    if season:
+        try:
+            df = df[df.Season == season]
+        except Exception:
+            pass
+    return df[['Age', 'bmi']].to_json(orient='table')
+
+
+@app.route("/scatter/bmi", defaults={"region": None, "season": None})
+@app.route("/scatter/bmi/<string:region>/<string:season>")
+def scatter_bmi_region(region, season):
+    df = pd.read_csv("static/data/bmi_scatter.csv")
+    if region:
+        try:
+            df = df[df.region == region]
+        except Exception:
+            pass
+    if season:
+        try:
+            df = df[df.Season == season]
         except Exception:
             pass
     return df[['Age', 'bmi']].to_json(orient='table')
@@ -142,7 +164,8 @@ def gender_year_country(year, region, season):
 
     if season:
         df = df[df.Season == season]
-    df = df.groupby(['Region', 'Year', 'Sex']).mean()
+
+    df = df.groupby(['Region', 'Year', 'Sex'])['Count'].mean()
     return df.to_json(orient='table')
 
 

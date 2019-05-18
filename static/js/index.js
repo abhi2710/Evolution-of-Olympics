@@ -22,8 +22,8 @@ $(function() {
 	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 
-	init_gender_scatter(centrSVG, yearSelected);
-	//	init_gender_scatter(centrSVG,'Years',yearSelected,'USA');
+	current_center_plot(centrSVG, yearSelected);
+	//	current_center_plot(centrSVG,'Years',yearSelected,'USA');
 	//	init_bmi_scatter(centrSVG, yearSelected);
 
 	$(".dropdown-item").on('click', function(e) {
@@ -35,6 +35,18 @@ $(function() {
 	});
 });
 
+function update_active(self) {
+	console.log(self);
+	$('.active').removeClass('active');
+	self.parent().addClass('active');
+}
+
+function setup_center_scatter(self, fn) {
+	update_active($(self));
+	centrSVG.selectAll("*").remove();
+	current_center_plot = fn;
+	current_center_plot(centrSVG, yearSelected)
+}
 
 //UPDATE ALL MAPS
 let updateMaps = (year, update=true) => {
@@ -50,7 +62,7 @@ let updateMaps = (year, update=true) => {
 	}
 
 	//	init_bmi_scatter(centrSVG, year);
-	init_gender_scatter(centrSVG, yearSelected);
+	current_center_plot(centrSVG, yearSelected);
 	globalTransition = d3.transition().duration(750);
 
 	$(".current-selection").text('Year: ' + yearSelected);
@@ -65,7 +77,6 @@ let updateCountry = (noc,country)=>{
 	init_participation_bar(bubbleSVG, noc, 'participation', country, init_participation_bubble);
 	init_participation_bar(mapSVG, noc, 'medals', country, init_medal_choropleth)
 
-	init_gender_scatter(centrSVG, yearSelected);
-
+	current_center_plot(centrSVG, yearSelected);
 	$(".current-selection").text('Country: ' + countrySelected);
 }
