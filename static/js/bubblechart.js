@@ -72,7 +72,10 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		.attr("data-country", d => d.data.NOC)
 		.style("fill", function(d,i) {
 			return color(i);
-		});
+		})
+		.on("click", function (d) {
+            updateCountry(d.data.NOC,d.data.Region);
+        });
 
 	node.append("text")
 		.attr("dy", ".2em")
@@ -98,19 +101,19 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		})
 		.attr("fill", "white");
 
-	if (on_click_callbk) {
-		circle.datum({
-			'svg': svg,
-			'slider': $("#season-slider"),
-			'callbk': on_click_callbk,
-			'on_click_callbk': generate_callback_with_year()
-		}).on('click', function(d) {
-			d3.event.stopPropagation();
-			d.slider.hide();
-			let country = $(this).data('country');
-			d.callbk(d.svg, country, 'participation', null, d.on_click_callbk);
-		});
-	}
+//	if (on_click_callbk) {
+//		circle.datum({
+//			'svg': svg,
+//			'slider': $("#season-slider"),
+//			'callbk': on_click_callbk,
+//			'on_click_callbk': generate_callback_with_year()
+//		}).on('click', function(d) {
+//			d3.event.stopPropagation();
+//			d.slider.hide();
+//			let country = $(this).data('country');
+//			d.callbk(d.svg, country, 'participation', null, d.on_click_callbk);
+//		});
+//	}
 
 }
 

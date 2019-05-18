@@ -50,7 +50,7 @@ let init_medal_choropleth = (svg, year)=>{
 		.await(ready);
 }
 
-let update_medal_choropleth = (year)=>{
+let update_medal_choropleth = (year,clear = false)=>{
     year = parseInt(year) || '1896';
     url = `/medals/all/${year}/${season}`;
 	$.get(url, function(data) {
@@ -84,7 +84,7 @@ let update_medal_choropleth = (year)=>{
 
                 })
                 .on("click", function (d) {
-                    init_participation_bar(mapSVG, d.id, 'medals', d.properties.name, init_medal_choropleth)
+                    updateCountry(d.id, d.properties.name);
                 });
 		}
 	});

@@ -69,7 +69,7 @@ def participation_all(year, season):
             df = df[df.Season == season]
         except Exception:
             pass
-    return df[["NOC", "Year", "Count"]].to_json(orient='table')
+    return df[["Region", "NOC", "Year", "Count"]].to_json(orient='table')
 
 
 @app.route(

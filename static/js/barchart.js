@@ -59,16 +59,17 @@ function show_participation_bar(svg, country, type, region, on_click_callbk) {
 		.attr('class', 'labels')
 		.text(x_label);
 
-	if (on_click_callbk) {
-		svg.datum({
-			'svg': svg,
-			'callbk': on_click_callbk,
-			'on_click_callbk': init_participation_bar
-		}).on('click', function(d) {
-			d['svg'].on('click', null);
-			d['callbk'](svg, d['on_click_callbk']);
-		});
-	}
+//	if (on_click_callbk) {
+//		svg.datum({
+//			'svg': svg,
+//			'callbk': on_click_callbk,
+//			'on_click_callbk': init_participation_bar,
+//			''
+//		}).on('click', function(d) {
+//			d['svg'].on('click', null);
+//			d['callbk'](svg, d['on_click_callbk']);
+//		});
+//	}
 }
 
 
@@ -113,7 +114,13 @@ function plot_bar_chart(svg, data, width, height) {
             .attr('y', s => s.y)
             .attr('height', s => s.height)
             .attr('width', s => s.width)
-            .style('fill', 'steelblue');
+            .style('fill', 'steelblue')
+            .on("click", function (d) {
+                    let eachBand = xScale.step();
+                    let index = Math.round((d.x / eachBand));
+                    let year = xScale.domain()[index];
+                    updateMaps(year, false);
+            });
 
         bars.select('text')
             .data(data)
@@ -126,7 +133,7 @@ function plot_bar_chart(svg, data, width, height) {
 
         chart.selectAll('rect')
             .on('mouseover', highlight_bar)
-            .on('mouseout', revert_highlight);
+            .on('mouseout', revert_highlight)
 
 }
 
