@@ -1,10 +1,10 @@
-function init_gender_scatter(svg, type, year, region, season){
+function init_gender_scatter(svg, type, year, region){
 	setTimeout(() => {
-		show_gender_scatter(svg, type, year, region, season);
+		show_gender_scatter(svg, type, year, region);
 	}, 50);
 }
 
-function show_gender_scatter(svg, type, year, region, season) {
+function show_gender_scatter(svg, type, year, region) {
 
     let width = parseInt(svg.style('width')) - 2*margin,
 		height = parseInt(svg.style('height')) - 2*margin,

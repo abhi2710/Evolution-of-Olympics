@@ -20,20 +20,18 @@ function show_participation_bubble(svg, year, on_click_callbk) {
 	svg.selectAll("*").remove()
 	$("#season-slider").show();
 	if (parseInt(year)) {
-		url = `/participation/all/${year}`;
+		url = `/participation/all/${year}/${season}`;
 		year_as_clojure(year);
 	} else {
-		url = '/participation/all/1896';
+		url = '/participation/all/1896/${season}';
 		year_as_clojure(1896);
 	}
 	
-	$.get(url, function(data) {
-		if (data) {
+	$.get(url, function(data, reqStatus) {
 			let dataset = {};
 			data = JSON.parse(data);
 			dataset.data = data.data;
 			plot_bubble_chart(svg, dataset, on_click_callbk);
-		}
 
 	});
 	

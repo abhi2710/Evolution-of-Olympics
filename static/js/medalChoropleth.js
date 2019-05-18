@@ -52,7 +52,7 @@ let init_medal_choropleth = (svg, year)=>{
 
 let update_medal_choropleth = (year)=>{
     year = parseInt(year) || '1896';
-    url = `/medals/all/${year}`;
+    url = `/medals/all/${year}/${season}`;
 	$.get(url, function(data) {
 		if (data) {
 			medalData = JSON.parse(data);

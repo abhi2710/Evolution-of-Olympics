@@ -30,6 +30,17 @@ def env_vloki():
     return render_template('vloki.html')
 
 
+@app.route("/timeline/<string:season>")
+def list_season_years(season):
+    df = pd.read_csv("static/data/participation_all.csv")
+    if season:
+        try:
+            df = df[df.Season == season]
+        except Exception:
+            pass
+    return pd.DataFrame(df.Year.unique()).to_json(orient="table")
+
+
 @app.route("/scatter/bmi", defaults={"year": None})
 @app.route("/scatter/bmi/<int:year>")
 def scatter_bmi(year):
@@ -43,22 +54,22 @@ def scatter_bmi(year):
     return df[['Age', 'bmi']].to_json(orient='table')
 
 
-@app.route("/participation/all", defaults={"year": None})
-@app.route("/participation/all/<string:year>", defaults={"season": None})
+@app.route("/participation/all", defaults={"year": None, "season": None})
+@app.route("/participation/all/<string:year>/<string:season>")
 def participation_all(year, season):
     df = pd.read_csv("static/data/participation_all.csv")
     if year:
         try:
             year = int(year)
-            df = df[df.Year == year][["NOC", "Year", "Count"]]
+            df = df[df.Year == year]
         except Exception:
             pass
-    else:
+    if season:
         try:
-            df = df[df.Season == season][["NOC", "Year", "Count"]]
+            df = df[df.Season == season]
         except Exception:
             pass
-    return df.to_json(orient='table')
+    return df[["NOC", "Year", "Count"]].to_json(orient='table')
 
 
 @app.route(
@@ -80,15 +91,19 @@ def participation_country(country, year, season):
     return df.to_json(orient='table')
 
 
-@app.route("/medals/all", defaults={"year": None})
-@app.route("/medals/all/<string:year>")
-def medals_all(year):
+@app.route("/medals/all", defaults={"year": None, "season": None})
+@app.route("/medals/all/<string:year>/<string:season>")
+def medals_all(year, season):
     df = pd.read_csv("static/data/medals_all.csv")
     if year:
         try:
             year = int(year)
             df = df[df.Year == year]
+        except Exception:
             pass
+    if season:
+        try:
+            df = df[df.Season == season]
         except Exception:
             pass
     data = {}
