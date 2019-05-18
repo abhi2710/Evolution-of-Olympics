@@ -27,21 +27,27 @@ $(function() {
 	//	init_bmi_scatter(centrSVG, yearSelected);
 
 	$(".dropdown-item").on('click', function(e) {
-		$('.active').removeClass('active');
-		$(this).addClass('active');
-		season = ($(this).text()).trim();
-		$("#dropdownMenuButton").text(season);
-		createTimeline(true);
+		if(!$(this).hasClass('active')) {
+			$('button.active').removeClass('active');
+			$(this).addClass('active');
+			season = ($(this).text()).trim();
+			$("#dropdownMenuButton").text(season);
+			createTimeline(true);
+		}
 	});
+
 });
 
 function update_active(self) {
 	console.log(self);
-	$('.active').removeClass('active');
+	$('li.active').removeClass('active');
 	self.parent().addClass('active');
 }
 
 function setup_center_scatter(self, fn) {
+	if ($(self).parent().hasClass('active')) {
+		return true;
+	}
 	update_active($(self));
 	centrSVG.selectAll("*").remove();
 	current_center_plot = fn;
@@ -68,7 +74,7 @@ let updateMaps = (year, update=true) => {
 	$(".current-selection").text('Year: ' + yearSelected);
 }
 
-let updateCountry = (noc,country)=>{
+let updateCountry = (noc, country) => {
 	showBars = true;
 
 	countrySelected = country;

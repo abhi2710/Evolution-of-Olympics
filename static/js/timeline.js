@@ -100,5 +100,7 @@ function createTimeline(redrawMaps) {
 		if (redrawMaps === true)
 			if (!showBars)
 				updateMaps(yearSelected);
+			else
+				updateCountry(nocSelected, countrySelected);
 	});
 }
