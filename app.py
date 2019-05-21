@@ -131,6 +131,40 @@ def gender_year_country(year, region, season):
     return df.to_json(orient='table')
 
 
+@app.route("/medals/games/<string:region>")
+def medals_games(region):
+    df = pd.read_csv("static/data/medals_games.csv")
+    if region:
+        try:
+            df = df[df.Region == region]
+            pass
+        except Exception:
+            pass
+    data = {}
+    for index, row in df.iterrows():
+        if row['Sport'] not in data:
+            data[row['Sport']]={}
+        else:
+            data[row['Sport']][row['Event']] = row['Count']
+
+    result = {
+        "name":region,
+        "children":[]
+        }
+    for sport in data:
+        obj={
+            "name":sport,
+            "children":[]
+        }
+        for event in data[sport]:
+            obj["children"].append({
+                "name":event,
+                "size":data[sport][event]
+            })
+        result["children"].append(obj)
+    print(result)
+    return json.dumps(result);
+
 if __name__ == "__main__":
     # load_data()
     app.run(debug=True)

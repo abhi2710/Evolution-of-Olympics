@@ -30,7 +30,9 @@ $(function() {
 	init_medal_choropleth(svgMap, yearSelected, init_participation_bar);
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
 
-	init_gender_scatter(centrSVG,'Regions',yearSelected,'USA','Summer');
+
+
+//	init_gender_scatter(centrSVG,'Regions',yearSelected,'USA','Summer');
 //	init_gender_scatter(centrSVG,'Years',yearSelected,'USA');
 //	init_bmi_scatter(centrSVG, yearSelected);
 
@@ -75,6 +77,8 @@ let updateCountry = (noc,country)=>{
     }
     countrySelected = country;
     nocSelected = noc;
+
+    init_sunburst(centrSVG,country);
 
     init_participation_bar(bubbleSVG, noc, 'participation', country, init_participation_bubble);
     init_participation_bar(mapSVG, noc, 'medals', country, init_medal_choropleth)
