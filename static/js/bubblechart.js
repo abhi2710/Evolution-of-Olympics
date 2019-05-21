@@ -47,6 +47,9 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		nodes = d3.hierarchy(dataset, d => d.data)
 					.sum(d => d.Count);
 
+	let fisheye = d3.fisheye.circular()
+	                .radius(100)
+	                .distortion(5);
 	let node = svg.selectAll(".node")
 		.data(bubble(nodes).descendants())
 		.enter()
@@ -78,6 +81,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
         });
 
 	node.append("text")
+		.attr("class", "region-name")
 		.attr("dy", ".2em")
 		.style("text-anchor", "middle")
 		.text(function(d) {
@@ -90,6 +94,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		.attr("fill", "white");
 
 	node.append("text")
+		.attr("class", "region-count")
 		.attr("dy", "1.3em")
 		.style("text-anchor", "middle")
 		.text(function(d) {
@@ -100,6 +105,33 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 			return d.r/5;
 		})
 		.attr("fill", "white");
+
+	console.log(svg);
+
+	svg.on('mousemove', function() {
+		fisheye.focus(d3.mouse(this));
+
+		node.each(function (d) {
+			d.fisheye = fisheye(d);
+		});
+
+		node.selectAll("circle")
+			.attr("cx", function(d) { return d.fisheye.x - d.x; })
+			.attr("cy", function(d) { return d.fisheye.y - d.y; })
+			.attr("r", function(d) { return d.fisheye.z * d.r; });
+
+		let alltext = node.selectAll("text");
+
+		node.selectAll(".region-name")
+			.attr("dx", function(d) { return d.fisheye.x - d.x; })
+			.attr("dy", function(d) { return d.fisheye.y - d.y; })
+			.attr("font-size", function(d) { return d.fisheye.z * d.r/5; });
+
+		node.selectAll(".region-count")
+			.attr("dx", function(d) { return d.fisheye.x - d.x; })
+			.attr("dy", function(d) { return d.fisheye.y - d.y + 15; })
+			.attr("font-size", function(d) { return d.fisheye.z * d.r/5; });
+	});
 
 //	if (on_click_callbk) {
 //		circle.datum({
