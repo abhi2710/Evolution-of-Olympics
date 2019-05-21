@@ -29,7 +29,8 @@ function show_gender_scatter(svg, year) {
 				data,
 				width,
 				height,
-				type
+				type,
+				x_label
 			)
 	    }
 	});
@@ -56,10 +57,11 @@ function show_gender_scatter(svg, year) {
 		.attr('y', 2*margin + height) // - the overflow
 		.attr('text-anchor', 'middle')
 		.attr('class', 'labels')
+		.attr('class', 'x_label_class')
 		.text(x_label);
 }
 
-function plot_gender_scatter(svg, data, width, height,type) {
+function plot_gender_scatter(svg, data, width, height,type,x_label) {
 
 	let chart, x, y;
 	const xScale = d3.scaleBand(),
@@ -93,6 +95,15 @@ function plot_gender_scatter(svg, data, width, height,type) {
         d3.selectAll(".scatter_circle").remove()
         d3.selectAll(".menLine").remove()
         d3.selectAll(".femaleLine").remove()
+        d3.selectAll(".x_label_class").remove()
+
+        svg.append('text')
+		.attr('x', width / 2 + margin)
+		.attr('y', 2*margin + height) // - the overflow
+		.attr('text-anchor', 'middle')
+		.attr('class', 'labels')
+		.attr('class', 'x_label_class')
+		.text(x_label);
 
 		x = chart.selectAll('.xaxis');
 		y = chart.selectAll('.yaxis');
@@ -140,9 +151,6 @@ function plot_gender_scatter(svg, data, width, height,type) {
     .y(function(s) {
         return yScale(s.Count)
         });
-
-
-    console.log("menDataPoint",menDataPoint, femaleDataPoints)
 
     if(type=="Years"){
     chart.append("path")
