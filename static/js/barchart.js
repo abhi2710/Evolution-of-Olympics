@@ -122,58 +122,43 @@ function plot_bar_chart(svg, data, width, height) {
                     updateMaps(year, false);
             });
 
-        bars.select('text')
-            .data(data)
-            .enter()
-            .append('text')
-            .attr('x', s => xScale(s.Year))
-            .attr('y', s => yScale(s.Count) - 15)
-            .attr('class', (d, i) => {return `hide label${i}`})
-            .text(s => s.Count);
+//        bars.select('text')
+//            .data(data)
+//            .enter()
+//            .append('text')
+//            .attr('x', s => xScale(s.Year))
+//            .attr('y', s => yScale(s.Count) - 15)
+//            .attr('class', (d, i) => {return `hide label${i}`})
+//            .text(s => s.Count);
 
         chart.selectAll('rect')
-            .on('mouseover', highlight_bar)
-            .on('mouseout', revert_highlight)
+            .on('mouseover', function (d, i) {
+            d3.select(this).attr('class', 'highlight');
+            d3.select(this)
+                .transition()     // adds animation
+                .duration(400)
+                .style('fill', 'orange')
 
-}
+            chart.append("text")
+                .attr('class', 'val')
+                .attr('x', function() {
+                    return d.x - (xScale.bandwidth()/2)
+                })
+                .attr('y', function() {
+                    return d.y - 15;
+                })
+                .text(function() {
+                    return parseInt(yScale.invert(d.y));
+                });
+            })
 
-function highlight_bar(data, index) {
-    change_bar_dimension(d3.select(this), 'orange', data, -5, -15, 10, 15);
+            .on('mouseout', function (data, index) {
+                d3.select(this)
+                    .transition()     // adds animation
+                    .duration(400)
+                    .style('fill', 'steelblue')
+                    chart.selectAll('.val')
+                .remove()
+})
 
-    d3.select('.label' + index)
-        .transition()
-        .duration(400)
-        .attr('class', 'show label' + index);
-}
-
-function revert_highlight(data, index) {
-    change_bar_dimension(d3.select(this), 'steelblue', data);
-
-    d3.select('.label' + index)
-        .transition()
-        .duration(400)
-        .attr('class', 'hide label' + index);
-}
-
-function change_bar_dimension(cbar, color, data, nx =0, ny =0, nwidth =0, nheight =0) {
-    /*
-        :input types:
-            cbar -> variable referencing to the bar on which event was called
-            nx -> new value of x for the bar
-            ny -> new value of y for the bar
-            nwidth -> new value of width for the bar
-            nheight -> new value of height for the bar
-            color -> color to fill in the bar
-            data -> bar data received by the event
-     */
-
-    cbar.transition()
-        .duration(200)
-        .style('fill', color)
-       /* .attr('x', data.x + nx)*/
-        //.attr('y', data.y + ny)
-        //.attr('width', data.width + nwidth)
-        //.attr('height', data.height + nheight);
-
-    return cbar;
 }
