@@ -67,3 +67,16 @@ body {
 .arc path {
     stroke: #fff;
 }
+
+.menLine {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+
+.femaleLine {
+  fill: none;
+  stroke: pink;
+  stroke-width: 2px;
+}

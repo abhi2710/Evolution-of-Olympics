@@ -25,10 +25,10 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Gender Distribution<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" onclick="setup_center_scatter(this, init_gender_scatter);">Gender Distribution</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Fitness</a>
+                <a class="nav-link" href="#" onclick="setup_center_scatter(this, init_bmi_scatter);">Fitness</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Events</a>
@@ -42,12 +42,12 @@
         <span class="navbar-text current-country-selection margin-15">
         </span>
         <span class="navbar-text">
-            <div class="dropdown">
+            <div class="dropleft">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Summer
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <button class="active dropdown-item" type="button">Summer</button>
+                    <button class="active  dropdown-item" type="button">Summer</button>
                     <button class="dropdown-item" type="button">Winter</button>
                 </div>
             </div>
@@ -65,7 +65,9 @@
 						</span>
             </div>
             <div class="card timeline">
-                <span id="timeline" class="card-body"></span>
+                <span id="timeline" class="card-body">
+					<svg class="timeline-svg" />
+				</span>
             </div>
         </div>
         <div class="col-5 mh-100">

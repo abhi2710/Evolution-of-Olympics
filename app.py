@@ -30,9 +30,20 @@ def env_vloki():
     return render_template('vloki.html')
 
 
-@app.route("/scatter/bmi", defaults={"year": None})
-@app.route("/scatter/bmi/<int:year>")
-def scatter_bmi(year):
+@app.route("/timeline/<string:season>")
+def list_season_years(season):
+    df = pd.read_csv("static/data/participation_all.csv")
+    if season:
+        try:
+            df = df[df.Season == season]
+        except Exception:
+            pass
+    return pd.DataFrame(df.Year.unique()).to_json(orient="table")
+
+
+@app.route("/scatter/bmi", defaults={"year": None, "season": None})
+@app.route("/scatter/bmi/<int:year>/<string:season>")
+def scatter_bmi(year, season):
     df = pd.read_csv("static/data/bmi_scatter.csv")
     if year:
         try:
@@ -40,25 +51,47 @@ def scatter_bmi(year):
             df = df[df.Year == year]
         except Exception:
             pass
+    if season:
+        try:
+            df = df[df.Season == season]
+        except Exception:
+            pass
     return df[['Age', 'bmi']].to_json(orient='table')
 
 
-@app.route("/participation/all", defaults={"year": None})
-@app.route("/participation/all/<string:year>", defaults={"season": None})
+@app.route("/scatter/bmi", defaults={"region": None, "season": None})
+@app.route("/scatter/bmi/<string:region>/<string:season>")
+def scatter_bmi_region(region, season):
+    df = pd.read_csv("static/data/bmi_scatter.csv")
+    if region:
+        try:
+            df = df[df.region == region]
+        except Exception:
+            pass
+    if season:
+        try:
+            df = df[df.Season == season]
+        except Exception:
+            pass
+    return df[['Age', 'bmi']].to_json(orient='table')
+
+
+@app.route("/participation/all", defaults={"year": None, "season": None})
+@app.route("/participation/all/<string:year>/<string:season>")
 def participation_all(year, season):
     df = pd.read_csv("static/data/participation_all.csv")
     if year:
         try:
             year = int(year)
-            df = df[df.Year == year][["Region","NOC", "Year", "Count"]]
+            df = df[df.Year == year]
         except Exception:
             pass
-    else:
+    if season:
         try:
-            df = df[df.Season == season][["Region","NOC", "Year", "Count"]]
+            df = df[df.Season == season]
         except Exception:
             pass
-    return df.to_json(orient='table')
+    return df[["Region", "NOC", "Year", "Count"]].to_json(orient='table')
 
 
 @app.route(
@@ -80,15 +113,19 @@ def participation_country(country, year, season):
     return df.to_json(orient='table')
 
 
-@app.route("/medals/all", defaults={"year": None})
-@app.route("/medals/all/<string:year>")
-def medals_all(year):
+@app.route("/medals/all", defaults={"year": None, "season": None})
+@app.route("/medals/all/<string:year>/<string:season>")
+def medals_all(year, season):
     df = pd.read_csv("static/data/medals_all.csv")
     if year:
         try:
             year = int(year)
             df = df[df.Year == year]
+        except Exception:
             pass
+    if season:
+        try:
+            df = df[df.Season == season]
         except Exception:
             pass
     data = {}
@@ -114,20 +151,29 @@ def medals_country(country, region, season):
         "/gender/<string:year>/regions/<string:region>/seasons/<string:season>"
         )
 def gender_year_country(year, region, season):
+    limit = False
+    allowed_countries = []
     df = pd.read_csv("static/data/sex_scatter.csv")
-    print(year, region)
     if year != "all":
         try:
             year = int(year)
             df = df[df.Year == year]
-        except Exception:
+            allowed_countries = df.groupby('Region')['Count'].sum()
+            allowed_countries = allowed_countries.sort_values(ascending=False)
+            allowed_countries = list(allowed_countries.index)[:40]
+            limit = True
+        except Exception as e:
+            print(e)
             pass
     else:
         df = df[df.Region == region]
 
     if season:
         df = df[df.Season == season]
-    df = df.groupby(['Region', 'Year', 'Sex']).mean()
+
+    df = df.groupby(['Region', 'Year', 'Sex'])['Count'].mean().reset_index()
+    if limit:
+        df = df[df.Region.isin(allowed_countries)]
     return df.to_json(orient='table')
 
 
