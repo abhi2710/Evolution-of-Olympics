@@ -69,7 +69,7 @@ let updateMaps = (year, update=true) => {
 	current_center_plot(centrSVG, yearSelected);
 	globalTransition = d3.transition().duration(750);
 
-	$(".current-selection").text('Year: ' + yearSelected);
+	$(".current-selection").text('Year: ' + yearSelected).focus();
 }
 
 let updateCountry = (noc, country) => {

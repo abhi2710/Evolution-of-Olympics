@@ -56,7 +56,7 @@ def scatter_bmi(year, season):
             df = df[df.Season == season]
         except Exception:
             pass
-    return df[['Age', 'bmi']].to_json(orient='table')
+    return df[['Age', 'bmi','Name','Event']].to_json(orient='table')
 
 
 @app.route("/scatter/bmi", defaults={"region": None, "season": None})
@@ -73,7 +73,7 @@ def scatter_bmi_region(region, season):
             df = df[df.Season == season]
         except Exception:
             pass
-    return df[['Age', 'bmi']].to_json(orient='table')
+    return df[['Age', 'bmi','Name','Event']].to_json(orient='table')
 
 
 @app.route("/participation/all", defaults={"year": None, "season": None})

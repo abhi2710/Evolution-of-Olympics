@@ -45,7 +45,7 @@ function show_gender_scatter(svg, year) {
 
 	// title
 	svg.append('text')
-		.attr('x',2.5*margin)
+		.attr('x',width/2)
 		.attr('y', 25)
 		.attr('text-anchor', 'middle')
 		.attr('class', 'title')

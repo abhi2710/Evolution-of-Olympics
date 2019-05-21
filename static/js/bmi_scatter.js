@@ -120,7 +120,38 @@ function plot_bmi_scatter(svg, data, width, height) {
 			} else {
 				return 'green';
 			}
-		});
+		})
+		.on('mouseover', function(s){
+            chart.append("text")
+                .attr('class', 'val')
+                .attr('x', function() {
+                    return xScale(s.Age) + 5
+                })
+                .attr('y', function() {
+                    return yScale(s.bmi) - 2;
+                })
+                .text(function() {
+                    return "Event: "+s.Event;
+                })
+            chart.append("text")
+                .attr('class', 'val')
+                .attr('x', function() {
+                    return xScale(s.Age) +5
+                })
+                .attr('y', function() {
+                    return yScale(s.bmi) - 17;
+                })
+                .text(function() {
+                    return "Name: "+s.Name;
+                })
+
+
+
+		})
+		 .on('mouseout', function (data, index) {
+            chart.selectAll('.val')
+                .remove()
+         });
 
 }
 

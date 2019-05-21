@@ -20,7 +20,7 @@ function show_participation_bar(svg, country, type, region, on_click_callbk) {
 		height = parseInt(svg.style('height')) - 2*margin,
 		x_label = "Years",
 		y_label = `${text} Count`,
-		title = `${text} of ${country} over the years`;
+		title = `${text} of ${region} over the years`;
 
 	$.get(url, (data) => {
 		if (data) {
