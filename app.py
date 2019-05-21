@@ -95,11 +95,16 @@ def participation_all(year, season):
 
 
 @app.route(
-        "/participation/<string:country>/<string:season>",
+        "/participation/<string:noc>/<string:country>/<string:season>",
         defaults={"year": None})
-def participation_country(country, year, season):
+def participation_country(noc, country, season, year):
     df = pd.read_csv("static/data/participation_all.csv")
-    df = df[df.NOC == country]
+    df = df[df['Season'] == season]
+    df = df.ix[(df['NOC'] == noc) | (df['Region'] == country)]
+    df = df.groupby(['Region', 'Year']).sum()
+    return df.to_json(orient='table')
+
+    df[df.NOC == country]
     if year:
         try:
             df = df[df.Year == int(year)]

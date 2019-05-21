@@ -13,3 +13,8 @@
 	visibility: visible;
 }
 
+line#pointer {
+	stroke: orange;
+	stroke-width: 3;
+	stroke-dasharray: 3 6;
+}

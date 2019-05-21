@@ -95,7 +95,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		.attr("dy", ".2em")
 		.style("text-anchor", "middle")
 		.text(function(d) {
-			return d.data.Region;
+			return d.data.NOC;
 		})
 		.attr("font-family", "sans-serif")
 		.attr("font-size", function(d){
@@ -116,6 +116,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		})
 		.attr("fill", "white");
 
+	console.log(svg);
 
 	svg.on('mousemove', function() {
 		fisheye.focus(d3.mouse(this));
