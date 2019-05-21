@@ -121,7 +121,6 @@ function plot_bmi_scatter(svg, data, width, height) {
 				return 'green';
 			}
 		});
-	console.log(data.length, count);
 
 }
 

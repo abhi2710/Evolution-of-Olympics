@@ -32,12 +32,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="#" onclick="setup_center_scatter(this, init_bmi_scatter);">Fitness</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Games</a>
-            </li>
         </ul>
         <span class="navbar-text current-selection margin-15">
         </span>
@@ -83,10 +77,11 @@
     </div>
 </div>
 <script src="{{ url_for('static', filename='js/gender.js')}}"></script>
+<script src="{{ url_for('static', filename='js/sunburst.js')}}"></script>
 <script src="{{ url_for('static', filename='js/constants.js')}}"></script>
 <script src="{{ url_for('static', filename='js/helper.js')}}"></script>
 <script src="{{ url_for('static', filename='js/index.js')}}"></script>
-
+<script src="{{ url_for('static', filename='js/sunburst.js')}}"></script>
 <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
 <script src="{{ url_for('static', filename='js/medalChoropleth.js') }}"></script>
 <script src="{{ url_for('static', filename='js/bubblechart.js')}}"></script>

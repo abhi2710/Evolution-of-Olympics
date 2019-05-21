@@ -64,4 +64,19 @@ body {
 	margin-right: 15px;
 	margin-left: 15px;
 }
+arc path {
+    stroke: #fff;
+}
 
+.menLine {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+
+.femaleLine {
+  fill: none;
+  stroke: pink;
+  stroke-width: 2px;
+}

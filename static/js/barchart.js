@@ -188,3 +188,5 @@ function change_bar_dimension(cbar, color, data, nx =0, ny =0, nwidth =0, nheigh
 
 	return cbar;
 }
+
+

@@ -159,7 +159,6 @@ def gender_year_country(year, region, season):
     limit = False
     allowed_countries = []
     df = pd.read_csv("static/data/sex_scatter.csv")
-    print(year, region)
     if year != "all":
         try:
             year = int(year)
@@ -168,7 +167,8 @@ def gender_year_country(year, region, season):
             allowed_countries = allowed_countries.sort_values(ascending=False)
             allowed_countries = list(allowed_countries.index)[:40]
             limit = True
-        except Exception:
+        except Exception as e:
+            print(e)
             pass
     else:
         df = df[df.Region == region]
@@ -177,10 +177,44 @@ def gender_year_country(year, region, season):
         df = df[df.Season == season]
 
     df = df.groupby(['Region', 'Year', 'Sex'])['Count'].mean().reset_index()
-    if (limit):
+    if limit:
         df = df[df.Region.isin(allowed_countries)]
     return df.to_json(orient='table')
 
+
+@app.route("/medals/games/<string:region>")
+def medals_games(region):
+    df = pd.read_csv("static/data/medals_games.csv")
+    if region:
+        try:
+            df = df[df.Region == region]
+            pass
+        except Exception:
+            pass
+    data = {}
+    for index, row in df.iterrows():
+        if row['Sport'] not in data:
+            data[row['Sport']]={}
+        else:
+            data[row['Sport']][row['Event']] = row['Count']
+
+    result = {
+        "name":region,
+        "children":[]
+        }
+    for sport in data:
+        obj={
+            "name":sport,
+            "children":[]
+        }
+        for event in data[sport]:
+            obj["children"].append({
+                "name":event,
+                "size":data[sport][event]
+            })
+        result["children"].append(obj)
+    print(result)
+    return json.dumps(result);
 
 if __name__ == "__main__":
     # load_data()

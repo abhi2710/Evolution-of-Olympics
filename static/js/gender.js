@@ -29,7 +29,8 @@ function show_gender_scatter(svg, year) {
 				data,
 				width,
 				height,
-				type
+				type,
+				x_label
 			)
 	    }
 	});
@@ -56,10 +57,11 @@ function show_gender_scatter(svg, year) {
 		.attr('y', 2*margin + height) // - the overflow
 		.attr('text-anchor', 'middle')
 		.attr('class', 'labels')
+		.attr('class', 'x_label_class')
 		.text(x_label);
 }
 
-function plot_gender_scatter(svg, data, width, height,type) {
+function plot_gender_scatter(svg, data, width, height,type,x_label) {
 
 	let chart, x, y;
 	const xScale = d3.scaleBand(),
@@ -69,14 +71,13 @@ function plot_gender_scatter(svg, data, width, height,type) {
         domainX.push(type=="Years"?d.Year:d.Region)
     })
 	let domainY = [0, d3.max(data.map(d => d.Count)) * 1.10];
-
 	yScale.range([height, 0]).domain(domainY);
 	xScale.range([0, width]).domain(domainX);
 
 	if (svg.select('g#chart').empty()) {
 		chart = svg.append('g')
 			.attr('id', 'chart')
-			.attr('transform', `translate(${margin},${margin})`);
+			.attr('transform', `translate(${margin},${0.75*margin})`);
 		y = chart.append('g')
 			.attr('class', 'yaxis')
 
@@ -92,6 +93,17 @@ function plot_gender_scatter(svg, data, width, height,type) {
 			.remove();
 
         d3.selectAll(".scatter_circle").remove()
+        d3.selectAll(".menLine").remove()
+        d3.selectAll(".femaleLine").remove()
+        d3.selectAll(".x_label_class").remove()
+
+        svg.append('text')
+		.attr('x', width / 2 + margin)
+		.attr('y', 2*margin + height) // - the overflow
+		.attr('text-anchor', 'middle')
+		.attr('class', 'labels')
+		.attr('class', 'x_label_class')
+		.text(x_label);
 
 		x = chart.selectAll('.xaxis');
 		y = chart.selectAll('.yaxis');
@@ -109,6 +121,8 @@ function plot_gender_scatter(svg, data, width, height,type) {
     x.selectAll('text')
     .attr('transform', `translate(${translateX},${translate}) rotate(${rotateAngle})`);
 
+    let menDataPoint = [];
+    let femaleDataPoints =[];
 
 	let count = 0;
 
@@ -123,19 +137,34 @@ function plot_gender_scatter(svg, data, width, height,type) {
 		.style('fill', s => {
 			count++;
 			if(s.Sex =="M"){
+			    menDataPoint.push(s);
 			    return 'blue';
 		    }
+		    femaleDataPoints.push(s);
 		    return 'pink';
 		});
-	//bars.select('text')
-	//.data(data)
-	//.enter()
-	//.append('text')
-	//.attr('x', s => xScale(s.Year))
-	//.attr('y', s => yScale(s.Count) - 15)
-	//.attr('class', (d, i) => {return `hide label${i}`})
-	//.text(s => s.Count);
 
+    let line = d3.line()
+    .x(function(s) {
+        return xScale(type=="Years"?s.Year:s.Region) + (xScale.bandwidth()/2)
+        })
+    .y(function(s) {
+        return yScale(s.Count)
+        });
+
+    if(type=="Years"){
+    chart.append("path")
+     .data([menDataPoint])
+     .attr("class", "menLine")
+     .attr("d", line)
+
+
+     chart.append("path")
+     .data([femaleDataPoints])
+     .attr("class", "femaleLine")
+     .attr("d", line)
+
+    }
 	chart.selectAll('rect')
 		.on('mouseover', highlight_bar)
 		.on('mouseout', revert_highlight);

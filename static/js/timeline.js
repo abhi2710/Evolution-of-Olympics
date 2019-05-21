@@ -48,7 +48,6 @@ function createTimeline(redrawMaps) {
 				.on("start.interrupt", function() { slider.interrupt(); })
 				.on("start drag", function() {
 					clearTimeout(updateMapsTimer);
-					console.log("Event Triggered");
 					let year;
 					if (d3.event.x < leftLimit || d3.event.x > rightLimit) {
 						let xidx = d3.event.x < leftLimit ? 0 : tickValues.length - 1;
@@ -61,7 +60,6 @@ function createTimeline(redrawMaps) {
 
 					if ( year != yearSelected ) {
 						updateMapsTimer = setTimeout(() => {
-							console.log('Timeout triggered');
 							if (!showBars)
 								updateMaps(year);
 						}, 50);
