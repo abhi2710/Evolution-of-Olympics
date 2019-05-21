@@ -45,20 +45,50 @@ function show_gender_scatter(svg, year) {
 
 	// title
 	svg.append('text')
-		.attr('x', width / 2 + margin)
-		.attr('y', 40)
+		.attr('x',2.5*margin)
+		.attr('y', 25)
 		.attr('text-anchor', 'middle')
 		.attr('class', 'title')
+		.style("text-decoration", "underline")
 		.text(title);
 
 	// label for x-axis
 	svg.append('text')
 		.attr('x', width / 2 + margin)
-		.attr('y', 2*margin + height) // - the overflow
+		.attr('y', 2*margin + height - 5) // - the overflow
 		.attr('text-anchor', 'middle')
 		.attr('class', 'labels')
 		.attr('class', 'x_label_class')
 		.text(x_label);
+
+
+	let legend3 = svg.selectAll('.legend3')
+            .data(["Men","Women"])
+            .enter().append('g')
+            .attr("class", "legends3")
+            .attr("transform", function (d, i) {
+                return "translate("+(width-margin)+","+(margin-(i*20))+")"
+            })
+
+    legend3.append('rect')
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 10)
+            .attr("height", 10)
+            .style("fill", function (d, i) {
+                return d=="Men"?"blue":"pink";
+        })
+
+    legend3.append('text')
+            .attr("x", 20)
+            .attr("y", 10)
+        .text(function (d, i) {
+            return d
+        })
+            .attr("class", "textselected")
+            .style("text-anchor", "start")
+            .style("font-size", 15)
+
 }
 
 function plot_gender_scatter(svg, data, width, height,type,x_label) {
@@ -93,17 +123,46 @@ function plot_gender_scatter(svg, data, width, height,type,x_label) {
 			.remove();
 
         d3.selectAll(".scatter_circle").remove()
+        d3.selectAll(".legends3").remove()
         d3.selectAll(".menLine").remove()
         d3.selectAll(".femaleLine").remove()
         d3.selectAll(".x_label_class").remove()
 
         svg.append('text')
 		.attr('x', width / 2 + margin)
-		.attr('y', 2*margin + height) // - the overflow
+		.attr('y', 2*margin + height - 5) // - the overflow
 		.attr('text-anchor', 'middle')
 		.attr('class', 'labels')
 		.attr('class', 'x_label_class')
 		.text(x_label);
+
+        	let legend3 = svg.selectAll('.legend3')
+            .data(["Men","Women"])
+            .enter().append('g')
+            .attr("class", "legends3")
+            .attr("transform", function (d, i) {
+                return "translate("+(width-margin)+","+(margin-(i*20))+")"
+            })
+
+            legend3.append('rect')
+                    .attr("x", 0)
+                    .attr("y", 0)
+                    .attr("width", 10)
+                    .attr("height", 10)
+                    .style("fill", function (d, i) {
+                        return d=="Men"?"blue":"pink";
+                })
+
+            legend3.append('text')
+                    .attr("x", 20)
+                    .attr("y", 10)
+                .text(function (d, i) {
+                    return d
+                })
+                    .attr("class", "textselected")
+                    .style("text-anchor", "start")
+                    .style("font-size", 15)
+
 
 		x = chart.selectAll('.xaxis');
 		y = chart.selectAll('.yaxis');
@@ -142,7 +201,24 @@ function plot_gender_scatter(svg, data, width, height,type,x_label) {
 		    }
 		    femaleDataPoints.push(s);
 		    return 'pink';
-		});
+		})
+		.on('mouseover', function(s){
+            chart.append("text")
+                .attr('class', 'val')
+                .attr('x', function() {
+                    return (xScale(type=="Years"?s.Year:s.Region) + (xScale.bandwidth()/2))
+                })
+                .attr('y', function() {
+                    return yScale(s.Count) - 15;
+                })
+                .text(function() {
+                    return s.Count
+                })
+		})
+		 .on('mouseout', function (data, index) {
+            chart.selectAll('.val')
+                .remove()
+         });
 
     let line = d3.line()
     .x(function(s) {

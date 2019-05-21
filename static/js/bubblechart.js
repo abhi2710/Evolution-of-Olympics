@@ -50,6 +50,16 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 	let fisheye = d3.fisheye.circular()
 	                .radius(100)
 	                .distortion(5);
+
+
+	svg.append("text")
+        .attr("x", (margin))
+        .attr("y", margin*0.25)
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .style("text-decoration", "underline")
+        .text("Participations");
+
 	let node = svg.selectAll(".node")
 		.data(bubble(nodes).descendants())
 		.enter()
@@ -128,7 +138,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 
 		node.selectAll(".region-count")
 			.attr("dx", function(d) { return d.fisheye.x - d.x; })
-			.attr("dy", function(d) { return d.fisheye.y - d.y + 15; })
+			.attr("dy", function(d) { return d.fisheye.y - d.y +20; })
 			.attr("font-size", function(d) { return d.fisheye.z * d.r/5; });
 	});
 

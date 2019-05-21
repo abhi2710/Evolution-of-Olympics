@@ -78,10 +78,22 @@ let update_medal_choropleth = (year,clear = false)=>{
                 })
                 .attr("d", path)
                 .on("mouseover", function(d) {
-
-                })
+                console.log("d",d);
+                    mapSVG.append("text")
+                        .attr('class', 'val')
+                        .attr('x', function() {
+                            return 200
+                        })
+                        .attr('y', function() {
+                            return 260
+                        })
+                        .text(function() {
+                            return d.properties.name +":"+d.total
+                        })
+            })
                 .on("mouseout", function(d) {
-
+                    mapSVG.selectAll(".val")
+                    .remove();
                 })
                 .on("click", function (d) {
                     updateCountry(d.id, d.properties.name);
