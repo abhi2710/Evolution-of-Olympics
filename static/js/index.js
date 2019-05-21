@@ -1,4 +1,3 @@
-console.log("JS Loaded");
 var bubbleSVG,svgMap,centrSVG, current_selection,current_country_selection;
 var globalTransition,countrySelected,nocSelected;
 var season, showBars = false;
@@ -39,7 +38,6 @@ $(function() {
 });
 
 function update_active(self) {
-	console.log(self);
 	$('li.active').removeClass('active');
 	self.parent().addClass('active');
 }
@@ -59,7 +57,7 @@ let updateMaps = (year, update=true) => {
 	showBars = false;
 	yearSelected = year;
 	init_participation_bubble(bubbleSVG, yearSelected, init_participation_bar);
-	console.log("update",update)
+
 	if(update){
 		update_medal_choropleth(yearSelected);
 	}

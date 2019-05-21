@@ -106,7 +106,6 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		})
 		.attr("fill", "white");
 
-	console.log(svg);
 
 	svg.on('mousemove', function() {
 		fisheye.focus(d3.mouse(this));
