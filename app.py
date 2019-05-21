@@ -151,12 +151,18 @@ def medals_country(country, region, season):
         "/gender/<string:year>/regions/<string:region>/seasons/<string:season>"
         )
 def gender_year_country(year, region, season):
+    limit = False
+    allowed_countries = []
     df = pd.read_csv("static/data/sex_scatter.csv")
     print(year, region)
     if year != "all":
         try:
             year = int(year)
             df = df[df.Year == year]
+            allowed_countries = df.groupby('Region')['Count'].sum()
+            allowed_countries = allowed_countries.sort_values(ascending=False)
+            allowed_countries = list(allowed_countries.index)[:40]
+            limit = True
         except Exception:
             pass
     else:
@@ -165,7 +171,9 @@ def gender_year_country(year, region, season):
     if season:
         df = df[df.Season == season]
 
-    df = df.groupby(['Region', 'Year', 'Sex'])['Count'].mean()
+    df = df.groupby(['Region', 'Year', 'Sex'])['Count'].mean().reset_index()
+    if (limit):
+        df = df[df.Region.isin(allowed_countries)]
     return df.to_json(orient='table')
 
 
