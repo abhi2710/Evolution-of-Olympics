@@ -95,7 +95,7 @@ var plot_bubble_chart = function(svg, dataset, on_click_callbk) {
 		.attr("dy", ".2em")
 		.style("text-anchor", "middle")
 		.text(function(d) {
-			return d.data.NOC;
+			return d.data.Region;
 		})
 		.attr("font-family", "sans-serif")
 		.attr("font-size", function(d){
