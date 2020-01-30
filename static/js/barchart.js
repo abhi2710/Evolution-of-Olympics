@@ -97,7 +97,7 @@ function plot_bar_chart(svg, data, width, height, type) {
 		.call(d3.axisBottom(xScale));
 
 	x.selectAll('text')
-		.attr('transform', `translate(0, 10) rotate(-45)`);
+		.attr('transform', `translate(-12, 10) rotate(-45)`);
 
 	let chart_data = [];
 	data.forEach((d) => chart_data.push({

@@ -1,0 +1,5706 @@
+Sex,NOC,region,Year,0
+F,AFG,Afghanistan,2004,2
+F,AFG,Afghanistan,2008,1
+F,AFG,Afghanistan,2012,1
+F,AFG,Afghanistan,2016,1
+F,AHO,Curacao,1968,2
+F,AHO,Curacao,1984,7
+F,AHO,Curacao,1988,1
+F,AHO,Curacao,1992,1
+F,AHO,Curacao,2000,1
+F,ALB,Albania,1972,1
+F,ALB,Albania,1992,2
+F,ALB,Albania,1996,6
+F,ALB,Albania,2000,3
+F,ALB,Albania,2004,2
+F,ALB,Albania,2008,5
+F,ALB,Albania,2012,3
+F,ALB,Albania,2014,2
+F,ALB,Albania,2016,3
+F,ALG,Algeria,1988,3
+F,ALG,Algeria,1992,4
+F,ALG,Algeria,1996,6
+F,ALG,Algeria,2000,10
+F,ALG,Algeria,2004,17
+F,ALG,Algeria,2006,2
+F,ALG,Algeria,2008,22
+F,ALG,Algeria,2012,17
+F,ALG,Algeria,2016,13
+F,AND,Andorra,1988,5
+F,AND,Andorra,1992,4
+F,AND,Andorra,1994,5
+F,AND,Andorra,1996,2
+F,AND,Andorra,1998,2
+F,AND,Andorra,2000,2
+F,AND,Andorra,2002,2
+F,AND,Andorra,2004,2
+F,AND,Andorra,2008,2
+F,AND,Andorra,2010,7
+F,AND,Andorra,2012,2
+F,AND,Andorra,2014,5
+F,AND,Andorra,2016,2
+F,ANG,Angola,1980,2
+F,ANG,Angola,1988,11
+F,ANG,Angola,1992,6
+F,ANG,Angola,1996,17
+F,ANG,Angola,2000,15
+F,ANG,Angola,2004,16
+F,ANG,Angola,2008,15
+F,ANG,Angola,2012,29
+F,ANG,Angola,2016,18
+F,ANT,Antigua,1984,8
+F,ANT,Antigua,1988,4
+F,ANT,Antigua,1992,5
+F,ANT,Antigua,1996,11
+F,ANT,Antigua,2000,2
+F,ANT,Antigua,2004,2
+F,ANT,Antigua,2008,1
+F,ANT,Antigua,2012,2
+F,ANT,Antigua,2016,2
+F,ANZ,Australia,1912,2
+F,ARG,Argentina,1936,1
+F,ARG,Argentina,1948,20
+F,ARG,Argentina,1952,21
+F,ARG,Argentina,1956,1
+F,ARG,Argentina,1960,4
+F,ARG,Argentina,1964,13
+F,ARG,Argentina,1968,15
+F,ARG,Argentina,1972,10
+F,ARG,Argentina,1976,18
+F,ARG,Argentina,1984,26
+F,ARG,Argentina,1988,51
+F,ARG,Argentina,1992,45
+F,ARG,Argentina,1994,13
+F,ARG,Argentina,1996,69
+F,ARG,Argentina,1998,5
+F,ARG,Argentina,2000,52
+F,ARG,Argentina,2002,11
+F,ARG,Argentina,2004,55
+F,ARG,Argentina,2006,9
+F,ARG,Argentina,2008,56
+F,ARG,Argentina,2010,12
+F,ARG,Argentina,2012,45
+F,ARG,Argentina,2014,9
+F,ARG,Argentina,2016,82
+F,ARM,Armenia,1996,2
+F,ARM,Armenia,1998,3
+F,ARM,Armenia,2000,2
+F,ARM,Armenia,2002,8
+F,ARM,Armenia,2004,2
+F,ARM,Armenia,2006,1
+F,ARM,Armenia,2008,2
+F,ARM,Armenia,2010,3
+F,ARM,Armenia,2012,4
+F,ARM,Armenia,2014,1
+F,ARM,Armenia,2016,10
+F,ARU,Aruba,1988,7
+F,ARU,Aruba,1992,1
+F,ARU,Aruba,2000,2
+F,ARU,Aruba,2004,1
+F,ARU,Aruba,2012,1
+F,ARU,Aruba,2016,4
+F,ASA,American Samoa,1996,1
+F,ASA,American Samoa,2000,1
+F,ASA,American Samoa,2004,1
+F,ASA,American Samoa,2008,2
+F,ASA,American Samoa,2012,1
+F,ASA,American Samoa,2016,1
+F,AUS,Australia,1920,3
+F,AUS,Australia,1924,1
+F,AUS,Australia,1928,7
+F,AUS,Australia,1932,5
+F,AUS,Australia,1936,6
+F,AUS,Australia,1948,18
+F,AUS,Australia,1952,20
+F,AUS,Australia,1956,74
+F,AUS,Australia,1960,62
+F,AUS,Australia,1964,97
+F,AUS,Australia,1968,61
+F,AUS,Australia,1972,73
+F,AUS,Australia,1976,78
+F,AUS,Australia,1980,66
+F,AUS,Australia,1984,112
+F,AUS,Australia,1988,107
+F,AUS,Australia,1992,172
+F,AUS,Australia,1994,12
+F,AUS,Australia,1996,243
+F,AUS,Australia,1998,10
+F,AUS,Australia,2000,368
+F,AUS,Australia,2002,19
+F,AUS,Australia,2004,274
+F,AUS,Australia,2006,18
+F,AUS,Australia,2008,271
+F,AUS,Australia,2010,23
+F,AUS,Australia,2012,243
+F,AUS,Australia,2014,43
+F,AUS,Australia,2016,263
+F,AUT,Austria,1912,10
+F,AUT,Austria,1924,5
+F,AUT,Austria,1928,12
+F,AUT,Austria,1932,4
+F,AUT,Austria,1936,35
+F,AUT,Austria,1948,62
+F,AUT,Austria,1952,86
+F,AUT,Austria,1956,22
+F,AUT,Austria,1960,69
+F,AUT,Austria,1964,43
+F,AUT,Austria,1968,30
+F,AUT,Austria,1972,38
+F,AUT,Austria,1976,30
+F,AUT,Austria,1980,36
+F,AUT,Austria,1984,54
+F,AUT,Austria,1988,45
+F,AUT,Austria,1992,64
+F,AUT,Austria,1994,28
+F,AUT,Austria,1996,21
+F,AUT,Austria,1998,39
+F,AUT,Austria,2000,45
+F,AUT,Austria,2002,32
+F,AUT,Austria,2004,26
+F,AUT,Austria,2006,33
+F,AUT,Austria,2008,38
+F,AUT,Austria,2010,41
+F,AUT,Austria,2012,38
+F,AUT,Austria,2014,74
+F,AUT,Austria,2016,40
+F,AZE,Azerbaijan,1996,4
+F,AZE,Azerbaijan,1998,2
+F,AZE,Azerbaijan,2000,7
+F,AZE,Azerbaijan,2002,1
+F,AZE,Azerbaijan,2004,7
+F,AZE,Azerbaijan,2006,1
+F,AZE,Azerbaijan,2008,14
+F,AZE,Azerbaijan,2010,2
+F,AZE,Azerbaijan,2012,16
+F,AZE,Azerbaijan,2014,1
+F,AZE,Azerbaijan,2016,16
+F,BAH,Bahamas,1972,1
+F,BAH,Bahamas,1976,2
+F,BAH,Bahamas,1984,8
+F,BAH,Bahamas,1988,5
+F,BAH,Bahamas,1992,3
+F,BAH,Bahamas,1996,13
+F,BAH,Bahamas,2000,15
+F,BAH,Bahamas,2004,12
+F,BAH,Bahamas,2008,11
+F,BAH,Bahamas,2012,13
+F,BAH,Bahamas,2016,17
+F,BAN,Bangladesh,1992,1
+F,BAN,Bangladesh,1996,1
+F,BAN,Bangladesh,2000,4
+F,BAN,Bangladesh,2004,1
+F,BAN,Bangladesh,2008,2
+F,BAN,Bangladesh,2012,1
+F,BAN,Bangladesh,2016,3
+F,BAR,Barbados,1972,8
+F,BAR,Barbados,1976,3
+F,BAR,Barbados,1984,3
+F,BAR,Barbados,1988,2
+F,BAR,Barbados,1992,2
+F,BAR,Barbados,1996,3
+F,BAR,Barbados,2000,10
+F,BAR,Barbados,2004,1
+F,BAR,Barbados,2008,2
+F,BAR,Barbados,2016,5
+F,BDI,Burundi,1996,1
+F,BDI,Burundi,2000,1
+F,BDI,Burundi,2004,2
+F,BDI,Burundi,2008,2
+F,BDI,Burundi,2012,4
+F,BDI,Burundi,2016,4
+F,BEL,Belgium,1912,1
+F,BEL,Belgium,1920,18
+F,BEL,Belgium,1924,11
+F,BEL,Belgium,1928,17
+F,BEL,Belgium,1932,8
+F,BEL,Belgium,1936,8
+F,BEL,Belgium,1948,24
+F,BEL,Belgium,1952,8
+F,BEL,Belgium,1956,5
+F,BEL,Belgium,1960,20
+F,BEL,Belgium,1964,8
+F,BEL,Belgium,1968,16
+F,BEL,Belgium,1972,8
+F,BEL,Belgium,1976,56
+F,BEL,Belgium,1980,30
+F,BEL,Belgium,1984,25
+F,BEL,Belgium,1988,36
+F,BEL,Belgium,1992,40
+F,BEL,Belgium,1994,6
+F,BEL,Belgium,1996,28
+F,BEL,Belgium,2000,54
+F,BEL,Belgium,2004,26
+F,BEL,Belgium,2008,22
+F,BEL,Belgium,2010,4
+F,BEL,Belgium,2012,49
+F,BEL,Belgium,2014,5
+F,BEL,Belgium,2016,53
+F,BEN,Benin,1980,1
+F,BEN,Benin,1988,2
+F,BEN,Benin,1992,2
+F,BEN,Benin,1996,1
+F,BEN,Benin,2000,1
+F,BEN,Benin,2004,2
+F,BEN,Benin,2008,2
+F,BEN,Benin,2012,1
+F,BEN,Benin,2016,2
+F,BER,Bermuda,1948,5
+F,BER,Bermuda,1952,4
+F,BER,Bermuda,1976,1
+F,BER,Bermuda,1984,1
+F,BER,Bermuda,1988,1
+F,BER,Bermuda,1992,9
+F,BER,Bermuda,1996,2
+F,BER,Bermuda,2000,2
+F,BER,Bermuda,2004,5
+F,BER,Bermuda,2008,4
+F,BER,Bermuda,2012,3
+F,BER,Bermuda,2016,4
+F,BHU,Bhutan,1984,3
+F,BHU,Bhutan,1992,6
+F,BHU,Bhutan,1996,1
+F,BHU,Bhutan,2000,1
+F,BHU,Bhutan,2004,1
+F,BHU,Bhutan,2008,1
+F,BHU,Bhutan,2012,2
+F,BHU,Bhutan,2016,2
+F,BIH,Bosnia and Herzegovina,1992,6
+F,BIH,Bosnia and Herzegovina,1994,2
+F,BIH,Bosnia and Herzegovina,1996,2
+F,BIH,Bosnia and Herzegovina,1998,2
+F,BIH,Bosnia and Herzegovina,2000,2
+F,BIH,Bosnia and Herzegovina,2004,2
+F,BIH,Bosnia and Herzegovina,2006,4
+F,BIH,Bosnia and Herzegovina,2008,1
+F,BIH,Bosnia and Herzegovina,2010,7
+F,BIH,Bosnia and Herzegovina,2012,2
+F,BIH,Bosnia and Herzegovina,2014,5
+F,BIH,Bosnia and Herzegovina,2016,4
+F,BIZ,Belize,1992,1
+F,BIZ,Belize,1996,3
+F,BIZ,Belize,2000,1
+F,BIZ,Belize,2004,1
+F,BIZ,Belize,2008,1
+F,BIZ,Belize,2012,1
+F,BIZ,Belize,2016,1
+F,BLR,Belarus,1994,31
+F,BLR,Belarus,1996,114
+F,BLR,Belarus,1998,39
+F,BLR,Belarus,2000,103
+F,BLR,Belarus,2002,47
+F,BLR,Belarus,2004,87
+F,BLR,Belarus,2006,42
+F,BLR,Belarus,2008,96
+F,BLR,Belarus,2010,42
+F,BLR,Belarus,2012,86
+F,BLR,Belarus,2014,30
+F,BLR,Belarus,2016,77
+F,BOH,Czech Republic,1900,2
+F,BOL,Boliva,1984,1
+F,BOL,Boliva,1988,4
+F,BOL,Boliva,1992,9
+F,BOL,Boliva,1996,2
+F,BOL,Boliva,2000,2
+F,BOL,Boliva,2004,7
+F,BOL,Boliva,2008,3
+F,BOL,Boliva,2012,2
+F,BOL,Boliva,2016,6
+F,BOT,Botswana,2004,1
+F,BOT,Botswana,2008,2
+F,BOT,Botswana,2012,1
+F,BOT,Botswana,2016,3
+F,BRA,Brazil,1932,3
+F,BRA,Brazil,1936,8
+F,BRA,Brazil,1948,22
+F,BRA,Brazil,1952,8
+F,BRA,Brazil,1956,1
+F,BRA,Brazil,1960,1
+F,BRA,Brazil,1964,1
+F,BRA,Brazil,1968,4
+F,BRA,Brazil,1972,7
+F,BRA,Brazil,1976,10
+F,BRA,Brazil,1980,19
+F,BRA,Brazil,1984,30
+F,BRA,Brazil,1988,52
+F,BRA,Brazil,1992,62
+F,BRA,Brazil,1996,69
+F,BRA,Brazil,2000,103
+F,BRA,Brazil,2002,2
+F,BRA,Brazil,2004,160
+F,BRA,Brazil,2006,3
+F,BRA,Brazil,2008,166
+F,BRA,Brazil,2010,4
+F,BRA,Brazil,2012,144
+F,BRA,Brazil,2014,10
+F,BRA,Brazil,2016,259
+F,BRN,Bahrain,2000,2
+F,BRN,Bahrain,2004,3
+F,BRN,Bahrain,2008,3
+F,BRN,Bahrain,2012,10
+F,BRN,Bahrain,2016,13
+F,BRU,Brunei,2012,1
+F,BRU,Brunei,2016,1
+F,BUL,Bulgaria,1952,58
+F,BUL,Bulgaria,1956,16
+F,BUL,Bulgaria,1960,43
+F,BUL,Bulgaria,1964,25
+F,BUL,Bulgaria,1968,49
+F,BUL,Bulgaria,1972,59
+F,BUL,Bulgaria,1976,88
+F,BUL,Bulgaria,1980,136
+F,BUL,Bulgaria,1984,1
+F,BUL,Bulgaria,1988,124
+F,BUL,Bulgaria,1992,107
+F,BUL,Bulgaria,1994,17
+F,BUL,Bulgaria,1996,53
+F,BUL,Bulgaria,1998,20
+F,BUL,Bulgaria,2000,47
+F,BUL,Bulgaria,2002,28
+F,BUL,Bulgaria,2004,52
+F,BUL,Bulgaria,2006,25
+F,BUL,Bulgaria,2008,35
+F,BUL,Bulgaria,2010,15
+F,BUL,Bulgaria,2012,36
+F,BUL,Bulgaria,2014,10
+F,BUL,Bulgaria,2016,25
+F,BUR,Burkina Faso,1988,2
+F,BUR,Burkina Faso,1996,2
+F,BUR,Burkina Faso,2000,1
+F,BUR,Burkina Faso,2004,2
+F,BUR,Burkina Faso,2008,3
+F,BUR,Burkina Faso,2012,3
+F,BUR,Burkina Faso,2016,2
+F,CAF,Central African Republic,1992,3
+F,CAF,Central African Republic,1996,2
+F,CAF,Central African Republic,2000,2
+F,CAF,Central African Republic,2004,2
+F,CAF,Central African Republic,2008,1
+F,CAF,Central African Republic,2012,3
+F,CAF,Central African Republic,2016,3
+F,CAM,Cambodia,1972,2
+F,CAM,Cambodia,1996,2
+F,CAM,Cambodia,2000,2
+F,CAM,Cambodia,2004,2
+F,CAM,Cambodia,2008,2
+F,CAM,Cambodia,2012,3
+F,CAM,Cambodia,2016,4
+F,CAN,Canada,1924,2
+F,CAN,Canada,1928,15
+F,CAN,Canada,1932,31
+F,CAN,Canada,1936,34
+F,CAN,Canada,1948,37
+F,CAN,Canada,1952,42
+F,CAN,Canada,1956,50
+F,CAN,Canada,1960,56
+F,CAN,Canada,1964,70
+F,CAN,Canada,1968,109
+F,CAN,Canada,1972,142
+F,CAN,Canada,1976,242
+F,CAN,Canada,1980,34
+F,CAN,Canada,1984,256
+F,CAN,Canada,1988,243
+F,CAN,Canada,1992,253
+F,CAN,Canada,1994,54
+F,CAN,Canada,1996,202
+F,CAN,Canada,1998,93
+F,CAN,Canada,2000,224
+F,CAN,Canada,2002,101
+F,CAN,Canada,2004,191
+F,CAN,Canada,2006,136
+F,CAN,Canada,2008,188
+F,CAN,Canada,2010,138
+F,CAN,Canada,2012,208
+F,CAN,Canada,2014,158
+F,CAN,Canada,2016,254
+F,CAY,Cayman Islands,1984,1
+F,CAY,Cayman Islands,1988,1
+F,CAY,Cayman Islands,1996,1
+F,CAY,Cayman Islands,2000,3
+F,CAY,Cayman Islands,2004,3
+F,CAY,Cayman Islands,2008,1
+F,CAY,Cayman Islands,2016,2
+F,CGO,Republic of Congo,1980,14
+F,CGO,Republic of Congo,1984,2
+F,CGO,Republic of Congo,1988,3
+F,CGO,Republic of Congo,1992,1
+F,CGO,Republic of Congo,1996,2
+F,CGO,Republic of Congo,2000,2
+F,CGO,Republic of Congo,2004,3
+F,CGO,Republic of Congo,2008,2
+F,CGO,Republic of Congo,2012,3
+F,CGO,Republic of Congo,2016,3
+F,CHA,Chad,1992,2
+F,CHA,Chad,1996,1
+F,CHA,Chad,2000,2
+F,CHA,Chad,2004,1
+F,CHA,Chad,2008,1
+F,CHA,Chad,2012,2
+F,CHA,Chad,2016,1
+F,CHI,Chile,1936,1
+F,CHI,Chile,1948,8
+F,CHI,Chile,1952,5
+F,CHI,Chile,1956,2
+F,CHI,Chile,1960,1
+F,CHI,Chile,1968,4
+F,CHI,Chile,1972,2
+F,CHI,Chile,1984,4
+F,CHI,Chile,1988,1
+F,CHI,Chile,1992,3
+F,CHI,Chile,1996,6
+F,CHI,Chile,2000,8
+F,CHI,Chile,2002,3
+F,CHI,Chile,2004,8
+F,CHI,Chile,2006,5
+F,CHI,Chile,2008,7
+F,CHI,Chile,2010,5
+F,CHI,Chile,2012,18
+F,CHI,Chile,2014,6
+F,CHI,Chile,2016,21
+F,CHN,China,1936,3
+F,CHN,China,1948,1
+F,CHN,China,1980,16
+F,CHN,China,1984,154
+F,CHN,China,1988,202
+F,CHN,China,1992,252
+F,CHN,China,1994,31
+F,CHN,China,1996,259
+F,CHN,China,1998,61
+F,CHN,China,2000,255
+F,CHN,China,2002,73
+F,CHN,China,2004,317
+F,CHN,China,2006,81
+F,CHN,China,2008,354
+F,CHN,China,2010,83
+F,CHN,China,2012,267
+F,CHN,China,2014,66
+F,CHN,China,2016,295
+F,CIV,Ivory Coast,1976,2
+F,CIV,Ivory Coast,1984,1
+F,CIV,Ivory Coast,1988,17
+F,CIV,Ivory Coast,1992,8
+F,CIV,Ivory Coast,1996,1
+F,CIV,Ivory Coast,2000,9
+F,CIV,Ivory Coast,2004,3
+F,CIV,Ivory Coast,2008,2
+F,CIV,Ivory Coast,2012,6
+F,CIV,Ivory Coast,2016,9
+F,CMR,Cameroon,1980,4
+F,CMR,Cameroon,1984,6
+F,CMR,Cameroon,1988,4
+F,CMR,Cameroon,1992,8
+F,CMR,Cameroon,1996,6
+F,CMR,Cameroon,2000,11
+F,CMR,Cameroon,2004,9
+F,CMR,Cameroon,2008,7
+F,CMR,Cameroon,2012,22
+F,CMR,Cameroon,2016,17
+F,COD,Democratic Republic of the Congo,1984,1
+F,COD,Democratic Republic of the Congo,1988,3
+F,COD,Democratic Republic of the Congo,1992,2
+F,COD,Democratic Republic of the Congo,1996,12
+F,COD,Democratic Republic of the Congo,2000,2
+F,COD,Democratic Republic of the Congo,2004,1
+F,COD,Democratic Republic of the Congo,2008,1
+F,COD,Democratic Republic of the Congo,2012,1
+F,COD,Democratic Republic of the Congo,2016,2
+F,COK,Cook Islands,1988,2
+F,COK,Cook Islands,1996,1
+F,COK,Cook Islands,2000,1
+F,COK,Cook Islands,2004,1
+F,COK,Cook Islands,2008,1
+F,COK,Cook Islands,2012,5
+F,COK,Cook Islands,2016,5
+F,COL,Colombia,1968,14
+F,COL,Colombia,1972,12
+F,COL,Colombia,1976,6
+F,COL,Colombia,1984,3
+F,COL,Colombia,1988,15
+F,COL,Colombia,1992,3
+F,COL,Colombia,1996,15
+F,COL,Colombia,2000,24
+F,COL,Colombia,2004,28
+F,COL,Colombia,2008,33
+F,COL,Colombia,2010,2
+F,COL,Colombia,2012,64
+F,COL,Colombia,2016,76
+F,COM,Comoros,1996,1
+F,COM,Comoros,2000,1
+F,COM,Comoros,2004,1
+F,COM,Comoros,2008,1
+F,COM,Comoros,2012,2
+F,COM,Comoros,2016,2
+F,CPV,Cape Verde,1996,1
+F,CPV,Cape Verde,2000,1
+F,CPV,Cape Verde,2004,1
+F,CPV,Cape Verde,2008,1
+F,CPV,Cape Verde,2012,2
+F,CPV,Cape Verde,2016,3
+F,CRC,Costa Rica,1968,3
+F,CRC,Costa Rica,1976,5
+F,CRC,Costa Rica,1980,4
+F,CRC,Costa Rica,1984,1
+F,CRC,Costa Rica,1988,20
+F,CRC,Costa Rica,1992,8
+F,CRC,Costa Rica,1996,7
+F,CRC,Costa Rica,2000,3
+F,CRC,Costa Rica,2004,4
+F,CRC,Costa Rica,2008,2
+F,CRC,Costa Rica,2012,3
+F,CRC,Costa Rica,2016,5
+F,CRO,Croatia,1992,7
+F,CRO,Croatia,1996,16
+F,CRO,Croatia,1998,6
+F,CRO,Croatia,2000,32
+F,CRO,Croatia,2002,12
+F,CRO,Croatia,2004,24
+F,CRO,Croatia,2006,17
+F,CRO,Croatia,2008,30
+F,CRO,Croatia,2010,10
+F,CRO,Croatia,2012,49
+F,CRO,Croatia,2014,9
+F,CRO,Croatia,2016,24
+F,CUB,Cuba,1956,1
+F,CUB,Cuba,1960,11
+F,CUB,Cuba,1964,3
+F,CUB,Cuba,1968,50
+F,CUB,Cuba,1972,35
+F,CUB,Cuba,1976,30
+F,CUB,Cuba,1980,36
+F,CUB,Cuba,1992,57
+F,CUB,Cuba,1996,60
+F,CUB,Cuba,2000,92
+F,CUB,Cuba,2004,61
+F,CUB,Cuba,2008,61
+F,CUB,Cuba,2012,48
+F,CUB,Cuba,2016,43
+F,CYP,Cyprus,1980,4
+F,CYP,Cyprus,1984,2
+F,CYP,Cyprus,1988,5
+F,CYP,Cyprus,1992,6
+F,CYP,Cyprus,1994,1
+F,CYP,Cyprus,1996,4
+F,CYP,Cyprus,2000,5
+F,CYP,Cyprus,2004,7
+F,CYP,Cyprus,2008,11
+F,CYP,Cyprus,2010,2
+F,CYP,Cyprus,2012,4
+F,CYP,Cyprus,2016,7
+F,CZE,Czech Republic,1994,37
+F,CZE,Czech Republic,1996,68
+F,CZE,Czech Republic,1998,36
+F,CZE,Czech Republic,2000,51
+F,CZE,Czech Republic,2002,54
+F,CZE,Czech Republic,2004,76
+F,CZE,Czech Republic,2006,53
+F,CZE,Czech Republic,2008,71
+F,CZE,Czech Republic,2010,52
+F,CZE,Czech Republic,2012,78
+F,CZE,Czech Republic,2014,64
+F,CZE,Czech Republic,2016,56
+F,DEN,Denmark,1912,2
+F,DEN,Denmark,1920,7
+F,DEN,Denmark,1924,18
+F,DEN,Denmark,1928,12
+F,DEN,Denmark,1932,10
+F,DEN,Denmark,1936,21
+F,DEN,Denmark,1948,29
+F,DEN,Denmark,1952,20
+F,DEN,Denmark,1956,8
+F,DEN,Denmark,1960,13
+F,DEN,Denmark,1964,10
+F,DEN,Denmark,1968,12
+F,DEN,Denmark,1972,18
+F,DEN,Denmark,1976,13
+F,DEN,Denmark,1980,4
+F,DEN,Denmark,1984,13
+F,DEN,Denmark,1988,40
+F,DEN,Denmark,1992,57
+F,DEN,Denmark,1996,80
+F,DEN,Denmark,1998,8
+F,DEN,Denmark,2000,56
+F,DEN,Denmark,2002,6
+F,DEN,Denmark,2004,56
+F,DEN,Denmark,2006,4
+F,DEN,Denmark,2008,32
+F,DEN,Denmark,2010,10
+F,DEN,Denmark,2012,73
+F,DEN,Denmark,2014,4
+F,DEN,Denmark,2016,61
+F,DJI,Djibouti,2000,1
+F,DJI,Djibouti,2008,1
+F,DJI,Djibouti,2012,2
+F,DJI,Djibouti,2016,1
+F,DMA,Dominica,1996,2
+F,DMA,Dominica,2000,2
+F,DMA,Dominica,2004,1
+F,DMA,Dominica,2012,1
+F,DMA,Dominica,2016,1
+F,DOM,Dominican Republic,1976,2
+F,DOM,Dominican Republic,1980,1
+F,DOM,Dominican Republic,1984,7
+F,DOM,Dominican Republic,1988,1
+F,DOM,Dominican Republic,1992,2
+F,DOM,Dominican Republic,1996,4
+F,DOM,Dominican Republic,2000,2
+F,DOM,Dominican Republic,2004,16
+F,DOM,Dominican Republic,2008,8
+F,DOM,Dominican Republic,2012,21
+F,DOM,Dominican Republic,2016,8
+F,ECU,Ecuador,1968,2
+F,ECU,Ecuador,1980,1
+F,ECU,Ecuador,1984,1
+F,ECU,Ecuador,1988,4
+F,ECU,Ecuador,1992,8
+F,ECU,Ecuador,1996,2
+F,ECU,Ecuador,2000,3
+F,ECU,Ecuador,2004,6
+F,ECU,Ecuador,2008,8
+F,ECU,Ecuador,2012,13
+F,ECU,Ecuador,2016,16
+F,EGY,Egypt,1984,11
+F,EGY,Egypt,1988,1
+F,EGY,Egypt,1992,6
+F,EGY,Egypt,1996,4
+F,EGY,Egypt,2000,18
+F,EGY,Egypt,2004,16
+F,EGY,Egypt,2008,34
+F,EGY,Egypt,2012,45
+F,EGY,Egypt,2016,46
+F,ERI,Eritrea,2000,1
+F,ERI,Eritrea,2004,1
+F,ERI,Eritrea,2008,2
+F,ERI,Eritrea,2012,1
+F,ERI,Eritrea,2016,1
+F,ESA,El Salvador,1968,26
+F,ESA,El Salvador,1984,2
+F,ESA,El Salvador,1988,1
+F,ESA,El Salvador,1992,3
+F,ESA,El Salvador,1996,3
+F,ESA,El Salvador,2000,5
+F,ESA,El Salvador,2004,7
+F,ESA,El Salvador,2008,10
+F,ESA,El Salvador,2012,6
+F,ESA,El Salvador,2016,3
+F,ESP,Spain,1924,6
+F,ESP,Spain,1936,2
+F,ESP,Spain,1960,44
+F,ESP,Spain,1964,5
+F,ESP,Spain,1968,3
+F,ESP,Spain,1972,12
+F,ESP,Spain,1976,26
+F,ESP,Spain,1980,28
+F,ESP,Spain,1984,53
+F,ESP,Spain,1988,76
+F,ESP,Spain,1992,186
+F,ESP,Spain,1994,10
+F,ESP,Spain,1996,148
+F,ESP,Spain,1998,6
+F,ESP,Spain,2000,148
+F,ESP,Spain,2002,6
+F,ESP,Spain,2004,184
+F,ESP,Spain,2006,16
+F,ESP,Spain,2008,146
+F,ESP,Spain,2010,15
+F,ESP,Spain,2012,136
+F,ESP,Spain,2014,11
+F,ESP,Spain,2016,172
+F,EST,Estonia,1936,2
+F,EST,Estonia,1992,20
+F,EST,Estonia,1994,29
+F,EST,Estonia,1996,12
+F,EST,Estonia,1998,13
+F,EST,Estonia,2000,3
+F,EST,Estonia,2002,10
+F,EST,Estonia,2004,12
+F,EST,Estonia,2006,24
+F,EST,Estonia,2008,17
+F,EST,Estonia,2010,27
+F,EST,Estonia,2012,11
+F,EST,Estonia,2014,20
+F,EST,Estonia,2016,21
+F,ETH,Ethiopia,1980,2
+F,ETH,Ethiopia,1992,6
+F,ETH,Ethiopia,1996,9
+F,ETH,Ethiopia,2000,12
+F,ETH,Ethiopia,2004,12
+F,ETH,Ethiopia,2008,14
+F,ETH,Ethiopia,2012,16
+F,ETH,Ethiopia,2016,21
+F,EUN,Russia,1992,326
+F,FIJ,Fiji,1976,2
+F,FIJ,Fiji,1984,8
+F,FIJ,Fiji,1988,15
+F,FIJ,Fiji,1992,9
+F,FIJ,Fiji,1996,3
+F,FIJ,Fiji,2000,4
+F,FIJ,Fiji,2004,4
+F,FIJ,Fiji,2008,2
+F,FIJ,Fiji,2012,3
+F,FIJ,Fiji,2016,17
+F,FIN,Finland,1912,2
+F,FIN,Finland,1920,1
+F,FIN,Finland,1924,1
+F,FIN,Finland,1928,3
+F,FIN,Finland,1936,10
+F,FIN,Finland,1948,7
+F,FIN,Finland,1952,93
+F,FIN,Finland,1956,8
+F,FIN,Finland,1960,55
+F,FIN,Finland,1964,32
+F,FIN,Finland,1968,35
+F,FIN,Finland,1972,36
+F,FIN,Finland,1976,32
+F,FIN,Finland,1980,24
+F,FIN,Finland,1984,33
+F,FIN,Finland,1988,46
+F,FIN,Finland,1992,72
+F,FIN,Finland,1994,32
+F,FIN,Finland,1996,45
+F,FIN,Finland,1998,48
+F,FIN,Finland,2000,37
+F,FIN,Finland,2002,63
+F,FIN,Finland,2004,23
+F,FIN,Finland,2006,47
+F,FIN,Finland,2008,32
+F,FIN,Finland,2010,53
+F,FIN,Finland,2012,37
+F,FIN,Finland,2014,52
+F,FIN,Finland,2016,33
+F,FRA,France,1900,16
+F,FRA,France,1906,2
+F,FRA,France,1912,2
+F,FRA,France,1920,15
+F,FRA,France,1924,44
+F,FRA,France,1928,50
+F,FRA,France,1932,8
+F,FRA,France,1936,13
+F,FRA,France,1948,66
+F,FRA,France,1952,101
+F,FRA,France,1956,49
+F,FRA,France,1960,90
+F,FRA,France,1964,57
+F,FRA,France,1968,108
+F,FRA,France,1972,87
+F,FRA,France,1976,66
+F,FRA,France,1980,42
+F,FRA,France,1984,89
+F,FRA,France,1988,149
+F,FRA,France,1992,226
+F,FRA,France,1994,63
+F,FRA,France,1996,170
+F,FRA,France,1998,54
+F,FRA,France,2000,174
+F,FRA,France,2002,49
+F,FRA,France,2004,175
+F,FRA,France,2006,69
+F,FRA,France,2008,182
+F,FRA,France,2010,71
+F,FRA,France,2012,183
+F,FRA,France,2014,74
+F,FRA,France,2016,217
+F,FRG,Germany,1968,135
+F,FRG,Germany,1972,182
+F,FRG,Germany,1976,142
+F,FRG,Germany,1980,31
+F,FRG,Germany,1984,220
+F,FRG,Germany,1988,202
+F,FSM,Micronesia,2000,2
+F,FSM,Micronesia,2004,2
+F,FSM,Micronesia,2008,2
+F,FSM,Micronesia,2012,2
+F,FSM,Micronesia,2016,3
+F,GAB,Gabon,1984,2
+F,GAB,Gabon,1988,1
+F,GAB,Gabon,1992,1
+F,GAB,Gabon,1996,1
+F,GAB,Gabon,2000,2
+F,GAB,Gabon,2004,2
+F,GAB,Gabon,2008,2
+F,GAB,Gabon,2012,2
+F,GAB,Gabon,2016,2
+F,GAM,Gambia,1984,6
+F,GAM,Gambia,1988,1
+F,GAM,Gambia,1996,1
+F,GAM,Gambia,2000,1
+F,GAM,Gambia,2004,1
+F,GAM,Gambia,2008,1
+F,GAM,Gambia,2012,1
+F,GAM,Gambia,2016,1
+F,GBR,UK,1900,2
+F,GBR,UK,1908,42
+F,GBR,UK,1912,17
+F,GBR,UK,1920,31
+F,GBR,UK,1924,42
+F,GBR,UK,1928,40
+F,GBR,UK,1932,30
+F,GBR,UK,1936,53
+F,GBR,UK,1948,106
+F,GBR,UK,1952,117
+F,GBR,UK,1956,64
+F,GBR,UK,1960,109
+F,GBR,UK,1964,88
+F,GBR,UK,1968,111
+F,GBR,UK,1972,160
+F,GBR,UK,1976,128
+F,GBR,UK,1980,129
+F,GBR,UK,1984,200
+F,GBR,UK,1988,204
+F,GBR,UK,1992,202
+F,GBR,UK,1994,9
+F,GBR,UK,1996,159
+F,GBR,UK,1998,7
+F,GBR,UK,2000,183
+F,GBR,UK,2002,26
+F,GBR,UK,2004,164
+F,GBR,UK,2006,22
+F,GBR,UK,2008,209
+F,GBR,UK,2010,30
+F,GBR,UK,2012,334
+F,GBR,UK,2014,31
+F,GBR,UK,2016,212
+F,GBS,Guinea-Bissau,2000,1
+F,GBS,Guinea-Bissau,2004,2
+F,GBS,Guinea-Bissau,2008,1
+F,GBS,Guinea-Bissau,2012,2
+F,GBS,Guinea-Bissau,2016,2
+F,GDR,Germany,1968,104
+F,GDR,Germany,1972,151
+F,GDR,Germany,1976,216
+F,GDR,Germany,1980,219
+F,GDR,Germany,1984,33
+F,GDR,Germany,1988,208
+F,GEO,Georgia,1996,9
+F,GEO,Georgia,1998,1
+F,GEO,Georgia,2000,14
+F,GEO,Georgia,2002,2
+F,GEO,Georgia,2004,7
+F,GEO,Georgia,2006,1
+F,GEO,Georgia,2008,9
+F,GEO,Georgia,2010,4
+F,GEO,Georgia,2012,8
+F,GEO,Georgia,2014,3
+F,GEO,Georgia,2016,14
+F,GEQ,Equatorial Guinea,1988,2
+F,GEQ,Equatorial Guinea,1992,3
+F,GEQ,Equatorial Guinea,1996,1
+F,GEQ,Equatorial Guinea,2000,2
+F,GEQ,Equatorial Guinea,2004,1
+F,GEQ,Equatorial Guinea,2008,1
+F,GEQ,Equatorial Guinea,2012,1
+F,GER,Germany,1908,2
+F,GER,Germany,1912,10
+F,GER,Germany,1928,48
+F,GER,Germany,1932,16
+F,GER,Germany,1936,57
+F,GER,Germany,1952,109
+F,GER,Germany,1956,64
+F,GER,Germany,1960,137
+F,GER,Germany,1964,156
+F,GER,Germany,1992,321
+F,GER,Germany,1994,62
+F,GER,Germany,1996,245
+F,GER,Germany,1998,96
+F,GER,Germany,2000,238
+F,GER,Germany,2002,121
+F,GER,Germany,2004,243
+F,GER,Germany,2006,116
+F,GER,Germany,2008,245
+F,GER,Germany,2010,105
+F,GER,Germany,2012,231
+F,GER,Germany,2014,126
+F,GER,Germany,2016,246
+F,GHA,Ghana,1964,4
+F,GHA,Ghana,1968,2
+F,GHA,Ghana,1972,4
+F,GHA,Ghana,1984,11
+F,GHA,Ghana,1988,8
+F,GHA,Ghana,1992,4
+F,GHA,Ghana,1996,2
+F,GHA,Ghana,2000,9
+F,GHA,Ghana,2004,3
+F,GHA,Ghana,2008,1
+F,GHA,Ghana,2012,2
+F,GHA,Ghana,2016,8
+F,GRE,Greece,1906,9
+F,GRE,Greece,1924,2
+F,GRE,Greece,1936,2
+F,GRE,Greece,1948,1
+F,GRE,Greece,1972,6
+F,GRE,Greece,1976,2
+F,GRE,Greece,1980,5
+F,GRE,Greece,1984,6
+F,GRE,Greece,1988,22
+F,GRE,Greece,1992,19
+F,GRE,Greece,1994,2
+F,GRE,Greece,1996,79
+F,GRE,Greece,1998,3
+F,GRE,Greece,2000,73
+F,GRE,Greece,2002,6
+F,GRE,Greece,2004,246
+F,GRE,Greece,2006,3
+F,GRE,Greece,2008,79
+F,GRE,Greece,2010,5
+F,GRE,Greece,2012,45
+F,GRE,Greece,2014,3
+F,GRE,Greece,2016,37
+F,GRN,Grenada,1984,1
+F,GRN,Grenada,1988,3
+F,GRN,Grenada,1992,1
+F,GRN,Grenada,2000,1
+F,GRN,Grenada,2004,2
+F,GRN,Grenada,2008,5
+F,GRN,Grenada,2012,3
+F,GRN,Grenada,2016,1
+F,GUA,Guatemala,1932,1
+F,GUA,Guatemala,1952,2
+F,GUA,Guatemala,1968,4
+F,GUA,Guatemala,1976,2
+F,GUA,Guatemala,1984,14
+F,GUA,Guatemala,1988,11
+F,GUA,Guatemala,1992,7
+F,GUA,Guatemala,1996,1
+F,GUA,Guatemala,2000,1
+F,GUA,Guatemala,2004,8
+F,GUA,Guatemala,2008,4
+F,GUA,Guatemala,2012,10
+F,GUA,Guatemala,2016,10
+F,GUI,Guinea,1992,2
+F,GUI,Guinea,1996,1
+F,GUI,Guinea,2000,3
+F,GUI,Guinea,2004,1
+F,GUI,Guinea,2008,3
+F,GUI,Guinea,2012,2
+F,GUI,Guinea,2016,3
+F,GUM,Guam,1988,6
+F,GUM,Guam,1992,9
+F,GUM,Guam,1996,2
+F,GUM,Guam,2000,2
+F,GUM,Guam,2004,1
+F,GUM,Guam,2008,2
+F,GUM,Guam,2012,3
+F,GUM,Guam,2016,2
+F,GUY,Guyana,1956,2
+F,GUY,Guyana,1960,1
+F,GUY,Guyana,1980,2
+F,GUY,Guyana,1984,2
+F,GUY,Guyana,1988,1
+F,GUY,Guyana,1992,1
+F,GUY,Guyana,1996,1
+F,GUY,Guyana,2000,1
+F,GUY,Guyana,2004,2
+F,GUY,Guyana,2008,2
+F,GUY,Guyana,2012,2
+F,GUY,Guyana,2016,4
+F,HAI,Haiti,1972,1
+F,HAI,Haiti,1976,3
+F,HAI,Haiti,1984,2
+F,HAI,Haiti,1988,1
+F,HAI,Haiti,2000,2
+F,HAI,Haiti,2004,1
+F,HAI,Haiti,2008,4
+F,HAI,Haiti,2012,2
+F,HAI,Haiti,2016,3
+F,HKG,China,1952,3
+F,HKG,China,1964,1
+F,HKG,China,1976,4
+F,HKG,China,1984,27
+F,HKG,China,1988,24
+F,HKG,China,1992,15
+F,HKG,China,1996,11
+F,HKG,China,2000,19
+F,HKG,China,2002,5
+F,HKG,China,2004,23
+F,HKG,China,2006,3
+F,HKG,China,2008,25
+F,HKG,China,2010,3
+F,HKG,China,2012,29
+F,HKG,China,2016,30
+F,HON,Honduras,1984,5
+F,HON,Honduras,1988,5
+F,HON,Honduras,1992,16
+F,HON,Honduras,1996,3
+F,HON,Honduras,2000,2
+F,HON,Honduras,2004,2
+F,HON,Honduras,2008,2
+F,HON,Honduras,2012,3
+F,HON,Honduras,2016,1
+F,HUN,Hungary,1924,4
+F,HUN,Hungary,1928,16
+F,HUN,Hungary,1932,4
+F,HUN,Hungary,1936,27
+F,HUN,Hungary,1948,34
+F,HUN,Hungary,1952,93
+F,HUN,Hungary,1956,62
+F,HUN,Hungary,1960,72
+F,HUN,Hungary,1964,93
+F,HUN,Hungary,1968,86
+F,HUN,Hungary,1972,98
+F,HUN,Hungary,1976,93
+F,HUN,Hungary,1980,123
+F,HUN,Hungary,1984,3
+F,HUN,Hungary,1988,82
+F,HUN,Hungary,1992,138
+F,HUN,Hungary,1994,20
+F,HUN,Hungary,1996,121
+F,HUN,Hungary,1998,14
+F,HUN,Hungary,2000,94
+F,HUN,Hungary,2002,20
+F,HUN,Hungary,2004,113
+F,HUN,Hungary,2006,14
+F,HUN,Hungary,2008,103
+F,HUN,Hungary,2010,21
+F,HUN,Hungary,2012,88
+F,HUN,Hungary,2014,22
+F,HUN,Hungary,2016,90
+F,INA,Indonesia,1956,2
+F,INA,Indonesia,1960,2
+F,INA,Indonesia,1972,4
+F,INA,Indonesia,1976,3
+F,INA,Indonesia,1984,4
+F,INA,Indonesia,1988,10
+F,INA,Indonesia,1992,21
+F,INA,Indonesia,1996,21
+F,INA,Indonesia,2000,21
+F,INA,Indonesia,2004,17
+F,INA,Indonesia,2008,11
+F,INA,Indonesia,2012,9
+F,INA,Indonesia,2016,11
+F,IND,India,1924,2
+F,IND,India,1952,7
+F,IND,India,1956,1
+F,IND,India,1964,1
+F,IND,India,1972,1
+F,IND,India,1980,17
+F,IND,India,1984,10
+F,IND,India,1988,11
+F,IND,India,1992,7
+F,IND,India,1996,9
+F,IND,India,2000,23
+F,IND,India,2004,30
+F,IND,India,2006,2
+F,IND,India,2008,29
+F,IND,India,2012,29
+F,IND,India,2016,62
+F,IOA,Individual Olympic Athletes,1992,26
+F,IOA,Individual Olympic Athletes,2000,1
+F,IOA,Individual Olympic Athletes,2012,1
+F,IOA,Individual Olympic Athletes,2016,1
+F,IRI,Iran,1964,10
+F,IRI,Iran,1976,7
+F,IRI,Iran,1996,1
+F,IRI,Iran,2000,1
+F,IRI,Iran,2004,1
+F,IRI,Iran,2008,3
+F,IRI,Iran,2010,2
+F,IRI,Iran,2012,11
+F,IRI,Iran,2014,2
+F,IRI,Iran,2016,11
+F,IRL,Ireland,1924,6
+F,IRL,Ireland,1928,7
+F,IRL,Ireland,1932,2
+F,IRL,Ireland,1948,6
+F,IRL,Ireland,1956,2
+F,IRL,Ireland,1960,3
+F,IRL,Ireland,1964,2
+F,IRL,Ireland,1968,11
+F,IRL,Ireland,1972,20
+F,IRL,Ireland,1976,5
+F,IRL,Ireland,1980,5
+F,IRL,Ireland,1984,20
+F,IRL,Ireland,1988,13
+F,IRL,Ireland,1992,15
+F,IRL,Ireland,1996,22
+F,IRL,Ireland,2000,31
+F,IRL,Ireland,2002,2
+F,IRL,Ireland,2004,18
+F,IRL,Ireland,2006,2
+F,IRL,Ireland,2008,19
+F,IRL,Ireland,2010,4
+F,IRL,Ireland,2012,34
+F,IRL,Ireland,2014,2
+F,IRL,Ireland,2016,31
+F,IRQ,Iraq,2000,2
+F,IRQ,Iraq,2004,1
+F,IRQ,Iraq,2008,1
+F,IRQ,Iraq,2012,3
+F,ISL,Iceland,1948,3
+F,ISL,Iceland,1956,3
+F,ISL,Iceland,1960,1
+F,ISL,Iceland,1964,1
+F,ISL,Iceland,1968,6
+F,ISL,Iceland,1972,1
+F,ISL,Iceland,1976,12
+F,ISL,Iceland,1980,2
+F,ISL,Iceland,1984,6
+F,ISL,Iceland,1988,9
+F,ISL,Iceland,1992,7
+F,ISL,Iceland,1994,3
+F,ISL,Iceland,1996,4
+F,ISL,Iceland,1998,6
+F,ISL,Iceland,2000,12
+F,ISL,Iceland,2002,5
+F,ISL,Iceland,2004,6
+F,ISL,Iceland,2006,4
+F,ISL,Iceland,2008,9
+F,ISL,Iceland,2010,2
+F,ISL,Iceland,2012,12
+F,ISL,Iceland,2014,5
+F,ISL,Iceland,2016,10
+F,ISR,Israel,1952,4
+F,ISR,Israel,1956,1
+F,ISR,Israel,1960,19
+F,ISR,Israel,1964,3
+F,ISR,Israel,1968,7
+F,ISR,Israel,1972,4
+F,ISR,Israel,1976,2
+F,ISR,Israel,1984,19
+F,ISR,Israel,1988,8
+F,ISR,Israel,1992,9
+F,ISR,Israel,1996,10
+F,ISR,Israel,1998,1
+F,ISR,Israel,2000,13
+F,ISR,Israel,2002,5
+F,ISR,Israel,2004,19
+F,ISR,Israel,2006,2
+F,ISR,Israel,2008,25
+F,ISR,Israel,2010,1
+F,ISR,Israel,2012,23
+F,ISR,Israel,2014,1
+F,ISR,Israel,2016,31
+F,ISV,"Virgin Islands, US",1976,4
+F,ISV,"Virgin Islands, US",1984,6
+F,ISV,"Virgin Islands, US",1988,8
+F,ISV,"Virgin Islands, US",1992,11
+F,ISV,"Virgin Islands, US",1994,1
+F,ISV,"Virgin Islands, US",1996,8
+F,ISV,"Virgin Islands, US",1998,1
+F,ISV,"Virgin Islands, US",2000,3
+F,ISV,"Virgin Islands, US",2002,2
+F,ISV,"Virgin Islands, US",2004,2
+F,ISV,"Virgin Islands, US",2008,2
+F,ISV,"Virgin Islands, US",2012,5
+F,ISV,"Virgin Islands, US",2014,2
+F,ISV,"Virgin Islands, US",2016,2
+F,ITA,Italy,1900,1
+F,ITA,Italy,1920,2
+F,ITA,Italy,1924,7
+F,ITA,Italy,1928,21
+F,ITA,Italy,1936,24
+F,ITA,Italy,1948,30
+F,ITA,Italy,1952,87
+F,ITA,Italy,1956,78
+F,ITA,Italy,1960,93
+F,ITA,Italy,1964,33
+F,ITA,Italy,1968,49
+F,ITA,Italy,1972,74
+F,ITA,Italy,1976,85
+F,ITA,Italy,1980,73
+F,ITA,Italy,1984,105
+F,ITA,Italy,1988,102
+F,ITA,Italy,1992,167
+F,ITA,Italy,1994,61
+F,ITA,Italy,1996,136
+F,ITA,Italy,1998,59
+F,ITA,Italy,2000,160
+F,ITA,Italy,2002,90
+F,ITA,Italy,2004,170
+F,ITA,Italy,2006,117
+F,ITA,Italy,2008,183
+F,ITA,Italy,2010,80
+F,ITA,Italy,2012,170
+F,ITA,Italy,2014,96
+F,ITA,Italy,2016,186
+F,IVB,"Virgin Islands, British",2008,1
+F,IVB,"Virgin Islands, British",2012,1
+F,IVB,"Virgin Islands, British",2016,3
+F,JAM,Jamaica,1948,9
+F,JAM,Jamaica,1952,3
+F,JAM,Jamaica,1964,9
+F,JAM,Jamaica,1968,11
+F,JAM,Jamaica,1972,19
+F,JAM,Jamaica,1976,19
+F,JAM,Jamaica,1980,14
+F,JAM,Jamaica,1984,24
+F,JAM,Jamaica,1988,19
+F,JAM,Jamaica,1992,24
+F,JAM,Jamaica,1996,32
+F,JAM,Jamaica,2000,36
+F,JAM,Jamaica,2004,35
+F,JAM,Jamaica,2008,36
+F,JAM,Jamaica,2012,33
+F,JAM,Jamaica,2016,43
+F,JOR,Jordan,1984,1
+F,JOR,Jordan,1988,2
+F,JOR,Jordan,1992,1
+F,JOR,Jordan,1996,2
+F,JOR,Jordan,2000,4
+F,JOR,Jordan,2004,4
+F,JOR,Jordan,2008,4
+F,JOR,Jordan,2012,4
+F,JOR,Jordan,2016,1
+F,JPN,Japan,1928,2
+F,JPN,Japan,1932,27
+F,JPN,Japan,1936,27
+F,JPN,Japan,1952,17
+F,JPN,Japan,1956,58
+F,JPN,Japan,1960,73
+F,JPN,Japan,1964,117
+F,JPN,Japan,1968,84
+F,JPN,Japan,1972,118
+F,JPN,Japan,1976,119
+F,JPN,Japan,1980,9
+F,JPN,Japan,1984,117
+F,JPN,Japan,1988,160
+F,JPN,Japan,1992,179
+F,JPN,Japan,1994,36
+F,JPN,Japan,1996,217
+F,JPN,Japan,1998,102
+F,JPN,Japan,2000,137
+F,JPN,Japan,2002,88
+F,JPN,Japan,2004,204
+F,JPN,Japan,2006,87
+F,JPN,Japan,2008,224
+F,JPN,Japan,2010,72
+F,JPN,Japan,2012,200
+F,JPN,Japan,2014,96
+F,JPN,Japan,2016,209
+F,KAZ,Kazakhstan,1994,28
+F,KAZ,Kazakhstan,1996,36
+F,KAZ,Kazakhstan,1998,36
+F,KAZ,Kazakhstan,2000,53
+F,KAZ,Kazakhstan,2002,52
+F,KAZ,Kazakhstan,2004,47
+F,KAZ,Kazakhstan,2006,30
+F,KAZ,Kazakhstan,2008,74
+F,KAZ,Kazakhstan,2010,48
+F,KAZ,Kazakhstan,2012,47
+F,KAZ,Kazakhstan,2014,41
+F,KAZ,Kazakhstan,2016,57
+F,KEN,Kenya,1956,1
+F,KEN,Kenya,1968,3
+F,KEN,Kenya,1972,3
+F,KEN,Kenya,1984,6
+F,KEN,Kenya,1988,6
+F,KEN,Kenya,1992,9
+F,KEN,Kenya,1996,10
+F,KEN,Kenya,2000,23
+F,KEN,Kenya,2004,24
+F,KEN,Kenya,2008,18
+F,KEN,Kenya,2012,22
+F,KEN,Kenya,2016,34
+F,KGZ,Kyrgyzstan,1994,2
+F,KGZ,Kyrgyzstan,1996,10
+F,KGZ,Kyrgyzstan,2000,20
+F,KGZ,Kyrgyzstan,2004,7
+F,KGZ,Kyrgyzstan,2008,4
+F,KGZ,Kyrgyzstan,2010,1
+F,KGZ,Kyrgyzstan,2012,3
+F,KGZ,Kyrgyzstan,2016,7
+F,KIR,Kiribati,2004,1
+F,KIR,Kiribati,2012,1
+F,KIR,Kiribati,2016,1
+F,KOR,South Korea,1948,1
+F,KOR,South Korea,1952,1
+F,KOR,South Korea,1960,13
+F,KOR,South Korea,1964,48
+F,KOR,South Korea,1968,19
+F,KOR,South Korea,1972,19
+F,KOR,South Korea,1976,17
+F,KOR,South Korea,1980,9
+F,KOR,South Korea,1984,79
+F,KOR,South Korea,1988,207
+F,KOR,South Korea,1992,99
+F,KOR,South Korea,1994,21
+F,KOR,South Korea,1996,145
+F,KOR,South Korea,1998,22
+F,KOR,South Korea,2000,127
+F,KOR,South Korea,2002,28
+F,KOR,South Korea,2004,141
+F,KOR,South Korea,2006,30
+F,KOR,South Korea,2008,121
+F,KOR,South Korea,2010,35
+F,KOR,South Korea,2012,136
+F,KOR,South Korea,2014,54
+F,KOR,South Korea,2016,118
+F,KOS,Kosovo,2016,5
+F,KSA,Saudi Arabia,2012,2
+F,KSA,Saudi Arabia,2016,3
+F,KUW,Kuwait,2004,1
+F,KUW,Kuwait,2012,3
+F,LAO,Laos,1980,2
+F,LAO,Laos,1988,1
+F,LAO,Laos,1996,1
+F,LAO,Laos,2000,1
+F,LAO,Laos,2004,2
+F,LAO,Laos,2008,2
+F,LAO,Laos,2012,1
+F,LAO,Laos,2016,2
+F,LAT,Latvia,1928,2
+F,LAT,Latvia,1936,3
+F,LAT,Latvia,1992,15
+F,LAT,Latvia,1994,10
+F,LAT,Latvia,1996,17
+F,LAT,Latvia,1998,16
+F,LAT,Latvia,2000,17
+F,LAT,Latvia,2002,8
+F,LAT,Latvia,2004,11
+F,LAT,Latvia,2006,20
+F,LAT,Latvia,2008,18
+F,LAT,Latvia,2010,20
+F,LAT,Latvia,2012,14
+F,LAT,Latvia,2014,13
+F,LAT,Latvia,2016,13
+F,LBA,Libya,1980,5
+F,LBA,Libya,2004,2
+F,LBA,Libya,2008,2
+F,LBA,Libya,2012,1
+F,LBA,Libya,2016,1
+F,LBR,Liberia,1984,1
+F,LBR,Liberia,1988,3
+F,LBR,Liberia,1996,1
+F,LBR,Liberia,2000,2
+F,LBR,Liberia,2004,1
+F,LBR,Liberia,2008,2
+F,LBR,Liberia,2012,2
+F,LBR,Liberia,2016,1
+F,LCA,Saint Lucia,1996,1
+F,LCA,Saint Lucia,2000,2
+F,LCA,Saint Lucia,2004,1
+F,LCA,Saint Lucia,2008,3
+F,LCA,Saint Lucia,2012,3
+F,LCA,Saint Lucia,2016,3
+F,LES,Lesotho,1992,2
+F,LES,Lesotho,1996,5
+F,LES,Lesotho,2000,2
+F,LES,Lesotho,2004,2
+F,LES,Lesotho,2008,1
+F,LES,Lesotho,2012,2
+F,LES,Lesotho,2016,1
+F,LIB,Lebanon,1972,2
+F,LIB,Lebanon,1976,1
+F,LIB,Lebanon,1980,3
+F,LIB,Lebanon,1984,1
+F,LIB,Lebanon,1988,3
+F,LIB,Lebanon,1996,1
+F,LIB,Lebanon,2000,2
+F,LIB,Lebanon,2002,2
+F,LIB,Lebanon,2004,2
+F,LIB,Lebanon,2006,5
+F,LIB,Lebanon,2008,2
+F,LIB,Lebanon,2010,4
+F,LIB,Lebanon,2012,7
+F,LIB,Lebanon,2014,1
+F,LIB,Lebanon,2016,5
+F,LIE,Liechtenstein,1968,3
+F,LIE,Liechtenstein,1972,3
+F,LIE,Liechtenstein,1976,11
+F,LIE,Liechtenstein,1980,8
+F,LIE,Liechtenstein,1984,9
+F,LIE,Liechtenstein,1988,12
+F,LIE,Liechtenstein,1992,6
+F,LIE,Liechtenstein,1994,2
+F,LIE,Liechtenstein,1996,2
+F,LIE,Liechtenstein,1998,7
+F,LIE,Liechtenstein,2000,1
+F,LIE,Liechtenstein,2002,1
+F,LIE,Liechtenstein,2006,3
+F,LIE,Liechtenstein,2010,1
+F,LIE,Liechtenstein,2012,3
+F,LIE,Liechtenstein,2014,1
+F,LIE,Liechtenstein,2016,2
+F,LTU,Lithuania,1928,1
+F,LTU,Lithuania,1992,19
+F,LTU,Lithuania,1994,6
+F,LTU,Lithuania,1996,22
+F,LTU,Lithuania,1998,5
+F,LTU,Lithuania,2000,30
+F,LTU,Lithuania,2002,5
+F,LTU,Lithuania,2004,15
+F,LTU,Lithuania,2006,7
+F,LTU,Lithuania,2008,33
+F,LTU,Lithuania,2010,5
+F,LTU,Lithuania,2012,30
+F,LTU,Lithuania,2014,11
+F,LTU,Lithuania,2016,20
+F,LUX,Luxembourg,1924,2
+F,LUX,Luxembourg,1928,2
+F,LUX,Luxembourg,1936,1
+F,LUX,Luxembourg,1948,4
+F,LUX,Luxembourg,1956,5
+F,LUX,Luxembourg,1960,13
+F,LUX,Luxembourg,1964,2
+F,LUX,Luxembourg,1968,3
+F,LUX,Luxembourg,1972,1
+F,LUX,Luxembourg,1984,1
+F,LUX,Luxembourg,1988,4
+F,LUX,Luxembourg,1992,1
+F,LUX,Luxembourg,1996,4
+F,LUX,Luxembourg,2000,7
+F,LUX,Luxembourg,2004,7
+F,LUX,Luxembourg,2006,1
+F,LUX,Luxembourg,2008,4
+F,LUX,Luxembourg,2012,4
+F,LUX,Luxembourg,2016,7
+F,MAD,Madagascar,1980,6
+F,MAD,Madagascar,1992,9
+F,MAD,Madagascar,1996,10
+F,MAD,Madagascar,2000,8
+F,MAD,Madagascar,2004,5
+F,MAD,Madagascar,2008,2
+F,MAD,Madagascar,2012,4
+F,MAD,Madagascar,2016,4
+F,MAL,Malaysia,1956,1
+F,MAR,Morocco,1972,3
+F,MAR,Morocco,1984,1
+F,MAR,Morocco,1988,4
+F,MAR,Morocco,1992,6
+F,MAR,Morocco,1996,6
+F,MAR,Morocco,2000,9
+F,MAR,Morocco,2004,9
+F,MAR,Morocco,2008,12
+F,MAR,Morocco,2012,19
+F,MAR,Morocco,2014,2
+F,MAR,Morocco,2016,21
+F,MAS,Malaysia,1964,6
+F,MAS,Malaysia,1972,5
+F,MAS,Malaysia,1984,4
+F,MAS,Malaysia,1988,8
+F,MAS,Malaysia,1996,3
+F,MAS,Malaysia,2000,13
+F,MAS,Malaysia,2004,11
+F,MAS,Malaysia,2008,16
+F,MAS,Malaysia,2012,16
+F,MAS,Malaysia,2016,19
+F,MAW,Malawi,1972,4
+F,MAW,Malawi,1992,1
+F,MAW,Malawi,2000,1
+F,MAW,Malawi,2004,2
+F,MAW,Malawi,2008,2
+F,MAW,Malawi,2012,2
+F,MAW,Malawi,2016,2
+F,MDA,Moldova,1994,2
+F,MDA,Moldova,1996,5
+F,MDA,Moldova,1998,2
+F,MDA,Moldova,2000,5
+F,MDA,Moldova,2002,5
+F,MDA,Moldova,2004,7
+F,MDA,Moldova,2006,7
+F,MDA,Moldova,2008,8
+F,MDA,Moldova,2010,4
+F,MDA,Moldova,2012,8
+F,MDA,Moldova,2014,2
+F,MDA,Moldova,2016,9
+F,MDV,Maldives,1992,1
+F,MDV,Maldives,1996,1
+F,MDV,Maldives,2000,2
+F,MDV,Maldives,2004,2
+F,MDV,Maldives,2008,2
+F,MDV,Maldives,2012,2
+F,MDV,Maldives,2016,2
+F,MEX,Mexico,1932,2
+F,MEX,Mexico,1948,9
+F,MEX,Mexico,1952,3
+F,MEX,Mexico,1956,3
+F,MEX,Mexico,1960,13
+F,MEX,Mexico,1964,6
+F,MEX,Mexico,1968,103
+F,MEX,Mexico,1972,71
+F,MEX,Mexico,1976,15
+F,MEX,Mexico,1980,24
+F,MEX,Mexico,1984,41
+F,MEX,Mexico,1988,30
+F,MEX,Mexico,1992,45
+F,MEX,Mexico,1996,31
+F,MEX,Mexico,2000,34
+F,MEX,Mexico,2004,67
+F,MEX,Mexico,2008,51
+F,MEX,Mexico,2012,45
+F,MEX,Mexico,2016,56
+F,MGL,Mongolia,1964,19
+F,MGL,Mongolia,1968,16
+F,MGL,Mongolia,1972,2
+F,MGL,Mongolia,1976,2
+F,MGL,Mongolia,1980,12
+F,MGL,Mongolia,1988,10
+F,MGL,Mongolia,1992,8
+F,MGL,Mongolia,1996,6
+F,MGL,Mongolia,2000,11
+F,MGL,Mongolia,2002,1
+F,MGL,Mongolia,2004,8
+F,MGL,Mongolia,2006,1
+F,MGL,Mongolia,2008,17
+F,MGL,Mongolia,2010,1
+F,MGL,Mongolia,2012,14
+F,MGL,Mongolia,2014,1
+F,MGL,Mongolia,2016,20
+F,MHL,Marshall Islands,2008,2
+F,MHL,Marshall Islands,2012,2
+F,MHL,Marshall Islands,2016,3
+F,MKD,Macedonia,1996,6
+F,MKD,Macedonia,1998,1
+F,MKD,Macedonia,2000,8
+F,MKD,Macedonia,2004,6
+F,MKD,Macedonia,2006,2
+F,MKD,Macedonia,2008,2
+F,MKD,Macedonia,2010,1
+F,MKD,Macedonia,2012,2
+F,MKD,Macedonia,2014,1
+F,MKD,Macedonia,2016,4
+F,MLI,Mali,1980,1
+F,MLI,Mali,1988,2
+F,MLI,Mali,1992,2
+F,MLI,Mali,1996,2
+F,MLI,Mali,2000,2
+F,MLI,Mali,2004,2
+F,MLI,Mali,2008,14
+F,MLI,Mali,2012,2
+F,MLI,Mali,2016,2
+F,MLT,Malta,1980,1
+F,MLT,Malta,1984,2
+F,MLT,Malta,1988,1
+F,MLT,Malta,1992,5
+F,MLT,Malta,1996,5
+F,MLT,Malta,2000,3
+F,MLT,Malta,2004,3
+F,MLT,Malta,2008,3
+F,MLT,Malta,2012,2
+F,MLT,Malta,2014,2
+F,MLT,Malta,2016,4
+F,MNE,Montenegro,2008,2
+F,MNE,Montenegro,2012,15
+F,MNE,Montenegro,2014,1
+F,MNE,Montenegro,2016,18
+F,MON,Monaco,1988,1
+F,MON,Monaco,1992,1
+F,MON,Monaco,1996,1
+F,MON,Monaco,2000,1
+F,MON,Monaco,2004,1
+F,MON,Monaco,2006,5
+F,MON,Monaco,2008,1
+F,MON,Monaco,2010,4
+F,MON,Monaco,2012,1
+F,MON,Monaco,2014,2
+F,MOZ,Mozambique,1980,3
+F,MOZ,Mozambique,1984,2
+F,MOZ,Mozambique,1988,4
+F,MOZ,Mozambique,1992,4
+F,MOZ,Mozambique,1996,1
+F,MOZ,Mozambique,2000,2
+F,MOZ,Mozambique,2004,2
+F,MOZ,Mozambique,2008,2
+F,MOZ,Mozambique,2012,2
+F,MOZ,Mozambique,2016,1
+F,MRI,Mauritius,1984,1
+F,MRI,Mauritius,1988,2
+F,MRI,Mauritius,1992,12
+F,MRI,Mauritius,1996,9
+F,MRI,Mauritius,2000,6
+F,MRI,Mauritius,2004,3
+F,MRI,Mauritius,2008,5
+F,MRI,Mauritius,2012,7
+F,MRI,Mauritius,2016,6
+F,MTN,Mauritania,2000,1
+F,MTN,Mauritania,2004,1
+F,MTN,Mauritania,2008,1
+F,MTN,Mauritania,2012,1
+F,MTN,Mauritania,2016,1
+F,MYA,Myanmar,1988,3
+F,MYA,Myanmar,1992,4
+F,MYA,Myanmar,1996,1
+F,MYA,Myanmar,2000,6
+F,MYA,Myanmar,2004,2
+F,MYA,Myanmar,2008,2
+F,MYA,Myanmar,2012,3
+F,MYA,Myanmar,2016,3
+F,NAM,Namibia,1992,3
+F,NAM,Namibia,1996,3
+F,NAM,Namibia,2000,6
+F,NAM,Namibia,2004,1
+F,NAM,Namibia,2008,5
+F,NAM,Namibia,2012,4
+F,NAM,Namibia,2016,6
+F,NCA,Nicaragua,1972,2
+F,NCA,Nicaragua,1980,3
+F,NCA,Nicaragua,1992,2
+F,NCA,Nicaragua,1996,1
+F,NCA,Nicaragua,2000,2
+F,NCA,Nicaragua,2004,4
+F,NCA,Nicaragua,2008,3
+F,NCA,Nicaragua,2012,3
+F,NCA,Nicaragua,2016,2
+F,NED,Netherlands,1920,1
+F,NED,Netherlands,1924,15
+F,NED,Netherlands,1928,55
+F,NED,Netherlands,1932,24
+F,NED,Netherlands,1936,33
+F,NED,Netherlands,1948,46
+F,NED,Netherlands,1952,89
+F,NED,Netherlands,1956,2
+F,NED,Netherlands,1960,71
+F,NED,Netherlands,1964,35
+F,NED,Netherlands,1968,55
+F,NED,Netherlands,1972,98
+F,NED,Netherlands,1976,99
+F,NED,Netherlands,1980,41
+F,NED,Netherlands,1984,97
+F,NED,Netherlands,1988,97
+F,NED,Netherlands,1992,144
+F,NED,Netherlands,1994,20
+F,NED,Netherlands,1996,128
+F,NED,Netherlands,1998,27
+F,NED,Netherlands,2000,109
+F,NED,Netherlands,2002,22
+F,NED,Netherlands,2004,105
+F,NED,Netherlands,2006,30
+F,NED,Netherlands,2008,123
+F,NED,Netherlands,2010,35
+F,NED,Netherlands,2012,105
+F,NED,Netherlands,2014,41
+F,NED,Netherlands,2016,176
+F,NEP,Nepal,1988,3
+F,NEP,Nepal,1992,1
+F,NEP,Nepal,1996,3
+F,NEP,Nepal,2000,3
+F,NEP,Nepal,2004,3
+F,NEP,Nepal,2008,4
+F,NEP,Nepal,2012,3
+F,NEP,Nepal,2016,4
+F,NGR,Nigeria,1964,2
+F,NGR,Nigeria,1968,9
+F,NGR,Nigeria,1972,11
+F,NGR,Nigeria,1980,10
+F,NGR,Nigeria,1984,3
+F,NGR,Nigeria,1988,15
+F,NGR,Nigeria,1992,30
+F,NGR,Nigeria,1996,27
+F,NGR,Nigeria,2000,49
+F,NGR,Nigeria,2004,50
+F,NGR,Nigeria,2008,47
+F,NGR,Nigeria,2012,28
+F,NGR,Nigeria,2016,28
+F,NIG,Niger,1996,1
+F,NIG,Niger,2000,2
+F,NIG,Niger,2004,1
+F,NIG,Niger,2008,2
+F,NIG,Niger,2012,2
+F,NIG,Niger,2016,2
+F,NOR,Norway,1912,3
+F,NOR,Norway,1920,6
+F,NOR,Norway,1924,5
+F,NOR,Norway,1928,3
+F,NOR,Norway,1932,2
+F,NOR,Norway,1936,9
+F,NOR,Norway,1948,14
+F,NOR,Norway,1952,38
+F,NOR,Norway,1956,24
+F,NOR,Norway,1960,12
+F,NOR,Norway,1964,17
+F,NOR,Norway,1968,65
+F,NOR,Norway,1972,75
+F,NOR,Norway,1976,26
+F,NOR,Norway,1980,20
+F,NOR,Norway,1984,49
+F,NOR,Norway,1988,51
+F,NOR,Norway,1992,95
+F,NOR,Norway,1994,48
+F,NOR,Norway,1996,62
+F,NOR,Norway,1998,62
+F,NOR,Norway,2000,54
+F,NOR,Norway,2002,56
+F,NOR,Norway,2004,18
+F,NOR,Norway,2006,56
+F,NOR,Norway,2008,59
+F,NOR,Norway,2010,55
+F,NOR,Norway,2012,32
+F,NOR,Norway,2014,77
+F,NOR,Norway,2016,37
+F,NRU,Nauru,2000,1
+F,NRU,Nauru,2004,1
+F,NZL,New Zealand,1920,2
+F,NZL,New Zealand,1924,2
+F,NZL,New Zealand,1928,5
+F,NZL,New Zealand,1932,1
+F,NZL,New Zealand,1948,1
+F,NZL,New Zealand,1952,6
+F,NZL,New Zealand,1956,11
+F,NZL,New Zealand,1960,12
+F,NZL,New Zealand,1964,23
+F,NZL,New Zealand,1968,18
+F,NZL,New Zealand,1972,17
+F,NZL,New Zealand,1976,23
+F,NZL,New Zealand,1980,4
+F,NZL,New Zealand,1984,44
+F,NZL,New Zealand,1988,24
+F,NZL,New Zealand,1992,49
+F,NZL,New Zealand,1994,2
+F,NZL,New Zealand,1996,45
+F,NZL,New Zealand,1998,4
+F,NZL,New Zealand,2000,84
+F,NZL,New Zealand,2002,3
+F,NZL,New Zealand,2004,82
+F,NZL,New Zealand,2006,8
+F,NZL,New Zealand,2008,89
+F,NZL,New Zealand,2010,9
+F,NZL,New Zealand,2012,94
+F,NZL,New Zealand,2014,8
+F,NZL,New Zealand,2016,114
+F,OMA,Oman,2008,1
+F,OMA,Oman,2012,1
+F,OMA,Oman,2016,2
+F,PAK,Pakistan,1996,1
+F,PAK,Pakistan,2000,1
+F,PAK,Pakistan,2004,2
+F,PAK,Pakistan,2008,2
+F,PAK,Pakistan,2012,2
+F,PAK,Pakistan,2016,3
+F,PAN,Panama,1960,6
+F,PAN,Panama,1964,9
+F,PAN,Panama,1976,3
+F,PAN,Panama,1984,1
+F,PAN,Panama,1996,2
+F,PAN,Panama,2000,3
+F,PAN,Panama,2004,2
+F,PAN,Panama,2008,2
+F,PAN,Panama,2012,2
+F,PAN,Panama,2016,9
+F,PAR,Paraguay,1992,3
+F,PAR,Paraguay,1996,1
+F,PAR,Paraguay,2000,3
+F,PAR,Paraguay,2004,2
+F,PAR,Paraguay,2008,4
+F,PAR,Paraguay,2012,4
+F,PAR,Paraguay,2014,1
+F,PAR,Paraguay,2016,5
+F,PER,Peru,1964,1
+F,PER,Peru,1968,16
+F,PER,Peru,1972,4
+F,PER,Peru,1976,14
+F,PER,Peru,1980,20
+F,PER,Peru,1984,19
+F,PER,Peru,1988,15
+F,PER,Peru,1992,6
+F,PER,Peru,1996,17
+F,PER,Peru,2000,13
+F,PER,Peru,2004,5
+F,PER,Peru,2008,6
+F,PER,Peru,2010,2
+F,PER,Peru,2012,7
+F,PER,Peru,2014,2
+F,PER,Peru,2016,15
+F,PHI,Philippines,1956,5
+F,PHI,Philippines,1960,5
+F,PHI,Philippines,1964,14
+F,PHI,Philippines,1968,10
+F,PHI,Philippines,1972,9
+F,PHI,Philippines,1976,3
+F,PHI,Philippines,1984,8
+F,PHI,Philippines,1988,7
+F,PHI,Philippines,1992,5
+F,PHI,Philippines,1996,7
+F,PHI,Philippines,2000,10
+F,PHI,Philippines,2004,5
+F,PHI,Philippines,2008,6
+F,PHI,Philippines,2012,4
+F,PHI,Philippines,2016,6
+F,PLE,Palestine,2000,1
+F,PLE,Palestine,2004,1
+F,PLE,Palestine,2008,2
+F,PLE,Palestine,2012,2
+F,PLE,Palestine,2016,2
+F,PLW,Palau,2000,3
+F,PLW,Palau,2004,2
+F,PLW,Palau,2008,2
+F,PLW,Palau,2012,3
+F,PLW,Palau,2016,3
+F,PNG,Papua New Guinea,1984,5
+F,PNG,Papua New Guinea,1988,3
+F,PNG,Papua New Guinea,1992,3
+F,PNG,Papua New Guinea,2000,3
+F,PNG,Papua New Guinea,2004,2
+F,PNG,Papua New Guinea,2008,4
+F,PNG,Papua New Guinea,2012,4
+F,PNG,Papua New Guinea,2016,2
+F,POL,Poland,1924,1
+F,POL,Poland,1928,11
+F,POL,Poland,1932,11
+F,POL,Poland,1936,17
+F,POL,Poland,1948,7
+F,POL,Poland,1952,83
+F,POL,Poland,1956,73
+F,POL,Poland,1960,84
+F,POL,Poland,1964,89
+F,POL,Poland,1968,92
+F,POL,Poland,1972,93
+F,POL,Poland,1976,60
+F,POL,Poland,1980,127
+F,POL,Poland,1984,14
+F,POL,Poland,1988,59
+F,POL,Poland,1992,108
+F,POL,Poland,1994,33
+F,POL,Poland,1996,53
+F,POL,Poland,1998,32
+F,POL,Poland,2000,79
+F,POL,Poland,2002,8
+F,POL,Poland,2004,72
+F,POL,Poland,2006,34
+F,POL,Poland,2008,135
+F,POL,Poland,2010,61
+F,POL,Poland,2012,111
+F,POL,Poland,2014,73
+F,POL,Poland,2016,125
+F,POR,Portugal,1952,15
+F,POR,Portugal,1960,17
+F,POR,Portugal,1964,5
+F,POR,Portugal,1968,5
+F,POR,Portugal,1980,5
+F,POR,Portugal,1984,11
+F,POR,Portugal,1988,15
+F,POR,Portugal,1992,29
+F,POR,Portugal,1996,39
+F,POR,Portugal,1998,1
+F,POR,Portugal,2000,13
+F,POR,Portugal,2004,18
+F,POR,Portugal,2008,29
+F,POR,Portugal,2012,42
+F,POR,Portugal,2014,2
+F,POR,Portugal,2016,34
+F,PRK,North Korea,1964,11
+F,PRK,North Korea,1972,24
+F,PRK,North Korea,1976,2
+F,PRK,North Korea,1980,38
+F,PRK,North Korea,1984,8
+F,PRK,North Korea,1988,10
+F,PRK,North Korea,1992,84
+F,PRK,North Korea,1996,13
+F,PRK,North Korea,1998,13
+F,PRK,North Korea,2000,26
+F,PRK,North Korea,2004,51
+F,PRK,North Korea,2006,5
+F,PRK,North Korea,2008,44
+F,PRK,North Korea,2010,2
+F,PRK,North Korea,2012,40
+F,PRK,North Korea,2016,25
+F,PUR,Puerto Rico,1960,1
+F,PUR,Puerto Rico,1964,8
+F,PUR,Puerto Rico,1968,18
+F,PUR,Puerto Rico,1976,20
+F,PUR,Puerto Rico,1984,10
+F,PUR,Puerto Rico,1988,9
+F,PUR,Puerto Rico,1992,9
+F,PUR,Puerto Rico,1996,28
+F,PUR,Puerto Rico,2000,7
+F,PUR,Puerto Rico,2004,13
+F,PUR,Puerto Rico,2008,7
+F,PUR,Puerto Rico,2012,9
+F,PUR,Puerto Rico,2016,28
+F,QAT,Qatar,2012,5
+F,QAT,Qatar,2016,2
+F,RHO,Zimbabwe,1960,1
+F,ROU,Romania,1928,2
+F,ROU,Romania,1936,3
+F,ROU,Romania,1952,61
+F,ROU,Romania,1956,59
+F,ROU,Romania,1960,49
+F,ROU,Romania,1964,64
+F,ROU,Romania,1968,22
+F,ROU,Romania,1972,64
+F,ROU,Romania,1976,93
+F,ROU,Romania,1980,121
+F,ROU,Romania,1984,102
+F,ROU,Romania,1988,106
+F,ROU,Romania,1992,165
+F,ROU,Romania,1994,24
+F,ROU,Romania,1996,123
+F,ROU,Romania,1998,9
+F,ROU,Romania,2000,128
+F,ROU,Romania,2002,21
+F,ROU,Romania,2004,98
+F,ROU,Romania,2006,26
+F,ROU,Romania,2008,88
+F,ROU,Romania,2010,28
+F,ROU,Romania,2012,73
+F,ROU,Romania,2014,15
+F,ROU,Romania,2016,75
+F,RSA,South Africa,1920,2
+F,RSA,South Africa,1928,12
+F,RSA,South Africa,1932,5
+F,RSA,South Africa,1936,5
+F,RSA,South Africa,1948,2
+F,RSA,South Africa,1952,9
+F,RSA,South Africa,1956,13
+F,RSA,South Africa,1960,9
+F,RSA,South Africa,1992,45
+F,RSA,South Africa,1994,2
+F,RSA,South Africa,1996,37
+F,RSA,South Africa,1998,1
+F,RSA,South Africa,2000,49
+F,RSA,South Africa,2004,49
+F,RSA,South Africa,2008,80
+F,RSA,South Africa,2012,61
+F,RSA,South Africa,2016,46
+F,RUS,Russia,1924,1
+F,RUS,Russia,1994,84
+F,RUS,Russia,1996,233
+F,RUS,Russia,1998,75
+F,RUS,Russia,2000,269
+F,RUS,Russia,2002,102
+F,RUS,Russia,2004,265
+F,RUS,Russia,2006,111
+F,RUS,Russia,2008,285
+F,RUS,Russia,2010,126
+F,RUS,Russia,2012,283
+F,RUS,Russia,2014,152
+F,RUS,Russia,2016,203
+F,RWA,Rwanda,1984,2
+F,RWA,Rwanda,1988,4
+F,RWA,Rwanda,1992,3
+F,RWA,Rwanda,2000,2
+F,RWA,Rwanda,2004,2
+F,RWA,Rwanda,2008,2
+F,RWA,Rwanda,2012,2
+F,RWA,Rwanda,2016,3
+F,SAA,Germany,1952,7
+F,SAM,Samoa,1996,1
+F,SAM,Samoa,2000,1
+F,SAM,Samoa,2004,1
+F,SAM,Samoa,2008,2
+F,SAM,Samoa,2012,3
+F,SAM,Samoa,2016,4
+F,SCG,Serbia,1996,14
+F,SCG,Serbia,1998,1
+F,SCG,Serbia,2000,26
+F,SCG,Serbia,2002,2
+F,SCG,Serbia,2004,9
+F,SCG,Serbia,2006,6
+F,SEN,Senegal,1976,3
+F,SEN,Senegal,1980,4
+F,SEN,Senegal,1984,1
+F,SEN,Senegal,1988,1
+F,SEN,Senegal,1992,2
+F,SEN,Senegal,2000,23
+F,SEN,Senegal,2004,13
+F,SEN,Senegal,2008,7
+F,SEN,Senegal,2012,7
+F,SEN,Senegal,2016,16
+F,SEY,Seychelles,1980,4
+F,SEY,Seychelles,1984,3
+F,SEY,Seychelles,1992,3
+F,SEY,Seychelles,1996,1
+F,SEY,Seychelles,2000,3
+F,SEY,Seychelles,2004,2
+F,SEY,Seychelles,2008,3
+F,SEY,Seychelles,2012,2
+F,SEY,Seychelles,2016,2
+F,SKN,Saint Kitts,1996,9
+F,SKN,Saint Kitts,2000,2
+F,SKN,Saint Kitts,2004,1
+F,SKN,Saint Kitts,2008,4
+F,SKN,Saint Kitts,2016,1
+F,SLE,Sierra Leone,1980,7
+F,SLE,Sierra Leone,1984,1
+F,SLE,Sierra Leone,1988,1
+F,SLE,Sierra Leone,1992,5
+F,SLE,Sierra Leone,1996,7
+F,SLE,Sierra Leone,2000,1
+F,SLE,Sierra Leone,2004,1
+F,SLE,Sierra Leone,2008,1
+F,SLE,Sierra Leone,2012,1
+F,SLE,Sierra Leone,2016,2
+F,SLO,Slovenia,1992,21
+F,SLO,Slovenia,1994,21
+F,SLO,Slovenia,1996,14
+F,SLO,Slovenia,1998,26
+F,SLO,Slovenia,2000,26
+F,SLO,Slovenia,2002,41
+F,SLO,Slovenia,2004,35
+F,SLO,Slovenia,2006,39
+F,SLO,Slovenia,2008,27
+F,SLO,Slovenia,2010,46
+F,SLO,Slovenia,2012,48
+F,SLO,Slovenia,2014,41
+F,SLO,Slovenia,2016,29
+F,SMR,San Marino,1976,2
+F,SMR,San Marino,1984,3
+F,SMR,San Marino,1992,1
+F,SMR,San Marino,1996,1
+F,SMR,San Marino,2000,1
+F,SMR,San Marino,2004,1
+F,SMR,San Marino,2008,2
+F,SMR,San Marino,2012,3
+F,SMR,San Marino,2014,1
+F,SMR,San Marino,2016,2
+F,SOL,Solomon Islands,1996,1
+F,SOL,Solomon Islands,2000,1
+F,SOL,Solomon Islands,2004,1
+F,SOL,Solomon Islands,2008,2
+F,SOL,Solomon Islands,2012,2
+F,SOL,Solomon Islands,2016,2
+F,SOM,Somalia,2000,1
+F,SOM,Somalia,2004,1
+F,SOM,Somalia,2008,1
+F,SOM,Somalia,2012,1
+F,SOM,Somalia,2016,1
+F,SRB,Serbia,2008,27
+F,SRB,Serbia,2010,8
+F,SRB,Serbia,2012,42
+F,SRB,Serbia,2014,5
+F,SRB,Serbia,2016,57
+F,SRI,Sri Lanka,1988,4
+F,SRI,Sri Lanka,1992,8
+F,SRI,Sri Lanka,1996,6
+F,SRI,Sri Lanka,2000,13
+F,SRI,Sri Lanka,2004,4
+F,SRI,Sri Lanka,2008,4
+F,SRI,Sri Lanka,2012,3
+F,SRI,Sri Lanka,2016,2
+F,SSD,South Sudan,2016,1
+F,STP,Sao Tome and Principe,1996,1
+F,STP,Sao Tome and Principe,2000,1
+F,STP,Sao Tome and Principe,2004,1
+F,STP,Sao Tome and Principe,2008,1
+F,STP,Sao Tome and Principe,2012,1
+F,STP,Sao Tome and Principe,2016,1
+F,SUD,Sudan,2000,1
+F,SUD,Sudan,2004,1
+F,SUD,Sudan,2008,4
+F,SUD,Sudan,2012,2
+F,SUD,Sudan,2016,2
+F,SUI,Switzerland,1900,2
+F,SUI,Switzerland,1924,5
+F,SUI,Switzerland,1928,3
+F,SUI,Switzerland,1936,10
+F,SUI,Switzerland,1948,27
+F,SUI,Switzerland,1952,27
+F,SUI,Switzerland,1956,14
+F,SUI,Switzerland,1960,16
+F,SUI,Switzerland,1964,20
+F,SUI,Switzerland,1968,21
+F,SUI,Switzerland,1972,89
+F,SUI,Switzerland,1976,17
+F,SUI,Switzerland,1980,27
+F,SUI,Switzerland,1984,100
+F,SUI,Switzerland,1988,73
+F,SUI,Switzerland,1992,82
+F,SUI,Switzerland,1994,38
+F,SUI,Switzerland,1996,70
+F,SUI,Switzerland,1998,35
+F,SUI,Switzerland,2000,55
+F,SUI,Switzerland,2002,46
+F,SUI,Switzerland,2004,58
+F,SUI,Switzerland,2006,62
+F,SUI,Switzerland,2008,48
+F,SUI,Switzerland,2010,66
+F,SUI,Switzerland,2012,37
+F,SUI,Switzerland,2014,94
+F,SUI,Switzerland,2016,61
+F,SUR,Suriname,1988,4
+F,SUR,Suriname,1992,2
+F,SUR,Suriname,1996,5
+F,SUR,Suriname,2000,3
+F,SUR,Suriname,2004,2
+F,SUR,Suriname,2008,2
+F,SUR,Suriname,2012,2
+F,SUR,Suriname,2016,2
+F,SVK,Slovakia,1994,26
+F,SVK,Slovakia,1996,27
+F,SVK,Slovakia,1998,19
+F,SVK,Slovakia,2000,36
+F,SVK,Slovakia,2002,23
+F,SVK,Slovakia,2004,26
+F,SVK,Slovakia,2006,38
+F,SVK,Slovakia,2008,28
+F,SVK,Slovakia,2010,43
+F,SVK,Slovakia,2012,30
+F,SVK,Slovakia,2014,41
+F,SVK,Slovakia,2016,24
+F,SWE,Sweden,1908,3
+F,SWE,Sweden,1912,38
+F,SWE,Sweden,1920,23
+F,SWE,Sweden,1924,26
+F,SWE,Sweden,1928,18
+F,SWE,Sweden,1932,4
+F,SWE,Sweden,1936,9
+F,SWE,Sweden,1948,28
+F,SWE,Sweden,1952,96
+F,SWE,Sweden,1956,73
+F,SWE,Sweden,1960,70
+F,SWE,Sweden,1964,77
+F,SWE,Sweden,1968,59
+F,SWE,Sweden,1972,75
+F,SWE,Sweden,1976,51
+F,SWE,Sweden,1980,75
+F,SWE,Sweden,1984,91
+F,SWE,Sweden,1988,86
+F,SWE,Sweden,1992,111
+F,SWE,Sweden,1994,48
+F,SWE,Sweden,1996,93
+F,SWE,Sweden,1998,72
+F,SWE,Sweden,2000,75
+F,SWE,Sweden,2002,73
+F,SWE,Sweden,2004,75
+F,SWE,Sweden,2006,73
+F,SWE,Sweden,2008,97
+F,SWE,Sweden,2010,80
+F,SWE,Sweden,2012,102
+F,SWE,Sweden,2014,64
+F,SWE,Sweden,2016,112
+F,SWZ,Swaziland,1996,1
+F,SWZ,Swaziland,2000,2
+F,SWZ,Swaziland,2004,1
+F,SWZ,Swaziland,2008,2
+F,SWZ,Swaziland,2012,1
+F,SWZ,Swaziland,2016,1
+F,SYR,Syria,1972,1
+F,SYR,Syria,1980,3
+F,SYR,Syria,1992,1
+F,SYR,Syria,1996,1
+F,SYR,Syria,2000,2
+F,SYR,Syria,2004,1
+F,SYR,Syria,2008,1
+F,SYR,Syria,2012,4
+F,SYR,Syria,2016,3
+F,TAN,Tanzania,1980,8
+F,TAN,Tanzania,1984,3
+F,TAN,Tanzania,1996,1
+F,TAN,Tanzania,2000,1
+F,TAN,Tanzania,2004,2
+F,TAN,Tanzania,2008,2
+F,TAN,Tanzania,2012,2
+F,TAN,Tanzania,2016,2
+F,TCH,Czech Republic,1920,1
+F,TCH,Czech Republic,1924,4
+F,TCH,Czech Republic,1928,2
+F,TCH,Czech Republic,1936,20
+F,TCH,Czech Republic,1948,25
+F,TCH,Czech Republic,1952,61
+F,TCH,Czech Republic,1956,58
+F,TCH,Czech Republic,1960,50
+F,TCH,Czech Republic,1964,58
+F,TCH,Czech Republic,1968,69
+F,TCH,Czech Republic,1972,82
+F,TCH,Czech Republic,1976,91
+F,TCH,Czech Republic,1980,97
+F,TCH,Czech Republic,1984,28
+F,TCH,Czech Republic,1988,121
+F,TCH,Czech Republic,1992,136
+F,TGA,Tonga,1988,2
+F,TGA,Tonga,1996,1
+F,TGA,Tonga,2000,1
+F,TGA,Tonga,2004,1
+F,TGA,Tonga,2008,1
+F,TGA,Tonga,2012,1
+F,TGA,Tonga,2016,3
+F,THA,Thailand,1964,10
+F,THA,Thailand,1976,7
+F,THA,Thailand,1984,11
+F,THA,Thailand,1988,2
+F,THA,Thailand,1992,35
+F,THA,Thailand,1996,20
+F,THA,Thailand,2000,26
+F,THA,Thailand,2004,21
+F,THA,Thailand,2008,30
+F,THA,Thailand,2012,21
+F,THA,Thailand,2014,1
+F,THA,Thailand,2016,30
+F,TJK,Tajikistan,1996,2
+F,TJK,Tajikistan,2000,2
+F,TJK,Tajikistan,2004,4
+F,TJK,Tajikistan,2008,3
+F,TJK,Tajikistan,2012,3
+F,TJK,Tajikistan,2016,2
+F,TKM,Turkmenistan,1996,3
+F,TKM,Turkmenistan,2000,4
+F,TKM,Turkmenistan,2004,3
+F,TKM,Turkmenistan,2008,4
+F,TKM,Turkmenistan,2012,3
+F,TKM,Turkmenistan,2016,5
+F,TLS,Timor-Leste,2004,1
+F,TLS,Timor-Leste,2008,1
+F,TLS,Timor-Leste,2012,1
+F,TLS,Timor-Leste,2016,2
+F,TOG,Togo,2000,1
+F,TOG,Togo,2004,1
+F,TOG,Togo,2008,1
+F,TOG,Togo,2012,2
+F,TOG,Togo,2014,3
+F,TOG,Togo,2016,3
+F,TPE,Taiwan,1960,4
+F,TPE,Taiwan,1964,10
+F,TPE,Taiwan,1968,31
+F,TPE,Taiwan,1972,15
+F,TPE,Taiwan,1984,15
+F,TPE,Taiwan,1988,52
+F,TPE,Taiwan,1992,12
+F,TPE,Taiwan,1996,66
+F,TPE,Taiwan,1998,1
+F,TPE,Taiwan,2000,42
+F,TPE,Taiwan,2004,47
+F,TPE,Taiwan,2008,44
+F,TPE,Taiwan,2012,33
+F,TPE,Taiwan,2016,36
+F,TTO,Trinidad,1972,1
+F,TTO,Trinidad,1984,8
+F,TTO,Trinidad,1988,5
+F,TTO,Trinidad,1996,6
+F,TTO,Trinidad,2000,7
+F,TTO,Trinidad,2004,10
+F,TTO,Trinidad,2008,13
+F,TTO,Trinidad,2012,12
+F,TTO,Trinidad,2016,18
+F,TUN,Tunisia,1976,2
+F,TUN,Tunisia,1984,4
+F,TUN,Tunisia,1988,5
+F,TUN,Tunisia,1992,4
+F,TUN,Tunisia,1996,7
+F,TUN,Tunisia,2000,7
+F,TUN,Tunisia,2004,12
+F,TUN,Tunisia,2008,12
+F,TUN,Tunisia,2012,21
+F,TUN,Tunisia,2016,21
+F,TUR,Turkey,1936,2
+F,TUR,Turkey,1948,1
+F,TUR,Turkey,1960,4
+F,TUR,Turkey,1972,1
+F,TUR,Turkey,1976,1
+F,TUR,Turkey,1984,3
+F,TUR,Turkey,1988,8
+F,TUR,Turkey,1992,8
+F,TUR,Turkey,1996,13
+F,TUR,Turkey,2000,20
+F,TUR,Turkey,2002,2
+F,TUR,Turkey,2004,27
+F,TUR,Turkey,2006,7
+F,TUR,Turkey,2008,21
+F,TUR,Turkey,2010,6
+F,TUR,Turkey,2012,67
+F,TUR,Turkey,2014,6
+F,TUR,Turkey,2016,54
+F,UAE,United Arab Emirates,2008,2
+F,UAE,United Arab Emirates,2012,2
+F,UAE,United Arab Emirates,2016,3
+F,UGA,Uganda,1964,3
+F,UGA,Uganda,1972,2
+F,UGA,Uganda,1984,2
+F,UGA,Uganda,1988,8
+F,UGA,Uganda,1992,2
+F,UGA,Uganda,1996,5
+F,UGA,Uganda,2000,4
+F,UGA,Uganda,2004,2
+F,UGA,Uganda,2008,2
+F,UGA,Uganda,2012,4
+F,UGA,Uganda,2016,8
+F,UKR,Ukraine,1994,30
+F,UKR,Ukraine,1996,133
+F,UKR,Ukraine,1998,51
+F,UKR,Ukraine,2000,152
+F,UKR,Ukraine,2002,43
+F,UKR,Ukraine,2004,162
+F,UKR,Ukraine,2006,48
+F,UKR,Ukraine,2008,166
+F,UKR,Ukraine,2010,51
+F,UKR,Ukraine,2012,143
+F,UKR,Ukraine,2014,56
+F,UKR,Ukraine,2016,145
+F,URS,Russia,1952,97
+F,URS,Russia,1956,91
+F,URS,Russia,1960,129
+F,URS,Russia,1964,147
+F,URS,Russia,1968,162
+F,URS,Russia,1972,173
+F,URS,Russia,1976,224
+F,URS,Russia,1980,253
+F,URS,Russia,1984,42
+F,URS,Russia,1988,272
+F,URU,Uruguay,1948,1
+F,URU,Uruguay,1952,1
+F,URU,Uruguay,1968,28
+F,URU,Uruguay,1972,7
+F,URU,Uruguay,1976,3
+F,URU,Uruguay,1984,2
+F,URU,Uruguay,1988,2
+F,URU,Uruguay,1996,2
+F,URU,Uruguay,2000,3
+F,URU,Uruguay,2004,2
+F,URU,Uruguay,2008,3
+F,URU,Uruguay,2012,3
+F,URU,Uruguay,2016,5
+F,USA,USA,1900,9
+F,USA,USA,1904,16
+F,USA,USA,1920,22
+F,USA,USA,1924,38
+F,USA,USA,1928,57
+F,USA,USA,1932,89
+F,USA,USA,1936,67
+F,USA,USA,1948,77
+F,USA,USA,1952,116
+F,USA,USA,1956,115
+F,USA,USA,1960,131
+F,USA,USA,1964,167
+F,USA,USA,1968,184
+F,USA,USA,1972,198
+F,USA,USA,1976,228
+F,USA,USA,1980,45
+F,USA,USA,1984,305
+F,USA,USA,1988,348
+F,USA,USA,1992,367
+F,USA,USA,1994,89
+F,USA,USA,1996,361
+F,USA,USA,1998,126
+F,USA,USA,2000,340
+F,USA,USA,2002,135
+F,USA,USA,2004,340
+F,USA,USA,2006,138
+F,USA,USA,2008,366
+F,USA,USA,2010,145
+F,USA,USA,2012,343
+F,USA,USA,2014,158
+F,USA,USA,2016,369
+F,UZB,Uzbekistan,1994,4
+F,UZB,Uzbekistan,1996,20
+F,UZB,Uzbekistan,1998,2
+F,UZB,Uzbekistan,2000,27
+F,UZB,Uzbekistan,2002,3
+F,UZB,Uzbekistan,2004,22
+F,UZB,Uzbekistan,2006,2
+F,UZB,Uzbekistan,2008,20
+F,UZB,Uzbekistan,2010,3
+F,UZB,Uzbekistan,2012,19
+F,UZB,Uzbekistan,2014,2
+F,UZB,Uzbekistan,2016,27
+F,VAN,Vanuatu,1988,2
+F,VAN,Vanuatu,1992,3
+F,VAN,Vanuatu,1996,1
+F,VAN,Vanuatu,2000,1
+F,VAN,Vanuatu,2004,1
+F,VAN,Vanuatu,2008,2
+F,VAN,Vanuatu,2012,2
+F,VEN,Venezuela,1952,2
+F,VEN,Venezuela,1960,9
+F,VEN,Venezuela,1964,2
+F,VEN,Venezuela,1972,8
+F,VEN,Venezuela,1976,22
+F,VEN,Venezuela,1984,1
+F,VEN,Venezuela,1988,2
+F,VEN,Venezuela,1992,4
+F,VEN,Venezuela,1996,6
+F,VEN,Venezuela,1998,1
+F,VEN,Venezuela,2000,22
+F,VEN,Venezuela,2002,1
+F,VEN,Venezuela,2004,18
+F,VEN,Venezuela,2008,58
+F,VEN,Venezuela,2012,36
+F,VEN,Venezuela,2016,29
+F,VIE,Vietnam,1980,10
+F,VIE,Vietnam,1988,2
+F,VIE,Vietnam,1992,8
+F,VIE,Vietnam,1996,3
+F,VIE,Vietnam,2000,4
+F,VIE,Vietnam,2004,5
+F,VIE,Vietnam,2008,10
+F,VIE,Vietnam,2012,16
+F,VIE,Vietnam,2016,16
+F,VIN,Saint Vincent,1988,1
+F,VIN,Saint Vincent,1992,2
+F,VIN,Saint Vincent,1996,1
+F,VIN,Saint Vincent,2000,2
+F,VIN,Saint Vincent,2004,1
+F,VIN,Saint Vincent,2008,1
+F,VIN,Saint Vincent,2012,1
+F,VIN,Saint Vincent,2016,2
+F,VNM,Vietnam,1968,2
+F,YEM,Yemen,2000,1
+F,YEM,Yemen,2008,1
+F,YEM,Yemen,2012,1
+F,YEM,Yemen,2016,1
+F,YUG,Serbia,1936,15
+F,YUG,Serbia,1948,12
+F,YUG,Serbia,1952,60
+F,YUG,Serbia,1956,14
+F,YUG,Serbia,1960,22
+F,YUG,Serbia,1964,10
+F,YUG,Serbia,1968,27
+F,YUG,Serbia,1972,45
+F,YUG,Serbia,1976,7
+F,YUG,Serbia,1980,35
+F,YUG,Serbia,1984,65
+F,YUG,Serbia,1988,59
+F,YUG,Serbia,1992,7
+F,ZAM,Zambia,1964,1
+F,ZAM,Zambia,1972,4
+F,ZAM,Zambia,1992,3
+F,ZAM,Zambia,1996,1
+F,ZAM,Zambia,2000,2
+F,ZAM,Zambia,2004,2
+F,ZAM,Zambia,2008,2
+F,ZAM,Zambia,2012,2
+F,ZAM,Zambia,2016,2
+F,ZIM,Zimbabwe,1960,10
+F,ZIM,Zimbabwe,1964,6
+F,ZIM,Zimbabwe,1980,22
+F,ZIM,Zimbabwe,1984,3
+F,ZIM,Zimbabwe,1988,9
+F,ZIM,Zimbabwe,1992,12
+F,ZIM,Zimbabwe,1996,3
+F,ZIM,Zimbabwe,2000,8
+F,ZIM,Zimbabwe,2004,5
+F,ZIM,Zimbabwe,2008,8
+F,ZIM,Zimbabwe,2012,5
+F,ZIM,Zimbabwe,2016,22
+M,AFG,Afghanistan,1936,16
+M,AFG,Afghanistan,1948,25
+M,AFG,Afghanistan,1956,12
+M,AFG,Afghanistan,1960,16
+M,AFG,Afghanistan,1964,8
+M,AFG,Afghanistan,1968,5
+M,AFG,Afghanistan,1972,8
+M,AFG,Afghanistan,1980,11
+M,AFG,Afghanistan,1988,5
+M,AFG,Afghanistan,1996,2
+M,AFG,Afghanistan,2004,3
+M,AFG,Afghanistan,2008,3
+M,AFG,Afghanistan,2012,5
+M,AFG,Afghanistan,2016,2
+M,AHO,Curacao,1952,11
+M,AHO,Curacao,1960,5
+M,AHO,Curacao,1964,4
+M,AHO,Curacao,1968,3
+M,AHO,Curacao,1972,2
+M,AHO,Curacao,1976,4
+M,AHO,Curacao,1984,6
+M,AHO,Curacao,1988,6
+M,AHO,Curacao,1992,5
+M,AHO,Curacao,1996,7
+M,AHO,Curacao,2000,7
+M,AHO,Curacao,2004,3
+M,AHO,Curacao,2008,4
+M,ALB,Albania,1972,4
+M,ALB,Albania,1992,7
+M,ALB,Albania,1996,3
+M,ALB,Albania,2000,2
+M,ALB,Albania,2004,5
+M,ALB,Albania,2006,3
+M,ALB,Albania,2008,7
+M,ALB,Albania,2010,2
+M,ALB,Albania,2012,7
+M,ALB,Albania,2016,3
+M,ALG,Algeria,1964,7
+M,ALG,Algeria,1968,9
+M,ALG,Algeria,1972,7
+M,ALG,Algeria,1980,63
+M,ALG,Algeria,1984,33
+M,ALG,Algeria,1988,42
+M,ALG,Algeria,1992,40
+M,ALG,Algeria,1996,41
+M,ALG,Algeria,2000,41
+M,ALG,Algeria,2004,54
+M,ALG,Algeria,2006,1
+M,ALG,Algeria,2008,35
+M,ALG,Algeria,2010,1
+M,ALG,Algeria,2012,22
+M,ALG,Algeria,2016,61
+M,AND,Andorra,1976,14
+M,AND,Andorra,1980,11
+M,AND,Andorra,1984,8
+M,AND,Andorra,1988,8
+M,AND,Andorra,1992,18
+M,AND,Andorra,1994,8
+M,AND,Andorra,1996,6
+M,AND,Andorra,1998,5
+M,AND,Andorra,2000,3
+M,AND,Andorra,2002,3
+M,AND,Andorra,2004,4
+M,AND,Andorra,2006,10
+M,AND,Andorra,2008,3
+M,AND,Andorra,2010,13
+M,AND,Andorra,2012,4
+M,AND,Andorra,2014,7
+M,AND,Andorra,2016,2
+M,ANG,Angola,1980,15
+M,ANG,Angola,1988,22
+M,ANG,Angola,1992,27
+M,ANG,Angola,1996,13
+M,ANG,Angola,2000,15
+M,ANG,Angola,2004,14
+M,ANG,Angola,2008,18
+M,ANG,Angola,2012,6
+M,ANG,Angola,2016,8
+M,ANT,Antigua,1976,17
+M,ANT,Antigua,1984,19
+M,ANT,Antigua,1988,21
+M,ANT,Antigua,1992,13
+M,ANT,Antigua,1996,8
+M,ANT,Antigua,2000,2
+M,ANT,Antigua,2004,3
+M,ANT,Antigua,2008,4
+M,ANT,Antigua,2012,2
+M,ANT,Antigua,2016,7
+M,ANZ,Australia,1908,48
+M,ANZ,Australia,1912,36
+M,ARG,Argentina,1900,1
+M,ARG,Argentina,1908,1
+M,ARG,Argentina,1920,1
+M,ARG,Argentina,1924,109
+M,ARG,Argentina,1928,108
+M,ARG,Argentina,1932,46
+M,ARG,Argentina,1936,67
+M,ARG,Argentina,1948,295
+M,ARG,Argentina,1952,174
+M,ARG,Argentina,1956,43
+M,ARG,Argentina,1960,126
+M,ARG,Argentina,1964,157
+M,ARG,Argentina,1968,129
+M,ARG,Argentina,1972,119
+M,ARG,Argentina,1976,104
+M,ARG,Argentina,1980,26
+M,ARG,Argentina,1984,126
+M,ARG,Argentina,1988,128
+M,ARG,Argentina,1992,112
+M,ARG,Argentina,1994,7
+M,ARG,Argentina,1996,152
+M,ARG,Argentina,1998,1
+M,ARG,Argentina,2000,113
+M,ARG,Argentina,2002,15
+M,ARG,Argentina,2004,124
+M,ARG,Argentina,2006,8
+M,ARG,Argentina,2008,89
+M,ARG,Argentina,2010,8
+M,ARG,Argentina,2012,103
+M,ARG,Argentina,2014,11
+M,ARG,Argentina,2016,150
+M,ARM,Armenia,1994,2
+M,ARM,Armenia,1996,36
+M,ARM,Armenia,1998,4
+M,ARM,Armenia,2000,24
+M,ARM,Armenia,2002,9
+M,ARM,Armenia,2004,17
+M,ARM,Armenia,2006,8
+M,ARM,Armenia,2008,24
+M,ARM,Armenia,2010,3
+M,ARM,Armenia,2012,27
+M,ARM,Armenia,2014,5
+M,ARM,Armenia,2016,24
+M,ARU,Aruba,1988,5
+M,ARU,Aruba,1992,4
+M,ARU,Aruba,1996,3
+M,ARU,Aruba,2000,3
+M,ARU,Aruba,2004,3
+M,ARU,Aruba,2008,2
+M,ARU,Aruba,2012,3
+M,ARU,Aruba,2016,3
+M,ASA,American Samoa,1988,6
+M,ASA,American Samoa,1992,3
+M,ASA,American Samoa,1994,2
+M,ASA,American Samoa,1996,6
+M,ASA,American Samoa,2000,3
+M,ASA,American Samoa,2004,2
+M,ASA,American Samoa,2008,2
+M,ASA,American Samoa,2012,3
+M,ASA,American Samoa,2016,3
+M,AUS,Australia,1896,5
+M,AUS,Australia,1900,6
+M,AUS,Australia,1904,6
+M,AUS,Australia,1906,10
+M,AUS,Australia,1920,26
+M,AUS,Australia,1924,60
+M,AUS,Australia,1928,22
+M,AUS,Australia,1932,14
+M,AUS,Australia,1936,36
+M,AUS,Australia,1948,85
+M,AUS,Australia,1952,139
+M,AUS,Australia,1956,355
+M,AUS,Australia,1960,256
+M,AUS,Australia,1964,309
+M,AUS,Australia,1968,170
+M,AUS,Australia,1972,205
+M,AUS,Australia,1976,215
+M,AUS,Australia,1980,143
+M,AUS,Australia,1984,245
+M,AUS,Australia,1988,268
+M,AUS,Australia,1992,259
+M,AUS,Australia,1994,35
+M,AUS,Australia,1996,307
+M,AUS,Australia,1998,24
+M,AUS,Australia,2000,420
+M,AUS,Australia,2002,22
+M,AUS,Australia,2004,327
+M,AUS,Australia,2006,27
+M,AUS,Australia,2008,299
+M,AUS,Australia,2010,26
+M,AUS,Australia,2012,271
+M,AUS,Australia,2014,41
+M,AUS,Australia,2016,255
+M,AUT,Austria,1896,8
+M,AUT,Austria,1900,26
+M,AUT,Austria,1904,7
+M,AUT,Austria,1906,100
+M,AUT,Austria,1908,13
+M,AUT,Austria,1912,122
+M,AUT,Austria,1924,55
+M,AUT,Austria,1928,126
+M,AUT,Austria,1932,30
+M,AUT,Austria,1936,379
+M,AUT,Austria,1948,253
+M,AUT,Austria,1952,226
+M,AUT,Austria,1956,122
+M,AUT,Austria,1960,171
+M,AUT,Austria,1964,155
+M,AUT,Austria,1968,141
+M,AUT,Austria,1972,173
+M,AUT,Austria,1976,159
+M,AUT,Austria,1980,122
+M,AUT,Austria,1984,181
+M,AUT,Austria,1988,204
+M,AUT,Austria,1992,184
+M,AUT,Austria,1994,102
+M,AUT,Austria,1996,71
+M,AUT,Austria,1998,115
+M,AUT,Austria,2000,69
+M,AUT,Austria,2002,116
+M,AUT,Austria,2004,66
+M,AUT,Austria,2006,99
+M,AUT,Austria,2008,55
+M,AUT,Austria,2010,91
+M,AUT,Austria,2012,52
+M,AUT,Austria,2014,139
+M,AUT,Austria,2016,45
+M,AZE,Azerbaijan,1996,20
+M,AZE,Azerbaijan,1998,2
+M,AZE,Azerbaijan,2000,25
+M,AZE,Azerbaijan,2002,3
+M,AZE,Azerbaijan,2004,30
+M,AZE,Azerbaijan,2006,1
+M,AZE,Azerbaijan,2008,30
+M,AZE,Azerbaijan,2010,2
+M,AZE,Azerbaijan,2012,43
+M,AZE,Azerbaijan,2014,3
+M,AZE,Azerbaijan,2016,53
+M,BAH,Bahamas,1952,7
+M,BAH,Bahamas,1956,5
+M,BAH,Bahamas,1960,14
+M,BAH,Bahamas,1964,12
+M,BAH,Bahamas,1968,22
+M,BAH,Bahamas,1972,24
+M,BAH,Bahamas,1976,17
+M,BAH,Bahamas,1984,23
+M,BAH,Bahamas,1988,13
+M,BAH,Bahamas,1992,15
+M,BAH,Bahamas,1996,23
+M,BAH,Bahamas,2000,24
+M,BAH,Bahamas,2004,16
+M,BAH,Bahamas,2008,22
+M,BAH,Bahamas,2012,16
+M,BAH,Bahamas,2016,21
+M,BAN,Bangladesh,1984,2
+M,BAN,Bangladesh,1988,11
+M,BAN,Bangladesh,1992,8
+M,BAN,Bangladesh,1996,3
+M,BAN,Bangladesh,2000,2
+M,BAN,Bangladesh,2004,3
+M,BAN,Bangladesh,2008,3
+M,BAN,Bangladesh,2012,6
+M,BAN,Bangladesh,2016,4
+M,BAR,Barbados,1968,13
+M,BAR,Barbados,1972,12
+M,BAR,Barbados,1976,14
+M,BAR,Barbados,1984,22
+M,BAR,Barbados,1988,24
+M,BAR,Barbados,1992,20
+M,BAR,Barbados,1996,19
+M,BAR,Barbados,2000,18
+M,BAR,Barbados,2004,14
+M,BAR,Barbados,2008,8
+M,BAR,Barbados,2012,8
+M,BAR,Barbados,2016,8
+M,BDI,Burundi,1996,6
+M,BDI,Burundi,2000,5
+M,BDI,Burundi,2004,5
+M,BDI,Burundi,2008,1
+M,BDI,Burundi,2012,2
+M,BDI,Burundi,2016,6
+M,BEL,Belgium,1900,100
+M,BEL,Belgium,1906,31
+M,BEL,Belgium,1908,99
+M,BEL,Belgium,1912,71
+M,BEL,Belgium,1920,500
+M,BEL,Belgium,1924,253
+M,BEL,Belgium,1928,249
+M,BEL,Belgium,1932,38
+M,BEL,Belgium,1936,209
+M,BEL,Belgium,1948,175
+M,BEL,Belgium,1952,191
+M,BEL,Belgium,1956,83
+M,BEL,Belgium,1960,130
+M,BEL,Belgium,1964,77
+M,BEL,Belgium,1968,90
+M,BEL,Belgium,1972,101
+M,BEL,Belgium,1976,104
+M,BEL,Belgium,1980,60
+M,BEL,Belgium,1984,70
+M,BEL,Belgium,1988,50
+M,BEL,Belgium,1992,70
+M,BEL,Belgium,1994,2
+M,BEL,Belgium,1996,53
+M,BEL,Belgium,1998,3
+M,BEL,Belgium,2000,40
+M,BEL,Belgium,2002,13
+M,BEL,Belgium,2004,44
+M,BEL,Belgium,2006,8
+M,BEL,Belgium,2008,90
+M,BEL,Belgium,2010,6
+M,BEL,Belgium,2012,93
+M,BEL,Belgium,2014,6
+M,BEL,Belgium,2016,85
+M,BEN,Benin,1972,3
+M,BEN,Benin,1980,16
+M,BEN,Benin,1984,3
+M,BEN,Benin,1988,8
+M,BEN,Benin,1992,5
+M,BEN,Benin,1996,6
+M,BEN,Benin,2000,3
+M,BEN,Benin,2004,2
+M,BEN,Benin,2008,3
+M,BEN,Benin,2012,4
+M,BEN,Benin,2016,4
+M,BER,Bermuda,1936,9
+M,BER,Bermuda,1948,23
+M,BER,Bermuda,1952,8
+M,BER,Bermuda,1956,3
+M,BER,Bermuda,1960,9
+M,BER,Bermuda,1964,4
+M,BER,Bermuda,1968,6
+M,BER,Bermuda,1972,9
+M,BER,Bermuda,1976,19
+M,BER,Bermuda,1984,12
+M,BER,Bermuda,1988,13
+M,BER,Bermuda,1992,21
+M,BER,Bermuda,1994,1
+M,BER,Bermuda,1996,8
+M,BER,Bermuda,1998,1
+M,BER,Bermuda,2000,5
+M,BER,Bermuda,2002,1
+M,BER,Bermuda,2004,5
+M,BER,Bermuda,2006,1
+M,BER,Bermuda,2008,2
+M,BER,Bermuda,2010,1
+M,BER,Bermuda,2012,5
+M,BER,Bermuda,2014,1
+M,BER,Bermuda,2016,4
+M,BHU,Bhutan,1984,3
+M,BHU,Bhutan,1988,6
+M,BHU,Bhutan,1992,6
+M,BHU,Bhutan,1996,1
+M,BHU,Bhutan,2000,1
+M,BHU,Bhutan,2004,1
+M,BHU,Bhutan,2008,1
+M,BIH,Bosnia and Herzegovina,1992,7
+M,BIH,Bosnia and Herzegovina,1994,10
+M,BIH,Bosnia and Herzegovina,1996,10
+M,BIH,Bosnia and Herzegovina,1998,10
+M,BIH,Bosnia and Herzegovina,2000,9
+M,BIH,Bosnia and Herzegovina,2002,4
+M,BIH,Bosnia and Herzegovina,2004,9
+M,BIH,Bosnia and Herzegovina,2006,5
+M,BIH,Bosnia and Herzegovina,2008,6
+M,BIH,Bosnia and Herzegovina,2010,3
+M,BIH,Bosnia and Herzegovina,2012,6
+M,BIH,Bosnia and Herzegovina,2014,9
+M,BIH,Bosnia and Herzegovina,2016,7
+M,BIZ,Belize,1968,7
+M,BIZ,Belize,1972,2
+M,BIZ,Belize,1976,4
+M,BIZ,Belize,1984,13
+M,BIZ,Belize,1988,13
+M,BIZ,Belize,1992,17
+M,BIZ,Belize,1996,2
+M,BIZ,Belize,2000,1
+M,BIZ,Belize,2004,1
+M,BIZ,Belize,2008,3
+M,BIZ,Belize,2012,2
+M,BIZ,Belize,2016,2
+M,BLR,Belarus,1994,43
+M,BLR,Belarus,1996,145
+M,BLR,Belarus,1998,68
+M,BLR,Belarus,2000,128
+M,BLR,Belarus,2002,76
+M,BLR,Belarus,2004,105
+M,BLR,Belarus,2006,28
+M,BLR,Belarus,2008,141
+M,BLR,Belarus,2010,53
+M,BLR,Belarus,2012,99
+M,BLR,Belarus,2014,42
+M,BLR,Belarus,2016,65
+M,BOH,Czech Republic,1900,7
+M,BOH,Czech Republic,1906,29
+M,BOH,Czech Republic,1908,41
+M,BOH,Czech Republic,1912,74
+M,BOL,Boliva,1936,2
+M,BOL,Boliva,1956,2
+M,BOL,Boliva,1964,1
+M,BOL,Boliva,1968,4
+M,BOL,Boliva,1972,14
+M,BOL,Boliva,1976,5
+M,BOL,Boliva,1980,8
+M,BOL,Boliva,1984,17
+M,BOL,Boliva,1988,16
+M,BOL,Boliva,1992,20
+M,BOL,Boliva,1996,7
+M,BOL,Boliva,2000,3
+M,BOL,Boliva,2004,4
+M,BOL,Boliva,2008,4
+M,BOL,Boliva,2012,3
+M,BOL,Boliva,2016,6
+M,BOT,Botswana,1980,8
+M,BOT,Botswana,1984,8
+M,BOT,Botswana,1988,11
+M,BOT,Botswana,1992,6
+M,BOT,Botswana,1996,7
+M,BOT,Botswana,2000,9
+M,BOT,Botswana,2004,11
+M,BOT,Botswana,2008,9
+M,BOT,Botswana,2012,3
+M,BOT,Botswana,2016,11
+M,BRA,Brazil,1900,3
+M,BRA,Brazil,1920,38
+M,BRA,Brazil,1924,18
+M,BRA,Brazil,1932,64
+M,BRA,Brazil,1936,86
+M,BRA,Brazil,1948,83
+M,BRA,Brazil,1952,111
+M,BRA,Brazil,1956,62
+M,BRA,Brazil,1960,85
+M,BRA,Brazil,1964,64
+M,BRA,Brazil,1968,85
+M,BRA,Brazil,1972,97
+M,BRA,Brazil,1976,79
+M,BRA,Brazil,1980,130
+M,BRA,Brazil,1984,167
+M,BRA,Brazil,1988,181
+M,BRA,Brazil,1992,187
+M,BRA,Brazil,1994,1
+M,BRA,Brazil,1996,182
+M,BRA,Brazil,1998,1
+M,BRA,Brazil,2000,133
+M,BRA,Brazil,2002,8
+M,BRA,Brazil,2004,158
+M,BRA,Brazil,2006,9
+M,BRA,Brazil,2008,172
+M,BRA,Brazil,2010,3
+M,BRA,Brazil,2012,162
+M,BRA,Brazil,2014,7
+M,BRA,Brazil,2016,324
+M,BRN,Bahrain,1984,14
+M,BRN,Bahrain,1988,16
+M,BRN,Bahrain,1992,15
+M,BRN,Bahrain,1996,5
+M,BRN,Bahrain,2000,2
+M,BRN,Bahrain,2004,7
+M,BRN,Bahrain,2008,12
+M,BRN,Bahrain,2012,4
+M,BRN,Bahrain,2016,20
+M,BRU,Brunei,1996,1
+M,BRU,Brunei,2000,2
+M,BRU,Brunei,2004,1
+M,BRU,Brunei,2012,2
+M,BRU,Brunei,2016,2
+M,BUL,Bulgaria,1924,31
+M,BUL,Bulgaria,1928,10
+M,BUL,Bulgaria,1932,2
+M,BUL,Bulgaria,1936,95
+M,BUL,Bulgaria,1948,9
+M,BUL,Bulgaria,1952,140
+M,BUL,Bulgaria,1956,81
+M,BUL,Bulgaria,1960,155
+M,BUL,Bulgaria,1964,110
+M,BUL,Bulgaria,1968,156
+M,BUL,Bulgaria,1972,179
+M,BUL,Bulgaria,1976,208
+M,BUL,Bulgaria,1980,277
+M,BUL,Bulgaria,1984,32
+M,BUL,Bulgaria,1988,209
+M,BUL,Bulgaria,1992,201
+M,BUL,Bulgaria,1994,21
+M,BUL,Bulgaria,1996,128
+M,BUL,Bulgaria,1998,14
+M,BUL,Bulgaria,2000,103
+M,BUL,Bulgaria,2002,26
+M,BUL,Bulgaria,2004,67
+M,BUL,Bulgaria,2006,19
+M,BUL,Bulgaria,2008,52
+M,BUL,Bulgaria,2010,26
+M,BUL,Bulgaria,2012,39
+M,BUL,Bulgaria,2014,37
+M,BUL,Bulgaria,2016,33
+M,BUR,Burkina Faso,1972,1
+M,BUR,Burkina Faso,1988,7
+M,BUR,Burkina Faso,1992,4
+M,BUR,Burkina Faso,1996,3
+M,BUR,Burkina Faso,2000,3
+M,BUR,Burkina Faso,2004,3
+M,BUR,Burkina Faso,2008,3
+M,BUR,Burkina Faso,2012,2
+M,BUR,Burkina Faso,2016,3
+M,CAF,Central African Republic,1968,1
+M,CAF,Central African Republic,1984,3
+M,CAF,Central African Republic,1988,15
+M,CAF,Central African Republic,1992,18
+M,CAF,Central African Republic,1996,3
+M,CAF,Central African Republic,2000,1
+M,CAF,Central African Republic,2004,2
+M,CAF,Central African Republic,2008,2
+M,CAF,Central African Republic,2012,3
+M,CAF,Central African Republic,2016,3
+M,CAM,Cambodia,1956,2
+M,CAM,Cambodia,1964,15
+M,CAM,Cambodia,1972,15
+M,CAM,Cambodia,1996,3
+M,CAM,Cambodia,2000,2
+M,CAM,Cambodia,2004,2
+M,CAM,Cambodia,2008,2
+M,CAM,Cambodia,2012,3
+M,CAM,Cambodia,2016,2
+M,CAN,Canada,1900,7
+M,CAN,Canada,1904,61
+M,CAN,Canada,1906,4
+M,CAN,Canada,1908,146
+M,CAN,Canada,1912,60
+M,CAN,Canada,1920,85
+M,CAN,Canada,1924,98
+M,CAN,Canada,1928,123
+M,CAN,Canada,1932,171
+M,CAN,Canada,1936,171
+M,CAN,Canada,1948,198
+M,CAN,Canada,1952,172
+M,CAN,Canada,1956,152
+M,CAN,Canada,1960,159
+M,CAN,Canada,1964,219
+M,CAN,Canada,1968,293
+M,CAN,Canada,1972,287
+M,CAN,Canada,1976,398
+M,CAN,Canada,1980,52
+M,CAN,Canada,1984,407
+M,CAN,Canada,1988,450
+M,CAN,Canada,1992,378
+M,CAN,Canada,1994,95
+M,CAN,Canada,1996,206
+M,CAN,Canada,1998,115
+M,CAN,Canada,2000,198
+M,CAN,Canada,2002,114
+M,CAN,Canada,2004,200
+M,CAN,Canada,2006,169
+M,CAN,Canada,2008,261
+M,CAN,Canada,2010,170
+M,CAN,Canada,2012,146
+M,CAN,Canada,2014,201
+M,CAN,Canada,2016,151
+M,CAY,Cayman Islands,1976,2
+M,CAY,Cayman Islands,1984,13
+M,CAY,Cayman Islands,1988,11
+M,CAY,Cayman Islands,1992,13
+M,CAY,Cayman Islands,1996,8
+M,CAY,Cayman Islands,2000,1
+M,CAY,Cayman Islands,2004,5
+M,CAY,Cayman Islands,2008,5
+M,CAY,Cayman Islands,2010,1
+M,CAY,Cayman Islands,2012,7
+M,CAY,Cayman Islands,2014,2
+M,CAY,Cayman Islands,2016,3
+M,CGO,Republic of Congo,1964,2
+M,CGO,Republic of Congo,1972,8
+M,CGO,Republic of Congo,1980,11
+M,CGO,Republic of Congo,1984,11
+M,CGO,Republic of Congo,1988,7
+M,CGO,Republic of Congo,1992,9
+M,CGO,Republic of Congo,1996,3
+M,CGO,Republic of Congo,2000,3
+M,CGO,Republic of Congo,2004,2
+M,CGO,Republic of Congo,2008,3
+M,CGO,Republic of Congo,2012,4
+M,CGO,Republic of Congo,2016,7
+M,CHA,Chad,1964,2
+M,CHA,Chad,1968,4
+M,CHA,Chad,1972,5
+M,CHA,Chad,1984,3
+M,CHA,Chad,1988,6
+M,CHA,Chad,1992,5
+M,CHA,Chad,1996,3
+M,CHA,Chad,2000,1
+M,CHA,Chad,2008,1
+M,CHA,Chad,2016,1
+M,CHI,Chile,1912,28
+M,CHI,Chile,1920,2
+M,CHI,Chile,1924,18
+M,CHI,Chile,1928,46
+M,CHI,Chile,1936,55
+M,CHI,Chile,1948,75
+M,CHI,Chile,1952,84
+M,CHI,Chile,1956,48
+M,CHI,Chile,1960,20
+M,CHI,Chile,1964,27
+M,CHI,Chile,1968,32
+M,CHI,Chile,1972,11
+M,CHI,Chile,1976,20
+M,CHI,Chile,1984,72
+M,CHI,Chile,1988,38
+M,CHI,Chile,1992,24
+M,CHI,Chile,1994,7
+M,CHI,Chile,1996,18
+M,CHI,Chile,1998,6
+M,CHI,Chile,2000,50
+M,CHI,Chile,2002,8
+M,CHI,Chile,2004,21
+M,CHI,Chile,2006,10
+M,CHI,Chile,2008,22
+M,CHI,Chile,2010,5
+M,CHI,Chile,2012,26
+M,CHI,Chile,2014,8
+M,CHI,Chile,2016,26
+M,CHN,China,1932,2
+M,CHN,China,1936,62
+M,CHN,China,1948,32
+M,CHN,China,1952,1
+M,CHN,China,1980,22
+M,CHN,China,1984,239
+M,CHN,China,1988,240
+M,CHN,China,1992,216
+M,CHN,China,1994,12
+M,CHN,China,1996,179
+M,CHN,China,1998,27
+M,CHN,China,2000,159
+M,CHN,China,2002,35
+M,CHN,China,2004,201
+M,CHN,China,2006,65
+M,CHN,China,2008,376
+M,CHN,China,2010,44
+M,CHN,China,2012,212
+M,CHN,China,2014,43
+M,CHN,China,2016,204
+M,CIV,Ivory Coast,1964,10
+M,CIV,Ivory Coast,1968,11
+M,CIV,Ivory Coast,1972,13
+M,CIV,Ivory Coast,1976,9
+M,CIV,Ivory Coast,1984,17
+M,CIV,Ivory Coast,1988,12
+M,CIV,Ivory Coast,1992,10
+M,CIV,Ivory Coast,1996,12
+M,CIV,Ivory Coast,2000,9
+M,CIV,Ivory Coast,2004,2
+M,CIV,Ivory Coast,2008,20
+M,CIV,Ivory Coast,2012,4
+M,CIV,Ivory Coast,2016,6
+M,CMR,Cameroon,1964,2
+M,CMR,Cameroon,1968,5
+M,CMR,Cameroon,1972,18
+M,CMR,Cameroon,1976,4
+M,CMR,Cameroon,1980,25
+M,CMR,Cameroon,1984,50
+M,CMR,Cameroon,1988,17
+M,CMR,Cameroon,1992,4
+M,CMR,Cameroon,1996,13
+M,CMR,Cameroon,2000,28
+M,CMR,Cameroon,2002,2
+M,CMR,Cameroon,2004,10
+M,CMR,Cameroon,2008,25
+M,CMR,Cameroon,2012,10
+M,CMR,Cameroon,2016,5
+M,COD,Democratic Republic of the Congo,1968,8
+M,COD,Democratic Republic of the Congo,1984,8
+M,COD,Democratic Republic of the Congo,1988,18
+M,COD,Democratic Republic of the Congo,1992,17
+M,COD,Democratic Republic of the Congo,1996,2
+M,COD,Democratic Republic of the Congo,2000,1
+M,COD,Democratic Republic of the Congo,2004,5
+M,COD,Democratic Republic of the Congo,2008,4
+M,COD,Democratic Republic of the Congo,2012,3
+M,COD,Democratic Republic of the Congo,2016,2
+M,COK,Cook Islands,1988,6
+M,COK,Cook Islands,1992,2
+M,COK,Cook Islands,1996,2
+M,COK,Cook Islands,2000,1
+M,COK,Cook Islands,2004,2
+M,COK,Cook Islands,2008,3
+M,COK,Cook Islands,2012,4
+M,COK,Cook Islands,2016,4
+M,COL,Colombia,1900,1
+M,COL,Colombia,1932,2
+M,COL,Colombia,1936,6
+M,COL,Colombia,1948,11
+M,COL,Colombia,1956,47
+M,COL,Colombia,1960,23
+M,COL,Colombia,1964,40
+M,COL,Colombia,1968,56
+M,COL,Colombia,1972,63
+M,COL,Colombia,1976,38
+M,COL,Colombia,1980,28
+M,COL,Colombia,1984,45
+M,COL,Colombia,1988,42
+M,COL,Colombia,1992,58
+M,COL,Colombia,1996,47
+M,COL,Colombia,2000,30
+M,COL,Colombia,2004,43
+M,COL,Colombia,2008,57
+M,COL,Colombia,2012,56
+M,COL,Colombia,2016,81
+M,COM,Comoros,1996,3
+M,COM,Comoros,2000,1
+M,COM,Comoros,2004,2
+M,COM,Comoros,2008,2
+M,COM,Comoros,2012,1
+M,COM,Comoros,2016,2
+M,CPV,Cape Verde,1996,2
+M,CPV,Cape Verde,2000,1
+M,CPV,Cape Verde,2004,2
+M,CPV,Cape Verde,2008,1
+M,CPV,Cape Verde,2012,1
+M,CPV,Cape Verde,2016,2
+M,CRC,Costa Rica,1936,1
+M,CRC,Costa Rica,1964,2
+M,CRC,Costa Rica,1968,24
+M,CRC,Costa Rica,1972,4
+M,CRC,Costa Rica,1976,5
+M,CRC,Costa Rica,1980,36
+M,CRC,Costa Rica,1984,38
+M,CRC,Costa Rica,1988,18
+M,CRC,Costa Rica,1992,18
+M,CRC,Costa Rica,1996,6
+M,CRC,Costa Rica,2000,6
+M,CRC,Costa Rica,2002,2
+M,CRC,Costa Rica,2004,17
+M,CRC,Costa Rica,2006,1
+M,CRC,Costa Rica,2008,6
+M,CRC,Costa Rica,2012,8
+M,CRC,Costa Rica,2016,7
+M,CRO,Croatia,1992,47
+M,CRO,Croatia,1994,11
+M,CRO,Croatia,1996,101
+M,CRO,Croatia,1998,7
+M,CRO,Croatia,2000,76
+M,CRO,Croatia,2002,17
+M,CRO,Croatia,2004,76
+M,CRO,Croatia,2006,29
+M,CRO,Croatia,2008,95
+M,CRO,Croatia,2010,27
+M,CRO,Croatia,2012,69
+M,CRO,Croatia,2014,16
+M,CRO,Croatia,2016,69
+M,CRT,Greece,1906,11
+M,CUB,Cuba,1900,2
+M,CUB,Cuba,1904,6
+M,CUB,Cuba,1924,13
+M,CUB,Cuba,1928,1
+M,CUB,Cuba,1932,3
+M,CUB,Cuba,1948,112
+M,CUB,Cuba,1952,57
+M,CUB,Cuba,1956,23
+M,CUB,Cuba,1960,10
+M,CUB,Cuba,1964,73
+M,CUB,Cuba,1968,177
+M,CUB,Cuba,1972,166
+M,CUB,Cuba,1976,164
+M,CUB,Cuba,1980,252
+M,CUB,Cuba,1992,139
+M,CUB,Cuba,1996,118
+M,CUB,Cuba,2000,179
+M,CUB,Cuba,2004,116
+M,CUB,Cuba,2008,110
+M,CUB,Cuba,2012,70
+M,CUB,Cuba,2016,100
+M,CYP,Cyprus,1980,17
+M,CYP,Cyprus,1984,20
+M,CYP,Cyprus,1988,14
+M,CYP,Cyprus,1992,24
+M,CYP,Cyprus,1996,20
+M,CYP,Cyprus,1998,1
+M,CYP,Cyprus,2000,19
+M,CYP,Cyprus,2002,2
+M,CYP,Cyprus,2004,14
+M,CYP,Cyprus,2006,2
+M,CYP,Cyprus,2008,7
+M,CYP,Cyprus,2010,2
+M,CYP,Cyprus,2012,9
+M,CYP,Cyprus,2014,2
+M,CYP,Cyprus,2016,14
+M,CZE,Czech Republic,1994,80
+M,CZE,Czech Republic,1996,101
+M,CZE,Czech Republic,1998,83
+M,CZE,Czech Republic,2000,111
+M,CZE,Czech Republic,2002,109
+M,CZE,Czech Republic,2004,95
+M,CZE,Czech Republic,2006,117
+M,CZE,Czech Republic,2008,87
+M,CZE,Czech Republic,2010,120
+M,CZE,Czech Republic,2012,81
+M,CZE,Czech Republic,2014,115
+M,CZE,Czech Republic,2016,79
+M,DEN,Denmark,1896,15
+M,DEN,Denmark,1900,36
+M,DEN,Denmark,1906,68
+M,DEN,Denmark,1908,107
+M,DEN,Denmark,1912,231
+M,DEN,Denmark,1920,239
+M,DEN,Denmark,1924,128
+M,DEN,Denmark,1928,110
+M,DEN,Denmark,1932,59
+M,DEN,Denmark,1936,152
+M,DEN,Denmark,1948,224
+M,DEN,Denmark,1952,182
+M,DEN,Denmark,1956,43
+M,DEN,Denmark,1960,99
+M,DEN,Denmark,1964,66
+M,DEN,Denmark,1968,87
+M,DEN,Denmark,1972,137
+M,DEN,Denmark,1976,68
+M,DEN,Denmark,1980,56
+M,DEN,Denmark,1984,61
+M,DEN,Denmark,1988,91
+M,DEN,Denmark,1992,100
+M,DEN,Denmark,1994,9
+M,DEN,Denmark,1996,65
+M,DEN,Denmark,1998,11
+M,DEN,Denmark,2000,68
+M,DEN,Denmark,2002,5
+M,DEN,Denmark,2004,59
+M,DEN,Denmark,2008,76
+M,DEN,Denmark,2010,13
+M,DEN,Denmark,2012,76
+M,DEN,Denmark,2014,11
+M,DEN,Denmark,2016,82
+M,DJI,Djibouti,1984,3
+M,DJI,Djibouti,1988,6
+M,DJI,Djibouti,1992,8
+M,DJI,Djibouti,1996,5
+M,DJI,Djibouti,2000,1
+M,DJI,Djibouti,2008,1
+M,DJI,Djibouti,2012,2
+M,DJI,Djibouti,2016,7
+M,DMA,Dominica,1996,4
+M,DMA,Dominica,2000,2
+M,DMA,Dominica,2004,1
+M,DMA,Dominica,2008,2
+M,DMA,Dominica,2012,1
+M,DMA,Dominica,2014,1
+M,DMA,Dominica,2016,1
+M,DOM,Dominican Republic,1964,1
+M,DOM,Dominican Republic,1968,24
+M,DOM,Dominican Republic,1972,5
+M,DOM,Dominican Republic,1976,9
+M,DOM,Dominican Republic,1980,6
+M,DOM,Dominican Republic,1984,17
+M,DOM,Dominican Republic,1988,17
+M,DOM,Dominican Republic,1992,30
+M,DOM,Dominican Republic,1996,12
+M,DOM,Dominican Republic,2000,11
+M,DOM,Dominican Republic,2004,17
+M,DOM,Dominican Republic,2008,19
+M,DOM,Dominican Republic,2012,15
+M,DOM,Dominican Republic,2016,22
+M,ECU,Ecuador,1924,4
+M,ECU,Ecuador,1968,39
+M,ECU,Ecuador,1972,4
+M,ECU,Ecuador,1976,8
+M,ECU,Ecuador,1980,15
+M,ECU,Ecuador,1984,14
+M,ECU,Ecuador,1988,11
+M,ECU,Ecuador,1992,7
+M,ECU,Ecuador,1996,26
+M,ECU,Ecuador,2000,8
+M,ECU,Ecuador,2004,12
+M,ECU,Ecuador,2008,18
+M,ECU,Ecuador,2012,23
+M,ECU,Ecuador,2016,24
+M,EGY,Egypt,1906,5
+M,EGY,Egypt,1920,22
+M,EGY,Egypt,1924,28
+M,EGY,Egypt,1928,43
+M,EGY,Egypt,1936,66
+M,EGY,Egypt,1948,166
+M,EGY,Egypt,1952,196
+M,EGY,Egypt,1956,6
+M,EGY,Egypt,1964,83
+M,EGY,Egypt,1968,35
+M,EGY,Egypt,1972,26
+M,EGY,Egypt,1976,26
+M,EGY,Egypt,1984,140
+M,EGY,Egypt,1988,58
+M,EGY,Egypt,1992,77
+M,EGY,Egypt,1996,29
+M,EGY,Egypt,2000,85
+M,EGY,Egypt,2004,88
+M,EGY,Egypt,2008,82
+M,EGY,Egypt,2012,87
+M,EGY,Egypt,2016,91
+M,ERI,Eritrea,2000,2
+M,ERI,Eritrea,2004,4
+M,ERI,Eritrea,2008,9
+M,ERI,Eritrea,2012,11
+M,ERI,Eritrea,2016,11
+M,ESA,El Salvador,1932,1
+M,ESA,El Salvador,1968,78
+M,ESA,El Salvador,1972,18
+M,ESA,El Salvador,1984,13
+M,ESA,El Salvador,1988,6
+M,ESA,El Salvador,1992,3
+M,ESA,El Salvador,1996,7
+M,ESA,El Salvador,2000,5
+M,ESA,El Salvador,2004,2
+M,ESA,El Salvador,2008,4
+M,ESA,El Salvador,2012,5
+M,ESA,El Salvador,2016,7
+M,ESP,Spain,1900,12
+M,ESP,Spain,1920,111
+M,ESP,Spain,1924,145
+M,ESP,Spain,1928,106
+M,ESP,Spain,1932,8
+M,ESP,Spain,1936,4
+M,ESP,Spain,1948,96
+M,ESP,Spain,1952,53
+M,ESP,Spain,1956,30
+M,ESP,Spain,1960,206
+M,ESP,Spain,1964,74
+M,ESP,Spain,1968,162
+M,ESP,Spain,1972,157
+M,ESP,Spain,1976,145
+M,ESP,Spain,1980,198
+M,ESP,Spain,1984,229
+M,ESP,Spain,1988,270
+M,ESP,Spain,1992,396
+M,ESP,Spain,1994,23
+M,ESP,Spain,1996,236
+M,ESP,Spain,1998,18
+M,ESP,Spain,2000,283
+M,ESP,Spain,2002,10
+M,ESP,Spain,2004,239
+M,ESP,Spain,2006,12
+M,ESP,Spain,2008,209
+M,ESP,Spain,2010,20
+M,ESP,Spain,2012,203
+M,ESP,Spain,2014,28
+M,ESP,Spain,2016,191
+M,EST,Estonia,1920,20
+M,EST,Estonia,1924,47
+M,EST,Estonia,1928,29
+M,EST,Estonia,1932,3
+M,EST,Estonia,1936,43
+M,EST,Estonia,1992,77
+M,EST,Estonia,1994,38
+M,EST,Estonia,1996,40
+M,EST,Estonia,1998,35
+M,EST,Estonia,2000,38
+M,EST,Estonia,2002,41
+M,EST,Estonia,2004,33
+M,EST,Estonia,2006,39
+M,EST,Estonia,2008,36
+M,EST,Estonia,2010,37
+M,EST,Estonia,2012,25
+M,EST,Estonia,2014,46
+M,EST,Estonia,2016,28
+M,ETH,Ethiopia,1956,30
+M,ETH,Ethiopia,1960,15
+M,ETH,Ethiopia,1964,19
+M,ETH,Ethiopia,1968,26
+M,ETH,Ethiopia,1972,40
+M,ETH,Ethiopia,1980,46
+M,ETH,Ethiopia,1992,18
+M,ETH,Ethiopia,1996,10
+M,ETH,Ethiopia,2000,15
+M,ETH,Ethiopia,2004,15
+M,ETH,Ethiopia,2006,1
+M,ETH,Ethiopia,2008,15
+M,ETH,Ethiopia,2010,1
+M,ETH,Ethiopia,2012,18
+M,ETH,Ethiopia,2016,17
+M,EUN,Russia,1992,538
+M,FIJ,Fiji,1956,5
+M,FIJ,Fiji,1960,3
+M,FIJ,Fiji,1968,1
+M,FIJ,Fiji,1972,4
+M,FIJ,Fiji,1976,3
+M,FIJ,Fiji,1984,18
+M,FIJ,Fiji,1988,27
+M,FIJ,Fiji,1992,27
+M,FIJ,Fiji,1994,1
+M,FIJ,Fiji,1996,18
+M,FIJ,Fiji,2000,5
+M,FIJ,Fiji,2002,2
+M,FIJ,Fiji,2004,5
+M,FIJ,Fiji,2008,4
+M,FIJ,Fiji,2012,6
+M,FIJ,Fiji,2016,36
+M,FIN,Finland,1906,18
+M,FIN,Finland,1908,94
+M,FIN,Finland,1912,231
+M,FIN,Finland,1920,135
+M,FIN,Finland,1924,285
+M,FIN,Finland,1928,156
+M,FIN,Finland,1932,78
+M,FIN,Finland,1936,212
+M,FIN,Finland,1948,253
+M,FIN,Finland,1952,392
+M,FIN,Finland,1956,191
+M,FIN,Finland,1960,238
+M,FIN,Finland,1964,206
+M,FIN,Finland,1968,186
+M,FIN,Finland,1972,180
+M,FIN,Finland,1976,155
+M,FIN,Finland,1980,186
+M,FIN,Finland,1984,154
+M,FIN,Finland,1988,147
+M,FIN,Finland,1992,172
+M,FIN,Finland,1994,80
+M,FIN,Finland,1996,60
+M,FIN,Finland,1998,84
+M,FIN,Finland,2000,51
+M,FIN,Finland,2002,102
+M,FIN,Finland,2004,44
+M,FIN,Finland,2006,93
+M,FIN,Finland,2008,38
+M,FIN,Finland,2010,93
+M,FIN,Finland,2012,32
+M,FIN,Finland,2014,95
+M,FIN,Finland,2016,34
+M,FRA,France,1896,26
+M,FRA,France,1900,987
+M,FRA,France,1904,2
+M,FRA,France,1906,172
+M,FRA,France,1908,308
+M,FRA,France,1912,230
+M,FRA,France,1920,437
+M,FRA,France,1924,579
+M,FRA,France,1928,364
+M,FRA,France,1932,134
+M,FRA,France,1936,324
+M,FRA,France,1948,426
+M,FRA,France,1952,352
+M,FRA,France,1956,230
+M,FRA,France,1960,328
+M,FRA,France,1964,207
+M,FRA,France,1968,321
+M,FRA,France,1972,338
+M,FRA,France,1976,295
+M,FRA,France,1980,202
+M,FRA,France,1984,322
+M,FRA,France,1988,379
+M,FRA,France,1992,444
+M,FRA,France,1994,106
+M,FRA,France,1996,283
+M,FRA,France,1998,105
+M,FRA,France,2000,296
+M,FRA,France,2002,127
+M,FRA,France,2004,286
+M,FRA,France,2006,90
+M,FRA,France,2008,266
+M,FRA,France,2010,125
+M,FRA,France,2012,243
+M,FRA,France,2014,127
+M,FRA,France,2016,295
+M,FRG,Germany,1968,434
+M,FRG,Germany,1972,527
+M,FRG,Germany,1976,415
+M,FRG,Germany,1980,87
+M,FRG,Germany,1984,471
+M,FRG,Germany,1988,469
+M,FSM,Micronesia,2000,3
+M,FSM,Micronesia,2004,3
+M,FSM,Micronesia,2008,3
+M,FSM,Micronesia,2012,4
+M,FSM,Micronesia,2016,2
+M,GAB,Gabon,1972,1
+M,GAB,Gabon,1984,2
+M,GAB,Gabon,1988,1
+M,GAB,Gabon,1992,4
+M,GAB,Gabon,1996,8
+M,GAB,Gabon,2000,4
+M,GAB,Gabon,2004,3
+M,GAB,Gabon,2008,2
+M,GAB,Gabon,2012,19
+M,GAB,Gabon,2016,4
+M,GAM,Gambia,1984,10
+M,GAM,Gambia,1988,5
+M,GAM,Gambia,1992,8
+M,GAM,Gambia,1996,11
+M,GAM,Gambia,2000,1
+M,GAM,Gambia,2004,2
+M,GAM,Gambia,2008,2
+M,GAM,Gambia,2012,1
+M,GAM,Gambia,2016,3
+M,GBR,UK,1896,25
+M,GBR,UK,1900,140
+M,GBR,UK,1904,6
+M,GBR,UK,1906,113
+M,GBR,UK,1908,921
+M,GBR,UK,1912,444
+M,GBR,UK,1920,314
+M,GBR,UK,1924,430
+M,GBR,UK,1928,315
+M,GBR,UK,1932,116
+M,GBR,UK,1936,237
+M,GBR,UK,1948,500
+M,GBR,UK,1952,319
+M,GBR,UK,1956,288
+M,GBR,UK,1960,319
+M,GBR,UK,1964,278
+M,GBR,UK,1968,281
+M,GBR,UK,1972,344
+M,GBR,UK,1976,295
+M,GBR,UK,1980,275
+M,GBR,UK,1984,387
+M,GBR,UK,1988,363
+M,GBR,UK,1992,400
+M,GBR,UK,1994,42
+M,GBR,UK,1996,232
+M,GBR,UK,1998,38
+M,GBR,UK,2000,232
+M,GBR,UK,2002,44
+M,GBR,UK,2004,196
+M,GBR,UK,2006,32
+M,GBR,UK,2008,211
+M,GBR,UK,2010,48
+M,GBR,UK,2012,350
+M,GBR,UK,2014,47
+M,GBR,UK,2016,266
+M,GBS,Guinea-Bissau,1996,3
+M,GBS,Guinea-Bissau,2000,2
+M,GBS,Guinea-Bissau,2004,1
+M,GBS,Guinea-Bissau,2008,2
+M,GBS,Guinea-Bissau,2012,2
+M,GBS,Guinea-Bissau,2016,3
+M,GDR,Germany,1968,327
+M,GDR,Germany,1972,372
+M,GDR,Germany,1976,288
+M,GDR,Germany,1980,363
+M,GDR,Germany,1984,72
+M,GDR,Germany,1988,292
+M,GEO,Georgia,1994,7
+M,GEO,Georgia,1996,33
+M,GEO,Georgia,1998,5
+M,GEO,Georgia,2000,33
+M,GEO,Georgia,2002,4
+M,GEO,Georgia,2004,32
+M,GEO,Georgia,2006,3
+M,GEO,Georgia,2008,29
+M,GEO,Georgia,2010,5
+M,GEO,Georgia,2012,28
+M,GEO,Georgia,2014,4
+M,GEO,Georgia,2016,31
+M,GEQ,Equatorial Guinea,1984,5
+M,GEQ,Equatorial Guinea,1988,5
+M,GEQ,Equatorial Guinea,1992,5
+M,GEQ,Equatorial Guinea,1996,7
+M,GEQ,Equatorial Guinea,2000,2
+M,GEQ,Equatorial Guinea,2004,1
+M,GEQ,Equatorial Guinea,2008,2
+M,GEQ,Equatorial Guinea,2012,1
+M,GEQ,Equatorial Guinea,2016,1
+M,GER,Germany,1896,94
+M,GER,Germany,1900,98
+M,GER,Germany,1904,55
+M,GER,Germany,1906,157
+M,GER,Germany,1908,142
+M,GER,Germany,1912,302
+M,GER,Germany,1928,371
+M,GER,Germany,1932,184
+M,GER,Germany,1936,552
+M,GER,Germany,1952,333
+M,GER,Germany,1956,287
+M,GER,Germany,1960,398
+M,GER,Germany,1964,466
+M,GER,Germany,1992,525
+M,GER,Germany,1994,122
+M,GER,Germany,1996,381
+M,GER,Germany,1998,121
+M,GER,Germany,2000,329
+M,GER,Germany,2002,138
+M,GER,Germany,2004,349
+M,GER,Germany,2006,147
+M,GER,Germany,2008,313
+M,GER,Germany,2010,154
+M,GER,Germany,2012,279
+M,GER,Germany,2014,145
+M,GER,Germany,2016,290
+M,GHA,Ghana,1952,9
+M,GHA,Ghana,1960,15
+M,GHA,Ghana,1964,36
+M,GHA,Ghana,1968,34
+M,GHA,Ghana,1972,37
+M,GHA,Ghana,1984,16
+M,GHA,Ghana,1988,13
+M,GHA,Ghana,1992,37
+M,GHA,Ghana,1996,38
+M,GHA,Ghana,2000,19
+M,GHA,Ghana,2004,26
+M,GHA,Ghana,2008,8
+M,GHA,Ghana,2010,1
+M,GHA,Ghana,2012,5
+M,GHA,Ghana,2016,7
+M,GRE,Greece,1896,148
+M,GRE,Greece,1900,4
+M,GRE,Greece,1904,17
+M,GRE,Greece,1906,475
+M,GRE,Greece,1908,49
+M,GRE,Greece,1912,77
+M,GRE,Greece,1920,98
+M,GRE,Greece,1924,76
+M,GRE,Greece,1928,47
+M,GRE,Greece,1932,16
+M,GRE,Greece,1936,64
+M,GRE,Greece,1948,97
+M,GRE,Greece,1952,60
+M,GRE,Greece,1956,22
+M,GRE,Greece,1960,59
+M,GRE,Greece,1964,26
+M,GRE,Greece,1968,52
+M,GRE,Greece,1972,66
+M,GRE,Greece,1976,48
+M,GRE,Greece,1980,46
+M,GRE,Greece,1984,80
+M,GRE,Greece,1988,65
+M,GRE,Greece,1992,83
+M,GRE,Greece,1994,13
+M,GRE,Greece,1996,101
+M,GRE,Greece,1998,13
+M,GRE,Greece,2000,102
+M,GRE,Greece,2002,11
+M,GRE,Greece,2004,253
+M,GRE,Greece,2006,5
+M,GRE,Greece,2008,97
+M,GRE,Greece,2010,7
+M,GRE,Greece,2012,70
+M,GRE,Greece,2014,10
+M,GRE,Greece,2016,67
+M,GRN,Grenada,1984,5
+M,GRN,Grenada,1988,4
+M,GRN,Grenada,1992,4
+M,GRN,Grenada,1996,5
+M,GRN,Grenada,2000,2
+M,GRN,Grenada,2004,3
+M,GRN,Grenada,2008,4
+M,GRN,Grenada,2012,5
+M,GRN,Grenada,2016,5
+M,GUA,Guatemala,1952,33
+M,GUA,Guatemala,1968,63
+M,GUA,Guatemala,1972,11
+M,GUA,Guatemala,1976,26
+M,GUA,Guatemala,1980,10
+M,GUA,Guatemala,1984,39
+M,GUA,Guatemala,1988,41
+M,GUA,Guatemala,1992,34
+M,GUA,Guatemala,1996,27
+M,GUA,Guatemala,2000,17
+M,GUA,Guatemala,2004,11
+M,GUA,Guatemala,2008,9
+M,GUA,Guatemala,2012,14
+M,GUA,Guatemala,2016,15
+M,GUI,Guinea,1968,15
+M,GUI,Guinea,1980,10
+M,GUI,Guinea,1984,1
+M,GUI,Guinea,1988,7
+M,GUI,Guinea,1992,9
+M,GUI,Guinea,1996,4
+M,GUI,Guinea,2000,3
+M,GUI,Guinea,2004,3
+M,GUI,Guinea,2008,2
+M,GUI,Guinea,2012,2
+M,GUI,Guinea,2016,2
+M,GUM,Guam,1988,21
+M,GUM,Guam,1992,36
+M,GUM,Guam,1996,7
+M,GUM,Guam,2000,5
+M,GUM,Guam,2004,3
+M,GUM,Guam,2008,5
+M,GUM,Guam,2012,5
+M,GUM,Guam,2016,3
+M,GUY,Guyana,1948,7
+M,GUY,Guyana,1952,1
+M,GUY,Guyana,1956,4
+M,GUY,Guyana,1960,5
+M,GUY,Guyana,1964,1
+M,GUY,Guyana,1968,6
+M,GUY,Guyana,1972,4
+M,GUY,Guyana,1980,8
+M,GUY,Guyana,1984,10
+M,GUY,Guyana,1988,7
+M,GUY,Guyana,1992,6
+M,GUY,Guyana,1996,8
+M,GUY,Guyana,2000,3
+M,GUY,Guyana,2004,2
+M,GUY,Guyana,2008,2
+M,GUY,Guyana,2012,4
+M,GUY,Guyana,2016,3
+M,HAI,Haiti,1900,4
+M,HAI,Haiti,1924,16
+M,HAI,Haiti,1928,3
+M,HAI,Haiti,1932,3
+M,HAI,Haiti,1960,1
+M,HAI,Haiti,1972,6
+M,HAI,Haiti,1976,11
+M,HAI,Haiti,1984,1
+M,HAI,Haiti,1988,4
+M,HAI,Haiti,1992,8
+M,HAI,Haiti,1996,7
+M,HAI,Haiti,2000,3
+M,HAI,Haiti,2004,7
+M,HAI,Haiti,2008,3
+M,HAI,Haiti,2012,3
+M,HAI,Haiti,2016,7
+M,HKG,China,1952,6
+M,HKG,China,1956,4
+M,HKG,China,1960,4
+M,HKG,China,1964,49
+M,HKG,China,1968,25
+M,HKG,China,1972,18
+M,HKG,China,1976,46
+M,HKG,China,1984,60
+M,HKG,China,1988,67
+M,HKG,China,1992,51
+M,HKG,China,1996,21
+M,HKG,China,2000,27
+M,HKG,China,2004,19
+M,HKG,China,2008,22
+M,HKG,China,2012,26
+M,HKG,China,2014,1
+M,HKG,China,2016,17
+M,HON,Honduras,1968,6
+M,HON,Honduras,1976,3
+M,HON,Honduras,1984,21
+M,HON,Honduras,1988,13
+M,HON,Honduras,1992,14
+M,HON,Honduras,1996,4
+M,HON,Honduras,2000,18
+M,HON,Honduras,2004,3
+M,HON,Honduras,2008,24
+M,HON,Honduras,2012,22
+M,HON,Honduras,2016,22
+M,HUN,Hungary,1896,18
+M,HUN,Hungary,1900,34
+M,HUN,Hungary,1904,9
+M,HUN,Hungary,1906,99
+M,HUN,Hungary,1908,107
+M,HUN,Hungary,1912,207
+M,HUN,Hungary,1924,142
+M,HUN,Hungary,1928,188
+M,HUN,Hungary,1932,94
+M,HUN,Hungary,1936,337
+M,HUN,Hungary,1948,231
+M,HUN,Hungary,1952,273
+M,HUN,Hungary,1956,137
+M,HUN,Hungary,1960,244
+M,HUN,Hungary,1964,268
+M,HUN,Hungary,1968,238
+M,HUN,Hungary,1972,270
+M,HUN,Hungary,1976,198
+M,HUN,Hungary,1980,271
+M,HUN,Hungary,1984,13
+M,HUN,Hungary,1988,240
+M,HUN,Hungary,1992,275
+M,HUN,Hungary,1994,8
+M,HUN,Hungary,1996,194
+M,HUN,Hungary,1998,10
+M,HUN,Hungary,2000,144
+M,HUN,Hungary,2002,26
+M,HUN,Hungary,2004,145
+M,HUN,Hungary,2006,18
+M,HUN,Hungary,2008,113
+M,HUN,Hungary,2010,11
+M,HUN,Hungary,2012,113
+M,HUN,Hungary,2014,15
+M,HUN,Hungary,2016,114
+M,INA,Indonesia,1952,3
+M,INA,Indonesia,1956,22
+M,INA,Indonesia,1960,25
+M,INA,Indonesia,1968,6
+M,INA,Indonesia,1972,3
+M,INA,Indonesia,1976,8
+M,INA,Indonesia,1984,19
+M,INA,Indonesia,1988,33
+M,INA,Indonesia,1992,30
+M,INA,Indonesia,1996,24
+M,INA,Indonesia,2000,33
+M,INA,Indonesia,2004,22
+M,INA,Indonesia,2008,15
+M,INA,Indonesia,2012,13
+M,INA,Indonesia,2016,20
+M,IND,India,1900,5
+M,IND,India,1920,7
+M,IND,India,1924,29
+M,IND,India,1928,24
+M,IND,India,1932,26
+M,IND,India,1936,30
+M,IND,India,1948,89
+M,IND,India,1952,87
+M,IND,India,1956,78
+M,IND,India,1960,49
+M,IND,India,1964,111
+M,IND,India,1968,30
+M,IND,India,1972,42
+M,IND,India,1976,26
+M,IND,India,1980,61
+M,IND,India,1984,43
+M,IND,India,1988,47
+M,IND,India,1992,58
+M,IND,India,1996,45
+M,IND,India,1998,1
+M,IND,India,2000,47
+M,IND,India,2002,1
+M,IND,India,2004,51
+M,IND,India,2006,3
+M,IND,India,2008,38
+M,IND,India,2010,3
+M,IND,India,2012,66
+M,IND,India,2014,2
+M,IND,India,2016,68
+M,IOA,Individual Olympic Athletes,1992,50
+M,IOA,Individual Olympic Athletes,2000,3
+M,IOA,Individual Olympic Athletes,2012,3
+M,IOA,Individual Olympic Athletes,2014,1
+M,IOA,Individual Olympic Athletes,2016,8
+M,IRI,Iran,1900,1
+M,IRI,Iran,1948,39
+M,IRI,Iran,1952,23
+M,IRI,Iran,1956,26
+M,IRI,Iran,1960,24
+M,IRI,Iran,1964,98
+M,IRI,Iran,1968,26
+M,IRI,Iran,1972,68
+M,IRI,Iran,1976,109
+M,IRI,Iran,1988,26
+M,IRI,Iran,1992,44
+M,IRI,Iran,1996,17
+M,IRI,Iran,1998,1
+M,IRI,Iran,2000,33
+M,IRI,Iran,2002,2
+M,IRI,Iran,2004,36
+M,IRI,Iran,2006,3
+M,IRI,Iran,2008,52
+M,IRI,Iran,2010,5
+M,IRI,Iran,2012,46
+M,IRI,Iran,2014,5
+M,IRI,Iran,2016,56
+M,IRL,Ireland,1924,53
+M,IRL,Ireland,1928,37
+M,IRL,Ireland,1932,15
+M,IRL,Ireland,1948,76
+M,IRL,Ireland,1952,25
+M,IRL,Ireland,1956,23
+M,IRL,Ireland,1960,60
+M,IRL,Ireland,1964,33
+M,IRL,Ireland,1968,46
+M,IRL,Ireland,1972,64
+M,IRL,Ireland,1976,54
+M,IRL,Ireland,1980,52
+M,IRL,Ireland,1984,35
+M,IRL,Ireland,1988,65
+M,IRL,Ireland,1992,66
+M,IRL,Ireland,1996,77
+M,IRL,Ireland,1998,10
+M,IRL,Ireland,2000,45
+M,IRL,Ireland,2002,7
+M,IRL,Ireland,2004,37
+M,IRL,Ireland,2006,3
+M,IRL,Ireland,2008,44
+M,IRL,Ireland,2010,3
+M,IRL,Ireland,2012,42
+M,IRL,Ireland,2014,6
+M,IRL,Ireland,2016,62
+M,IRQ,Iraq,1948,13
+M,IRQ,Iraq,1960,28
+M,IRQ,Iraq,1964,19
+M,IRQ,Iraq,1968,4
+M,IRQ,Iraq,1980,44
+M,IRQ,Iraq,1984,25
+M,IRQ,Iraq,1988,28
+M,IRQ,Iraq,1992,8
+M,IRQ,Iraq,1996,3
+M,IRQ,Iraq,2000,2
+M,IRQ,Iraq,2004,23
+M,IRQ,Iraq,2008,3
+M,IRQ,Iraq,2012,5
+M,IRQ,Iraq,2016,20
+M,ISL,Iceland,1908,1
+M,ISL,Iceland,1912,2
+M,ISL,Iceland,1936,13
+M,ISL,Iceland,1948,32
+M,ISL,Iceland,1952,42
+M,ISL,Iceland,1956,13
+M,ISL,Iceland,1960,20
+M,ISL,Iceland,1964,14
+M,ISL,Iceland,1968,18
+M,ISL,Iceland,1972,29
+M,ISL,Iceland,1976,26
+M,ISL,Iceland,1980,22
+M,ISL,Iceland,1984,39
+M,ISL,Iceland,1988,39
+M,ISL,Iceland,1992,39
+M,ISL,Iceland,1994,11
+M,ISL,Iceland,1996,11
+M,ISL,Iceland,1998,6
+M,ISL,Iceland,2000,17
+M,ISL,Iceland,2002,7
+M,ISL,Iceland,2004,28
+M,ISL,Iceland,2006,8
+M,ISL,Iceland,2008,22
+M,ISL,Iceland,2010,5
+M,ISL,Iceland,2012,24
+M,ISL,Iceland,2014,6
+M,ISL,Iceland,2016,4
+M,ISR,Israel,1952,27
+M,ISR,Israel,1956,2
+M,ISR,Israel,1960,27
+M,ISR,Israel,1964,10
+M,ISR,Israel,1968,32
+M,ISR,Israel,1972,13
+M,ISR,Israel,1976,32
+M,ISR,Israel,1984,46
+M,ISR,Israel,1988,21
+M,ISR,Israel,1992,35
+M,ISR,Israel,1994,1
+M,ISR,Israel,1996,28
+M,ISR,Israel,1998,2
+M,ISR,Israel,2000,45
+M,ISR,Israel,2002,2
+M,ISR,Israel,2004,27
+M,ISR,Israel,2006,4
+M,ISR,Israel,2008,35
+M,ISR,Israel,2010,3
+M,ISR,Israel,2012,33
+M,ISR,Israel,2014,5
+M,ISR,Israel,2016,28
+M,ISV,"Virgin Islands, US",1968,6
+M,ISV,"Virgin Islands, US",1972,16
+M,ISV,"Virgin Islands, US",1976,22
+M,ISV,"Virgin Islands, US",1984,46
+M,ISV,"Virgin Islands, US",1988,45
+M,ISV,"Virgin Islands, US",1992,42
+M,ISV,"Virgin Islands, US",1994,9
+M,ISV,"Virgin Islands, US",1996,6
+M,ISV,"Virgin Islands, US",1998,8
+M,ISV,"Virgin Islands, US",2000,9
+M,ISV,"Virgin Islands, US",2002,6
+M,ISV,"Virgin Islands, US",2004,7
+M,ISV,"Virgin Islands, US",2008,6
+M,ISV,"Virgin Islands, US",2012,4
+M,ISV,"Virgin Islands, US",2016,5
+M,ITA,Italy,1896,1
+M,ITA,Italy,1900,34
+M,ITA,Italy,1904,1
+M,ITA,Italy,1906,103
+M,ITA,Italy,1908,97
+M,ITA,Italy,1912,96
+M,ITA,Italy,1920,289
+M,ITA,Italy,1924,344
+M,ITA,Italy,1928,257
+M,ITA,Italy,1932,169
+M,ITA,Italy,1936,355
+M,ITA,Italy,1948,353
+M,ITA,Italy,1952,341
+M,ITA,Italy,1956,222
+M,ITA,Italy,1960,367
+M,ITA,Italy,1964,316
+M,ITA,Italy,1968,298
+M,ITA,Italy,1972,340
+M,ITA,Italy,1976,321
+M,ITA,Italy,1980,204
+M,ITA,Italy,1984,380
+M,ITA,Italy,1988,377
+M,ITA,Italy,1992,444
+M,ITA,Italy,1994,132
+M,ITA,Italy,1996,324
+M,ITA,Italy,1998,120
+M,ITA,Italy,2000,297
+M,ITA,Italy,2002,108
+M,ITA,Italy,2004,304
+M,ITA,Italy,2006,173
+M,ITA,Italy,2008,276
+M,ITA,Italy,2010,128
+M,ITA,Italy,2012,212
+M,ITA,Italy,2014,131
+M,ITA,Italy,2016,213
+M,IVB,"Virgin Islands, British",1984,15
+M,IVB,"Virgin Islands, British",1988,4
+M,IVB,"Virgin Islands, British",1992,4
+M,IVB,"Virgin Islands, British",1996,11
+M,IVB,"Virgin Islands, British",2000,1
+M,IVB,"Virgin Islands, British",2004,1
+M,IVB,"Virgin Islands, British",2008,1
+M,IVB,"Virgin Islands, British",2012,1
+M,IVB,"Virgin Islands, British",2014,1
+M,IVB,"Virgin Islands, British",2016,1
+M,JAM,Jamaica,1948,17
+M,JAM,Jamaica,1952,13
+M,JAM,Jamaica,1956,13
+M,JAM,Jamaica,1964,23
+M,JAM,Jamaica,1968,24
+M,JAM,Jamaica,1972,32
+M,JAM,Jamaica,1976,17
+M,JAM,Jamaica,1980,18
+M,JAM,Jamaica,1984,51
+M,JAM,Jamaica,1988,36
+M,JAM,Jamaica,1992,35
+M,JAM,Jamaica,1994,6
+M,JAM,Jamaica,1996,37
+M,JAM,Jamaica,1998,6
+M,JAM,Jamaica,2000,29
+M,JAM,Jamaica,2002,2
+M,JAM,Jamaica,2004,27
+M,JAM,Jamaica,2008,30
+M,JAM,Jamaica,2010,1
+M,JAM,Jamaica,2012,29
+M,JAM,Jamaica,2014,2
+M,JAM,Jamaica,2016,34
+M,JOR,Jordan,1980,6
+M,JOR,Jordan,1984,14
+M,JOR,Jordan,1988,7
+M,JOR,Jordan,1992,4
+M,JOR,Jordan,1996,3
+M,JOR,Jordan,2000,4
+M,JOR,Jordan,2004,4
+M,JOR,Jordan,2008,3
+M,JOR,Jordan,2012,5
+M,JOR,Jordan,2016,7
+M,JPN,Japan,1912,4
+M,JPN,Japan,1920,26
+M,JPN,Japan,1924,37
+M,JPN,Japan,1928,64
+M,JPN,Japan,1932,204
+M,JPN,Japan,1936,332
+M,JPN,Japan,1952,141
+M,JPN,Japan,1956,190
+M,JPN,Japan,1960,278
+M,JPN,Japan,1964,424
+M,JPN,Japan,1968,300
+M,JPN,Japan,1972,309
+M,JPN,Japan,1976,296
+M,JPN,Japan,1980,71
+M,JPN,Japan,1984,323
+M,JPN,Japan,1988,365
+M,JPN,Japan,1992,349
+M,JPN,Japan,1994,89
+M,JPN,Japan,1996,231
+M,JPN,Japan,1998,143
+M,JPN,Japan,2000,226
+M,JPN,Japan,2002,115
+M,JPN,Japan,2004,210
+M,JPN,Japan,2006,103
+M,JPN,Japan,2008,233
+M,JPN,Japan,2010,81
+M,JPN,Japan,2012,199
+M,JPN,Japan,2014,75
+M,JPN,Japan,2016,227
+M,KAZ,Kazakhstan,1994,43
+M,KAZ,Kazakhstan,1996,106
+M,KAZ,Kazakhstan,1998,78
+M,KAZ,Kazakhstan,2000,105
+M,KAZ,Kazakhstan,2002,49
+M,KAZ,Kazakhstan,2004,83
+M,KAZ,Kazakhstan,2006,67
+M,KAZ,Kazakhstan,2008,72
+M,KAZ,Kazakhstan,2010,52
+M,KAZ,Kazakhstan,2012,85
+M,KAZ,Kazakhstan,2014,74
+M,KAZ,Kazakhstan,2016,66
+M,KEN,Kenya,1956,30
+M,KEN,Kenya,1960,30
+M,KEN,Kenya,1964,41
+M,KEN,Kenya,1968,47
+M,KEN,Kenya,1972,66
+M,KEN,Kenya,1984,61
+M,KEN,Kenya,1988,82
+M,KEN,Kenya,1992,46
+M,KEN,Kenya,1996,44
+M,KEN,Kenya,1998,1
+M,KEN,Kenya,2000,36
+M,KEN,Kenya,2002,2
+M,KEN,Kenya,2004,22
+M,KEN,Kenya,2006,1
+M,KEN,Kenya,2008,29
+M,KEN,Kenya,2012,29
+M,KEN,Kenya,2016,46
+M,KGZ,Kyrgyzstan,1996,43
+M,KGZ,Kyrgyzstan,1998,2
+M,KGZ,Kyrgyzstan,2000,51
+M,KGZ,Kyrgyzstan,2002,4
+M,KGZ,Kyrgyzstan,2004,25
+M,KGZ,Kyrgyzstan,2006,2
+M,KGZ,Kyrgyzstan,2008,18
+M,KGZ,Kyrgyzstan,2010,2
+M,KGZ,Kyrgyzstan,2012,12
+M,KGZ,Kyrgyzstan,2014,2
+M,KGZ,Kyrgyzstan,2016,12
+M,KIR,Kiribati,2004,2
+M,KIR,Kiribati,2008,2
+M,KIR,Kiribati,2012,2
+M,KIR,Kiribati,2016,2
+M,KOR,South Korea,1948,54
+M,KOR,South Korea,1952,21
+M,KOR,South Korea,1956,46
+M,KOR,South Korea,1960,56
+M,KOR,South Korea,1964,208
+M,KOR,South Korea,1968,61
+M,KOR,South Korea,1972,35
+M,KOR,South Korea,1976,43
+M,KOR,South Korea,1980,15
+M,KOR,South Korea,1984,199
+M,KOR,South Korea,1988,400
+M,KOR,South Korea,1992,280
+M,KOR,South Korea,1994,24
+M,KOR,South Korea,1996,272
+M,KOR,South Korea,1998,57
+M,KOR,South Korea,2000,232
+M,KOR,South Korea,2002,59
+M,KOR,South Korea,2004,203
+M,KOR,South Korea,2006,55
+M,KOR,South Korea,2008,208
+M,KOR,South Korea,2010,49
+M,KOR,South Korea,2012,176
+M,KOR,South Korea,2014,76
+M,KOR,South Korea,2016,145
+M,KOS,Kosovo,2016,3
+M,KSA,Saudi Arabia,1972,14
+M,KSA,Saudi Arabia,1976,19
+M,KSA,Saudi Arabia,1984,42
+M,KSA,Saudi Arabia,1988,13
+M,KSA,Saudi Arabia,1992,17
+M,KSA,Saudi Arabia,1996,34
+M,KSA,Saudi Arabia,2000,23
+M,KSA,Saudi Arabia,2004,16
+M,KSA,Saudi Arabia,2008,18
+M,KSA,Saudi Arabia,2012,21
+M,KSA,Saudi Arabia,2016,8
+M,KUW,Kuwait,1968,2
+M,KUW,Kuwait,1972,4
+M,KUW,Kuwait,1976,21
+M,KUW,Kuwait,1980,67
+M,KUW,Kuwait,1984,31
+M,KUW,Kuwait,1988,34
+M,KUW,Kuwait,1992,37
+M,KUW,Kuwait,1996,27
+M,KUW,Kuwait,2000,30
+M,KUW,Kuwait,2004,10
+M,KUW,Kuwait,2008,8
+M,KUW,Kuwait,2012,9
+M,LAO,Laos,1980,17
+M,LAO,Laos,1988,2
+M,LAO,Laos,1992,7
+M,LAO,Laos,1996,4
+M,LAO,Laos,2000,2
+M,LAO,Laos,2004,3
+M,LAO,Laos,2008,2
+M,LAO,Laos,2012,2
+M,LAO,Laos,2016,3
+M,LAT,Latvia,1924,54
+M,LAT,Latvia,1928,19
+M,LAT,Latvia,1932,5
+M,LAT,Latvia,1936,66
+M,LAT,Latvia,1992,63
+M,LAT,Latvia,1994,32
+M,LAT,Latvia,1996,38
+M,LAT,Latvia,1998,33
+M,LAT,Latvia,2000,43
+M,LAT,Latvia,2002,60
+M,LAT,Latvia,2004,34
+M,LAT,Latvia,2006,72
+M,LAT,Latvia,2008,35
+M,LAT,Latvia,2010,61
+M,LAT,Latvia,2012,36
+M,LAT,Latvia,2014,69
+M,LAT,Latvia,2016,20
+M,LBA,Libya,1968,1
+M,LBA,Libya,1980,33
+M,LBA,Libya,1988,7
+M,LBA,Libya,1992,5
+M,LBA,Libya,1996,5
+M,LBA,Libya,2000,3
+M,LBA,Libya,2004,6
+M,LBA,Libya,2008,4
+M,LBA,Libya,2012,3
+M,LBA,Libya,2016,6
+M,LBR,Liberia,1956,11
+M,LBR,Liberia,1960,6
+M,LBR,Liberia,1964,2
+M,LBR,Liberia,1972,5
+M,LBR,Liberia,1984,9
+M,LBR,Liberia,1988,8
+M,LBR,Liberia,1996,6
+M,LBR,Liberia,2000,8
+M,LBR,Liberia,2004,1
+M,LBR,Liberia,2008,2
+M,LBR,Liberia,2012,1
+M,LBR,Liberia,2016,2
+M,LCA,Saint Lucia,1996,7
+M,LCA,Saint Lucia,2000,3
+M,LCA,Saint Lucia,2004,1
+M,LCA,Saint Lucia,2008,1
+M,LCA,Saint Lucia,2012,1
+M,LCA,Saint Lucia,2016,2
+M,LES,Lesotho,1972,2
+M,LES,Lesotho,1980,7
+M,LES,Lesotho,1984,5
+M,LES,Lesotho,1988,6
+M,LES,Lesotho,1992,6
+M,LES,Lesotho,1996,6
+M,LES,Lesotho,2000,4
+M,LES,Lesotho,2004,1
+M,LES,Lesotho,2008,4
+M,LES,Lesotho,2012,2
+M,LES,Lesotho,2016,8
+M,LIB,Lebanon,1948,12
+M,LIB,Lebanon,1952,12
+M,LIB,Lebanon,1956,8
+M,LIB,Lebanon,1960,27
+M,LIB,Lebanon,1964,20
+M,LIB,Lebanon,1968,21
+M,LIB,Lebanon,1972,36
+M,LIB,Lebanon,1976,4
+M,LIB,Lebanon,1980,23
+M,LIB,Lebanon,1984,37
+M,LIB,Lebanon,1988,37
+M,LIB,Lebanon,1992,26
+M,LIB,Lebanon,2000,4
+M,LIB,Lebanon,2002,1
+M,LIB,Lebanon,2004,3
+M,LIB,Lebanon,2006,2
+M,LIB,Lebanon,2008,4
+M,LIB,Lebanon,2010,2
+M,LIB,Lebanon,2012,3
+M,LIB,Lebanon,2014,2
+M,LIB,Lebanon,2016,4
+M,LIE,Liechtenstein,1936,12
+M,LIE,Liechtenstein,1948,18
+M,LIE,Liechtenstein,1952,2
+M,LIE,Liechtenstein,1956,14
+M,LIE,Liechtenstein,1960,17
+M,LIE,Liechtenstein,1964,15
+M,LIE,Liechtenstein,1968,17
+M,LIE,Liechtenstein,1972,19
+M,LIE,Liechtenstein,1976,18
+M,LIE,Liechtenstein,1980,9
+M,LIE,Liechtenstein,1984,18
+M,LIE,Liechtenstein,1988,40
+M,LIE,Liechtenstein,1992,20
+M,LIE,Liechtenstein,1994,23
+M,LIE,Liechtenstein,1998,12
+M,LIE,Liechtenstein,2000,1
+M,LIE,Liechtenstein,2002,17
+M,LIE,Liechtenstein,2004,1
+M,LIE,Liechtenstein,2006,9
+M,LIE,Liechtenstein,2008,2
+M,LIE,Liechtenstein,2010,4
+M,LIE,Liechtenstein,2012,1
+M,LIE,Liechtenstein,2014,4
+M,LIE,Liechtenstein,2016,1
+M,LTU,Lithuania,1924,13
+M,LTU,Lithuania,1928,16
+M,LTU,Lithuania,1992,48
+M,LTU,Lithuania,1994,7
+M,LTU,Lithuania,1996,59
+M,LTU,Lithuania,1998,13
+M,LTU,Lithuania,2000,47
+M,LTU,Lithuania,2002,16
+M,LTU,Lithuania,2004,55
+M,LTU,Lithuania,2006,7
+M,LTU,Lithuania,2008,45
+M,LTU,Lithuania,2010,8
+M,LTU,Lithuania,2012,42
+M,LTU,Lithuania,2014,9
+M,LTU,Lithuania,2016,60
+M,LUX,Luxembourg,1900,1
+M,LUX,Luxembourg,1912,44
+M,LUX,Luxembourg,1920,35
+M,LUX,Luxembourg,1924,120
+M,LUX,Luxembourg,1928,106
+M,LUX,Luxembourg,1932,4
+M,LUX,Luxembourg,1936,119
+M,LUX,Luxembourg,1948,111
+M,LUX,Luxembourg,1952,101
+M,LUX,Luxembourg,1956,22
+M,LUX,Luxembourg,1960,104
+M,LUX,Luxembourg,1964,25
+M,LUX,Luxembourg,1968,4
+M,LUX,Luxembourg,1972,14
+M,LUX,Luxembourg,1976,9
+M,LUX,Luxembourg,1980,4
+M,LUX,Luxembourg,1984,4
+M,LUX,Luxembourg,1988,10
+M,LUX,Luxembourg,1992,12
+M,LUX,Luxembourg,1994,5
+M,LUX,Luxembourg,1996,3
+M,LUX,Luxembourg,1998,1
+M,LUX,Luxembourg,2000,2
+M,LUX,Luxembourg,2004,7
+M,LUX,Luxembourg,2008,15
+M,LUX,Luxembourg,2012,7
+M,LUX,Luxembourg,2014,1
+M,LUX,Luxembourg,2016,8
+M,MAD,Madagascar,1964,4
+M,MAD,Madagascar,1968,6
+M,MAD,Madagascar,1972,13
+M,MAD,Madagascar,1980,12
+M,MAD,Madagascar,1984,5
+M,MAD,Madagascar,1992,8
+M,MAD,Madagascar,1996,4
+M,MAD,Madagascar,2000,5
+M,MAD,Madagascar,2004,3
+M,MAD,Madagascar,2006,2
+M,MAD,Madagascar,2008,4
+M,MAD,Madagascar,2012,3
+M,MAD,Madagascar,2016,2
+M,MAL,Malaysia,1956,33
+M,MAL,Malaysia,1960,11
+M,MAR,Morocco,1960,111
+M,MAR,Morocco,1964,21
+M,MAR,Morocco,1968,33
+M,MAR,Morocco,1972,36
+M,MAR,Morocco,1976,9
+M,MAR,Morocco,1984,41
+M,MAR,Morocco,1988,31
+M,MAR,Morocco,1992,62
+M,MAR,Morocco,1996,32
+M,MAR,Morocco,2000,46
+M,MAR,Morocco,2004,48
+M,MAR,Morocco,2008,37
+M,MAR,Morocco,2010,2
+M,MAR,Morocco,2012,48
+M,MAR,Morocco,2014,2
+M,MAR,Morocco,2016,31
+M,MAS,Malaysia,1964,75
+M,MAS,Malaysia,1968,35
+M,MAS,Malaysia,1972,52
+M,MAS,Malaysia,1976,25
+M,MAS,Malaysia,1984,23
+M,MAS,Malaysia,1988,9
+M,MAS,Malaysia,1992,30
+M,MAS,Malaysia,1996,40
+M,MAS,Malaysia,2000,42
+M,MAS,Malaysia,2004,27
+M,MAS,Malaysia,2008,26
+M,MAS,Malaysia,2012,22
+M,MAS,Malaysia,2016,23
+M,MAW,Malawi,1972,14
+M,MAW,Malawi,1984,23
+M,MAW,Malawi,1988,22
+M,MAW,Malawi,1992,3
+M,MAW,Malawi,1996,2
+M,MAW,Malawi,2000,1
+M,MAW,Malawi,2004,2
+M,MAW,Malawi,2008,2
+M,MAW,Malawi,2012,1
+M,MAW,Malawi,2016,3
+M,MDA,Moldova,1994,2
+M,MDA,Moldova,1996,45
+M,MDA,Moldova,1998,2
+M,MDA,Moldova,2000,30
+M,MDA,Moldova,2002,4
+M,MDA,Moldova,2004,26
+M,MDA,Moldova,2006,3
+M,MDA,Moldova,2008,22
+M,MDA,Moldova,2010,7
+M,MDA,Moldova,2012,12
+M,MDA,Moldova,2014,3
+M,MDA,Moldova,2016,14
+M,MDV,Maldives,1988,9
+M,MDV,Maldives,1992,9
+M,MDV,Maldives,1996,8
+M,MDV,Maldives,2000,2
+M,MDV,Maldives,2004,2
+M,MDV,Maldives,2008,2
+M,MDV,Maldives,2012,3
+M,MDV,Maldives,2016,2
+M,MEX,Mexico,1900,3
+M,MEX,Mexico,1924,28
+M,MEX,Mexico,1928,45
+M,MEX,Mexico,1932,98
+M,MEX,Mexico,1936,32
+M,MEX,Mexico,1948,140
+M,MEX,Mexico,1952,82
+M,MEX,Mexico,1956,33
+M,MEX,Mexico,1960,97
+M,MEX,Mexico,1964,122
+M,MEX,Mexico,1968,343
+M,MEX,Mexico,1972,210
+M,MEX,Mexico,1976,122
+M,MEX,Mexico,1980,50
+M,MEX,Mexico,1984,117
+M,MEX,Mexico,1988,135
+M,MEX,Mexico,1992,129
+M,MEX,Mexico,1994,1
+M,MEX,Mexico,1996,80
+M,MEX,Mexico,2000,64
+M,MEX,Mexico,2002,3
+M,MEX,Mexico,2004,70
+M,MEX,Mexico,2008,52
+M,MEX,Mexico,2010,2
+M,MEX,Mexico,2012,74
+M,MEX,Mexico,2014,1
+M,MEX,Mexico,2016,83
+M,MGL,Mongolia,1964,43
+M,MGL,Mongolia,1968,32
+M,MGL,Mongolia,1972,50
+M,MGL,Mongolia,1976,31
+M,MGL,Mongolia,1980,55
+M,MGL,Mongolia,1984,12
+M,MGL,Mongolia,1988,31
+M,MGL,Mongolia,1992,41
+M,MGL,Mongolia,1994,2
+M,MGL,Mongolia,1996,12
+M,MGL,Mongolia,1998,3
+M,MGL,Mongolia,2000,12
+M,MGL,Mongolia,2002,3
+M,MGL,Mongolia,2004,13
+M,MGL,Mongolia,2006,1
+M,MGL,Mongolia,2008,14
+M,MGL,Mongolia,2010,1
+M,MGL,Mongolia,2012,18
+M,MGL,Mongolia,2014,1
+M,MGL,Mongolia,2016,26
+M,MHL,Marshall Islands,2008,3
+M,MHL,Marshall Islands,2012,2
+M,MHL,Marshall Islands,2016,2
+M,MKD,Macedonia,1996,10
+M,MKD,Macedonia,1998,2
+M,MKD,Macedonia,2000,7
+M,MKD,Macedonia,2002,4
+M,MKD,Macedonia,2004,8
+M,MKD,Macedonia,2006,3
+M,MKD,Macedonia,2008,5
+M,MKD,Macedonia,2010,3
+M,MKD,Macedonia,2012,2
+M,MKD,Macedonia,2014,5
+M,MKD,Macedonia,2016,2
+M,MLI,Mali,1964,2
+M,MLI,Mali,1968,2
+M,MLI,Mali,1972,3
+M,MLI,Mali,1980,6
+M,MLI,Mali,1984,5
+M,MLI,Mali,1988,6
+M,MLI,Mali,1992,4
+M,MLI,Mali,1996,2
+M,MLI,Mali,2000,3
+M,MLI,Mali,2004,19
+M,MLI,Mali,2008,3
+M,MLI,Mali,2012,4
+M,MLI,Mali,2016,4
+M,MLT,Malta,1928,9
+M,MLT,Malta,1936,11
+M,MLT,Malta,1948,1
+M,MLT,Malta,1960,13
+M,MLT,Malta,1968,1
+M,MLT,Malta,1972,5
+M,MLT,Malta,1980,11
+M,MLT,Malta,1984,5
+M,MLT,Malta,1988,5
+M,MLT,Malta,1992,3
+M,MLT,Malta,1996,5
+M,MLT,Malta,2000,4
+M,MLT,Malta,2004,4
+M,MLT,Malta,2008,3
+M,MLT,Malta,2012,3
+M,MLT,Malta,2016,4
+M,MNE,Montenegro,2008,18
+M,MNE,Montenegro,2010,2
+M,MNE,Montenegro,2012,19
+M,MNE,Montenegro,2014,2
+M,MNE,Montenegro,2016,17
+M,MON,Monaco,1920,7
+M,MON,Monaco,1924,9
+M,MON,Monaco,1928,12
+M,MON,Monaco,1932,1
+M,MON,Monaco,1936,11
+M,MON,Monaco,1948,4
+M,MON,Monaco,1952,10
+M,MON,Monaco,1960,13
+M,MON,Monaco,1964,1
+M,MON,Monaco,1968,2
+M,MON,Monaco,1972,5
+M,MON,Monaco,1976,10
+M,MON,Monaco,1984,10
+M,MON,Monaco,1988,12
+M,MON,Monaco,1992,11
+M,MON,Monaco,1994,7
+M,MON,Monaco,1996,3
+M,MON,Monaco,1998,6
+M,MON,Monaco,2000,3
+M,MON,Monaco,2002,7
+M,MON,Monaco,2004,2
+M,MON,Monaco,2006,5
+M,MON,Monaco,2008,4
+M,MON,Monaco,2010,2
+M,MON,Monaco,2012,5
+M,MON,Monaco,2014,9
+M,MON,Monaco,2016,8
+M,MOZ,Mozambique,1980,13
+M,MOZ,Mozambique,1984,12
+M,MOZ,Mozambique,1988,8
+M,MOZ,Mozambique,1992,3
+M,MOZ,Mozambique,1996,2
+M,MOZ,Mozambique,2000,2
+M,MOZ,Mozambique,2004,2
+M,MOZ,Mozambique,2008,2
+M,MOZ,Mozambique,2012,4
+M,MOZ,Mozambique,2016,7
+M,MRI,Mauritius,1984,6
+M,MRI,Mauritius,1988,9
+M,MRI,Mauritius,1992,10
+M,MRI,Mauritius,1996,27
+M,MRI,Mauritius,2000,20
+M,MRI,Mauritius,2004,6
+M,MRI,Mauritius,2008,6
+M,MRI,Mauritius,2012,4
+M,MRI,Mauritius,2016,5
+M,MTN,Mauritania,1984,2
+M,MTN,Mauritania,1988,7
+M,MTN,Mauritania,1992,6
+M,MTN,Mauritania,1996,4
+M,MTN,Mauritania,2000,1
+M,MTN,Mauritania,2004,1
+M,MTN,Mauritania,2008,1
+M,MTN,Mauritania,2012,1
+M,MTN,Mauritania,2016,1
+M,MYA,Myanmar,1948,5
+M,MYA,Myanmar,1952,5
+M,MYA,Myanmar,1956,12
+M,MYA,Myanmar,1960,10
+M,MYA,Myanmar,1964,12
+M,MYA,Myanmar,1968,4
+M,MYA,Myanmar,1972,19
+M,MYA,Myanmar,1980,2
+M,MYA,Myanmar,1984,1
+M,MYA,Myanmar,1992,1
+M,MYA,Myanmar,1996,2
+M,MYA,Myanmar,2000,1
+M,MYA,Myanmar,2008,5
+M,MYA,Myanmar,2012,3
+M,MYA,Myanmar,2016,5
+M,NAM,Namibia,1992,7
+M,NAM,Namibia,1996,7
+M,NAM,Namibia,2000,10
+M,NAM,Namibia,2004,9
+M,NAM,Namibia,2008,6
+M,NAM,Namibia,2012,5
+M,NAM,Namibia,2016,5
+M,NBO,Malaysia,1956,2
+M,NCA,Nicaragua,1968,16
+M,NCA,Nicaragua,1972,8
+M,NCA,Nicaragua,1976,25
+M,NCA,Nicaragua,1980,3
+M,NCA,Nicaragua,1984,5
+M,NCA,Nicaragua,1992,7
+M,NCA,Nicaragua,1996,27
+M,NCA,Nicaragua,2000,4
+M,NCA,Nicaragua,2004,2
+M,NCA,Nicaragua,2008,4
+M,NCA,Nicaragua,2012,3
+M,NCA,Nicaragua,2016,3
+M,NED,Netherlands,1900,70
+M,NED,Netherlands,1906,49
+M,NED,Netherlands,1908,214
+M,NED,Netherlands,1912,45
+M,NED,Netherlands,1920,212
+M,NED,Netherlands,1924,223
+M,NED,Netherlands,1928,323
+M,NED,Netherlands,1932,43
+M,NED,Netherlands,1936,195
+M,NED,Netherlands,1948,156
+M,NED,Netherlands,1952,114
+M,NED,Netherlands,1956,15
+M,NED,Netherlands,1960,102
+M,NED,Netherlands,1964,135
+M,NED,Netherlands,1968,111
+M,NED,Netherlands,1972,127
+M,NED,Netherlands,1976,99
+M,NED,Netherlands,1980,118
+M,NED,Netherlands,1984,117
+M,NED,Netherlands,1988,130
+M,NED,Netherlands,1992,153
+M,NED,Netherlands,1994,23
+M,NED,Netherlands,1996,162
+M,NED,Netherlands,1998,21
+M,NED,Netherlands,2000,176
+M,NED,Netherlands,2002,27
+M,NED,Netherlands,2004,159
+M,NED,Netherlands,2006,33
+M,NED,Netherlands,2008,160
+M,NED,Netherlands,2010,30
+M,NED,Netherlands,2012,117
+M,NED,Netherlands,2014,41
+M,NED,Netherlands,2016,153
+M,NEP,Nepal,1924,1
+M,NEP,Nepal,1964,6
+M,NEP,Nepal,1972,2
+M,NEP,Nepal,1976,1
+M,NEP,Nepal,1980,10
+M,NEP,Nepal,1984,10
+M,NEP,Nepal,1988,17
+M,NEP,Nepal,1992,1
+M,NEP,Nepal,1996,3
+M,NEP,Nepal,2000,2
+M,NEP,Nepal,2002,2
+M,NEP,Nepal,2004,3
+M,NEP,Nepal,2006,1
+M,NEP,Nepal,2008,4
+M,NEP,Nepal,2010,1
+M,NEP,Nepal,2012,2
+M,NEP,Nepal,2014,1
+M,NEP,Nepal,2016,3
+M,NFL,Canada,1904,1
+M,NGR,Nigeria,1952,15
+M,NGR,Nigeria,1956,14
+M,NGR,Nigeria,1960,15
+M,NGR,Nigeria,1964,17
+M,NGR,Nigeria,1968,37
+M,NGR,Nigeria,1972,25
+M,NGR,Nigeria,1980,46
+M,NGR,Nigeria,1984,33
+M,NGR,Nigeria,1988,71
+M,NGR,Nigeria,1992,42
+M,NGR,Nigeria,1996,57
+M,NGR,Nigeria,2000,51
+M,NGR,Nigeria,2004,29
+M,NGR,Nigeria,2008,42
+M,NGR,Nigeria,2012,30
+M,NGR,Nigeria,2016,49
+M,NIG,Niger,1964,1
+M,NIG,Niger,1968,2
+M,NIG,Niger,1972,4
+M,NIG,Niger,1984,4
+M,NIG,Niger,1988,6
+M,NIG,Niger,1992,3
+M,NIG,Niger,1996,2
+M,NIG,Niger,2000,2
+M,NIG,Niger,2004,3
+M,NIG,Niger,2008,2
+M,NIG,Niger,2012,4
+M,NIG,Niger,2016,4
+M,NOR,Norway,1900,29
+M,NOR,Norway,1904,6
+M,NOR,Norway,1906,55
+M,NOR,Norway,1908,103
+M,NOR,Norway,1912,260
+M,NOR,Norway,1920,261
+M,NOR,Norway,1924,135
+M,NOR,Norway,1928,105
+M,NOR,Norway,1932,39
+M,NOR,Norway,1936,122
+M,NOR,Norway,1948,158
+M,NOR,Norway,1952,253
+M,NOR,Norway,1956,82
+M,NOR,Norway,1960,93
+M,NOR,Norway,1964,116
+M,NOR,Norway,1968,128
+M,NOR,Norway,1972,200
+M,NOR,Norway,1976,134
+M,NOR,Norway,1980,80
+M,NOR,Norway,1984,180
+M,NOR,Norway,1988,143
+M,NOR,Norway,1992,175
+M,NOR,Norway,1994,111
+M,NOR,Norway,1996,54
+M,NOR,Norway,1998,87
+M,NOR,Norway,2000,61
+M,NOR,Norway,2002,110
+M,NOR,Norway,2004,42
+M,NOR,Norway,2006,105
+M,NOR,Norway,2008,43
+M,NOR,Norway,2010,135
+M,NOR,Norway,2012,37
+M,NOR,Norway,2014,142
+M,NOR,Norway,2016,40
+M,NRU,Nauru,1996,3
+M,NRU,Nauru,2000,1
+M,NRU,Nauru,2004,2
+M,NRU,Nauru,2008,1
+M,NRU,Nauru,2012,2
+M,NRU,Nauru,2016,2
+M,NZL,New Zealand,1900,1
+M,NZL,New Zealand,1920,4
+M,NZL,New Zealand,1924,4
+M,NZL,New Zealand,1928,8
+M,NZL,New Zealand,1932,28
+M,NZL,New Zealand,1936,9
+M,NZL,New Zealand,1948,7
+M,NZL,New Zealand,1952,20
+M,NZL,New Zealand,1956,46
+M,NZL,New Zealand,1960,47
+M,NZL,New Zealand,1964,65
+M,NZL,New Zealand,1968,62
+M,NZL,New Zealand,1972,101
+M,NZL,New Zealand,1976,88
+M,NZL,New Zealand,1980,14
+M,NZL,New Zealand,1984,127
+M,NZL,New Zealand,1988,107
+M,NZL,New Zealand,1992,136
+M,NZL,New Zealand,1994,14
+M,NZL,New Zealand,1996,84
+M,NZL,New Zealand,1998,5
+M,NZL,New Zealand,2000,93
+M,NZL,New Zealand,2002,13
+M,NZL,New Zealand,2004,102
+M,NZL,New Zealand,2006,10
+M,NZL,New Zealand,2008,112
+M,NZL,New Zealand,2010,13
+M,NZL,New Zealand,2012,110
+M,NZL,New Zealand,2014,10
+M,NZL,New Zealand,2016,118
+M,OMA,Oman,1984,22
+M,OMA,Oman,1988,13
+M,OMA,Oman,1992,5
+M,OMA,Oman,1996,5
+M,OMA,Oman,2000,8
+M,OMA,Oman,2004,2
+M,OMA,Oman,2008,3
+M,OMA,Oman,2012,2
+M,OMA,Oman,2016,2
+M,PAK,Pakistan,1948,44
+M,PAK,Pakistan,1952,51
+M,PAK,Pakistan,1956,79
+M,PAK,Pakistan,1960,53
+M,PAK,Pakistan,1964,47
+M,PAK,Pakistan,1968,15
+M,PAK,Pakistan,1972,26
+M,PAK,Pakistan,1976,24
+M,PAK,Pakistan,1984,33
+M,PAK,Pakistan,1988,33
+M,PAK,Pakistan,1992,28
+M,PAK,Pakistan,1996,23
+M,PAK,Pakistan,2000,26
+M,PAK,Pakistan,2004,24
+M,PAK,Pakistan,2008,20
+M,PAK,Pakistan,2010,1
+M,PAK,Pakistan,2012,19
+M,PAK,Pakistan,2014,1
+M,PAK,Pakistan,2016,4
+M,PAN,Panama,1928,2
+M,PAN,Panama,1948,2
+M,PAN,Panama,1952,1
+M,PAN,Panama,1960,2
+M,PAN,Panama,1964,6
+M,PAN,Panama,1968,16
+M,PAN,Panama,1972,8
+M,PAN,Panama,1976,10
+M,PAN,Panama,1984,9
+M,PAN,Panama,1988,9
+M,PAN,Panama,1992,7
+M,PAN,Panama,1996,7
+M,PAN,Panama,2000,4
+M,PAN,Panama,2004,3
+M,PAN,Panama,2008,3
+M,PAN,Panama,2012,6
+M,PAN,Panama,2016,5
+M,PAR,Paraguay,1968,1
+M,PAR,Paraguay,1972,3
+M,PAR,Paraguay,1976,6
+M,PAR,Paraguay,1984,18
+M,PAR,Paraguay,1988,13
+M,PAR,Paraguay,1992,28
+M,PAR,Paraguay,1996,6
+M,PAR,Paraguay,2000,2
+M,PAR,Paraguay,2004,20
+M,PAR,Paraguay,2008,3
+M,PAR,Paraguay,2012,6
+M,PAR,Paraguay,2016,6
+M,PER,Peru,1900,2
+M,PER,Peru,1932,2
+M,PER,Peru,1936,46
+M,PER,Peru,1948,49
+M,PER,Peru,1956,10
+M,PER,Peru,1960,33
+M,PER,Peru,1964,39
+M,PER,Peru,1968,17
+M,PER,Peru,1972,27
+M,PER,Peru,1980,18
+M,PER,Peru,1984,25
+M,PER,Peru,1988,11
+M,PER,Peru,1992,15
+M,PER,Peru,1996,16
+M,PER,Peru,2000,9
+M,PER,Peru,2004,9
+M,PER,Peru,2008,7
+M,PER,Peru,2010,3
+M,PER,Peru,2012,9
+M,PER,Peru,2014,3
+M,PER,Peru,2016,19
+M,PHI,Philippines,1924,2
+M,PHI,Philippines,1928,6
+M,PHI,Philippines,1932,8
+M,PHI,Philippines,1936,40
+M,PHI,Philippines,1948,31
+M,PHI,Philippines,1952,28
+M,PHI,Philippines,1956,43
+M,PHI,Philippines,1960,44
+M,PHI,Philippines,1964,56
+M,PHI,Philippines,1968,79
+M,PHI,Philippines,1972,74
+M,PHI,Philippines,1976,19
+M,PHI,Philippines,1984,24
+M,PHI,Philippines,1988,36
+M,PHI,Philippines,1992,35
+M,PHI,Philippines,1996,11
+M,PHI,Philippines,2000,12
+M,PHI,Philippines,2004,16
+M,PHI,Philippines,2008,11
+M,PHI,Philippines,2012,7
+M,PHI,Philippines,2014,1
+M,PHI,Philippines,2016,7
+M,PLE,Palestine,1996,1
+M,PLE,Palestine,2000,1
+M,PLE,Palestine,2004,2
+M,PLE,Palestine,2008,2
+M,PLE,Palestine,2012,3
+M,PLE,Palestine,2016,4
+M,PLW,Palau,2000,2
+M,PLW,Palau,2004,2
+M,PLW,Palau,2008,3
+M,PLW,Palau,2012,2
+M,PLW,Palau,2016,3
+M,PNG,Papua New Guinea,1976,9
+M,PNG,Papua New Guinea,1984,7
+M,PNG,Papua New Guinea,1988,12
+M,PNG,Papua New Guinea,1992,16
+M,PNG,Papua New Guinea,1996,17
+M,PNG,Papua New Guinea,2000,2
+M,PNG,Papua New Guinea,2004,4
+M,PNG,Papua New Guinea,2008,5
+M,PNG,Papua New Guinea,2012,4
+M,PNG,Papua New Guinea,2016,6
+M,POL,Poland,1912,1
+M,POL,Poland,1924,114
+M,POL,Poland,1928,131
+M,POL,Poland,1932,74
+M,POL,Poland,1936,182
+M,POL,Poland,1948,89
+M,POL,Poland,1952,207
+M,POL,Poland,1956,119
+M,POL,Poland,1960,251
+M,POL,Poland,1964,237
+M,POL,Poland,1968,256
+M,POL,Poland,1972,391
+M,POL,Poland,1976,319
+M,POL,Poland,1980,330
+M,POL,Poland,1984,28
+M,POL,Poland,1988,176
+M,POL,Poland,1992,253
+M,POL,Poland,1994,26
+M,POL,Poland,1996,154
+M,POL,Poland,1998,47
+M,POL,Poland,2000,161
+M,POL,Poland,2002,46
+M,POL,Poland,2004,152
+M,POL,Poland,2006,57
+M,POL,Poland,2008,181
+M,POL,Poland,2010,45
+M,POL,Poland,2012,145
+M,POL,Poland,2014,76
+M,POL,Poland,2016,164
+M,POR,Portugal,1912,8
+M,POR,Portugal,1920,40
+M,POR,Portugal,1924,47
+M,POR,Portugal,1928,39
+M,POR,Portugal,1932,8
+M,POR,Portugal,1936,26
+M,POR,Portugal,1948,65
+M,POR,Portugal,1952,141
+M,POR,Portugal,1956,18
+M,POR,Portugal,1960,92
+M,POR,Portugal,1964,20
+M,POR,Portugal,1968,28
+M,POR,Portugal,1972,41
+M,POR,Portugal,1976,36
+M,POR,Portugal,1980,13
+M,POR,Portugal,1984,37
+M,POR,Portugal,1988,84
+M,POR,Portugal,1992,86
+M,POR,Portugal,1994,4
+M,POR,Portugal,1996,92
+M,POR,Portugal,1998,1
+M,POR,Portugal,2000,51
+M,POR,Portugal,2004,75
+M,POR,Portugal,2006,1
+M,POR,Portugal,2008,58
+M,POR,Portugal,2010,1
+M,POR,Portugal,2012,56
+M,POR,Portugal,2014,2
+M,POR,Portugal,2016,72
+M,PRK,North Korea,1964,9
+M,PRK,North Korea,1972,69
+M,PRK,North Korea,1976,38
+M,PRK,North Korea,1980,83
+M,PRK,North Korea,1984,9
+M,PRK,North Korea,1988,5
+M,PRK,North Korea,1992,75
+M,PRK,North Korea,1996,23
+M,PRK,North Korea,1998,4
+M,PRK,North Korea,2000,21
+M,PRK,North Korea,2004,20
+M,PRK,North Korea,2006,2
+M,PRK,North Korea,2008,22
+M,PRK,North Korea,2010,1
+M,PRK,North Korea,2012,17
+M,PRK,North Korea,2016,13
+M,PUR,Puerto Rico,1948,9
+M,PUR,Puerto Rico,1952,23
+M,PUR,Puerto Rico,1956,14
+M,PUR,Puerto Rico,1960,28
+M,PUR,Puerto Rico,1964,37
+M,PUR,Puerto Rico,1968,81
+M,PUR,Puerto Rico,1972,60
+M,PUR,Puerto Rico,1976,92
+M,PUR,Puerto Rico,1980,3
+M,PUR,Puerto Rico,1984,49
+M,PUR,Puerto Rico,1988,64
+M,PUR,Puerto Rico,1992,98
+M,PUR,Puerto Rico,1994,6
+M,PUR,Puerto Rico,1996,63
+M,PUR,Puerto Rico,1998,7
+M,PUR,Puerto Rico,2000,31
+M,PUR,Puerto Rico,2004,39
+M,PUR,Puerto Rico,2008,24
+M,PUR,Puerto Rico,2012,19
+M,PUR,Puerto Rico,2016,13
+M,QAT,Qatar,1984,26
+M,QAT,Qatar,1988,13
+M,QAT,Qatar,1992,30
+M,QAT,Qatar,1996,13
+M,QAT,Qatar,2000,19
+M,QAT,Qatar,2004,15
+M,QAT,Qatar,2008,20
+M,QAT,Qatar,2012,9
+M,QAT,Qatar,2016,40
+M,RHO,Zimbabwe,1960,11
+M,ROU,Romania,1900,1
+M,ROU,Romania,1924,45
+M,ROU,Romania,1928,41
+M,ROU,Romania,1932,7
+M,ROU,Romania,1936,137
+M,ROU,Romania,1948,14
+M,ROU,Romania,1952,205
+M,ROU,Romania,1956,79
+M,ROU,Romania,1960,107
+M,ROU,Romania,1964,199
+M,ROU,Romania,1968,119
+M,ROU,Romania,1972,217
+M,ROU,Romania,1976,205
+M,ROU,Romania,1980,260
+M,ROU,Romania,1984,126
+M,ROU,Romania,1988,91
+M,ROU,Romania,1992,203
+M,ROU,Romania,1994,24
+M,ROU,Romania,1996,161
+M,ROU,Romania,1998,20
+M,ROU,Romania,2000,124
+M,ROU,Romania,2002,20
+M,ROU,Romania,2004,95
+M,ROU,Romania,2006,27
+M,ROU,Romania,2008,84
+M,ROU,Romania,2010,21
+M,ROU,Romania,2012,82
+M,ROU,Romania,2014,25
+M,ROU,Romania,2016,46
+M,RSA,South Africa,1904,8
+M,RSA,South Africa,1908,30
+M,RSA,South Africa,1912,56
+M,RSA,South Africa,1920,95
+M,RSA,South Africa,1924,43
+M,RSA,South Africa,1928,28
+M,RSA,South Africa,1932,15
+M,RSA,South Africa,1936,41
+M,RSA,South Africa,1948,41
+M,RSA,South Africa,1952,100
+M,RSA,South Africa,1956,77
+M,RSA,South Africa,1960,67
+M,RSA,South Africa,1992,96
+M,RSA,South Africa,1994,1
+M,RSA,South Africa,1996,74
+M,RSA,South Africa,1998,2
+M,RSA,South Africa,2000,112
+M,RSA,South Africa,2002,4
+M,RSA,South Africa,2004,79
+M,RSA,South Africa,2006,9
+M,RSA,South Africa,2008,99
+M,RSA,South Africa,2010,2
+M,RSA,South Africa,2012,84
+M,RSA,South Africa,2016,109
+M,RUS,Russia,1900,5
+M,RUS,Russia,1908,7
+M,RUS,Russia,1912,266
+M,RUS,Russia,1924,2
+M,RUS,Russia,1994,124
+M,RUS,Russia,1996,319
+M,RUS,Russia,1998,122
+M,RUS,Russia,2000,333
+M,RUS,Russia,2002,138
+M,RUS,Russia,2004,328
+M,RUS,Russia,2006,172
+M,RUS,Russia,2008,315
+M,RUS,Russia,2010,153
+M,RUS,Russia,2012,266
+M,RUS,Russia,2014,201
+M,RUS,Russia,2016,203
+M,RWA,Rwanda,1984,4
+M,RWA,Rwanda,1988,4
+M,RWA,Rwanda,1992,7
+M,RWA,Rwanda,1996,4
+M,RWA,Rwanda,2000,3
+M,RWA,Rwanda,2004,3
+M,RWA,Rwanda,2008,2
+M,RWA,Rwanda,2012,5
+M,RWA,Rwanda,2016,4
+M,SAA,Germany,1952,86
+M,SAM,Samoa,1984,9
+M,SAM,Samoa,1988,11
+M,SAM,Samoa,1992,5
+M,SAM,Samoa,1996,4
+M,SAM,Samoa,2000,4
+M,SAM,Samoa,2004,2
+M,SAM,Samoa,2008,5
+M,SAM,Samoa,2012,6
+M,SAM,Samoa,2016,5
+M,SCG,Serbia,1996,65
+M,SCG,Serbia,1998,1
+M,SCG,Serbia,2000,99
+M,SCG,Serbia,2002,6
+M,SCG,Serbia,2004,87
+M,SCG,Serbia,2006,5
+M,SEN,Senegal,1964,14
+M,SEN,Senegal,1968,24
+M,SEN,Senegal,1972,40
+M,SEN,Senegal,1976,30
+M,SEN,Senegal,1980,35
+M,SEN,Senegal,1984,30
+M,SEN,Senegal,1988,34
+M,SEN,Senegal,1992,33
+M,SEN,Senegal,1994,1
+M,SEN,Senegal,1996,12
+M,SEN,Senegal,2000,9
+M,SEN,Senegal,2004,8
+M,SEN,Senegal,2006,3
+M,SEN,Senegal,2008,10
+M,SEN,Senegal,2010,2
+M,SEN,Senegal,2012,25
+M,SEN,Senegal,2016,6
+M,SEY,Seychelles,1980,17
+M,SEY,Seychelles,1984,12
+M,SEY,Seychelles,1992,18
+M,SEY,Seychelles,1996,8
+M,SEY,Seychelles,2000,6
+M,SEY,Seychelles,2004,8
+M,SEY,Seychelles,2008,7
+M,SEY,Seychelles,2012,4
+M,SEY,Seychelles,2016,8
+M,SKN,Saint Kitts,1996,5
+M,SKN,Saint Kitts,2000,2
+M,SKN,Saint Kitts,2004,1
+M,SKN,Saint Kitts,2008,2
+M,SKN,Saint Kitts,2012,7
+M,SKN,Saint Kitts,2016,8
+M,SLE,Sierra Leone,1968,4
+M,SLE,Sierra Leone,1980,25
+M,SLE,Sierra Leone,1984,9
+M,SLE,Sierra Leone,1988,19
+M,SLE,Sierra Leone,1992,10
+M,SLE,Sierra Leone,1996,12
+M,SLE,Sierra Leone,2000,2
+M,SLE,Sierra Leone,2004,1
+M,SLE,Sierra Leone,2008,2
+M,SLE,Sierra Leone,2012,1
+M,SLE,Sierra Leone,2016,2
+M,SLO,Slovenia,1992,87
+M,SLO,Slovenia,1994,38
+M,SLO,Slovenia,1996,33
+M,SLO,Slovenia,1998,43
+M,SLO,Slovenia,2000,64
+M,SLO,Slovenia,2002,55
+M,SLO,Slovenia,2004,67
+M,SLO,Slovenia,2006,57
+M,SLO,Slovenia,2008,46
+M,SLO,Slovenia,2010,61
+M,SLO,Slovenia,2012,30
+M,SLO,Slovenia,2014,75
+M,SLO,Slovenia,2016,41
+M,SMR,San Marino,1960,13
+M,SMR,San Marino,1968,4
+M,SMR,San Marino,1972,7
+M,SMR,San Marino,1976,11
+M,SMR,San Marino,1980,16
+M,SMR,San Marino,1984,34
+M,SMR,San Marino,1988,27
+M,SMR,San Marino,1992,27
+M,SMR,San Marino,1994,3
+M,SMR,San Marino,1996,6
+M,SMR,San Marino,2000,3
+M,SMR,San Marino,2002,1
+M,SMR,San Marino,2004,4
+M,SMR,San Marino,2006,1
+M,SMR,San Marino,2008,2
+M,SMR,San Marino,2010,1
+M,SMR,San Marino,2012,1
+M,SMR,San Marino,2014,1
+M,SMR,San Marino,2016,2
+M,SOL,Solomon Islands,1984,3
+M,SOL,Solomon Islands,1988,5
+M,SOL,Solomon Islands,1992,1
+M,SOL,Solomon Islands,1996,3
+M,SOL,Solomon Islands,2000,1
+M,SOL,Solomon Islands,2004,1
+M,SOL,Solomon Islands,2008,1
+M,SOL,Solomon Islands,2012,2
+M,SOL,Solomon Islands,2016,1
+M,SOM,Somalia,1972,4
+M,SOM,Somalia,1984,9
+M,SOM,Somalia,1988,5
+M,SOM,Somalia,1996,4
+M,SOM,Somalia,2000,1
+M,SOM,Somalia,2004,1
+M,SOM,Somalia,2008,1
+M,SOM,Somalia,2012,1
+M,SOM,Somalia,2016,1
+M,SRB,Serbia,1912,2
+M,SRB,Serbia,2008,70
+M,SRB,Serbia,2010,7
+M,SRB,Serbia,2012,92
+M,SRB,Serbia,2014,12
+M,SRB,Serbia,2016,70
+M,SRI,Sri Lanka,1948,10
+M,SRI,Sri Lanka,1952,7
+M,SRI,Sri Lanka,1956,3
+M,SRI,Sri Lanka,1960,5
+M,SRI,Sri Lanka,1964,7
+M,SRI,Sri Lanka,1968,3
+M,SRI,Sri Lanka,1972,6
+M,SRI,Sri Lanka,1980,4
+M,SRI,Sri Lanka,1984,6
+M,SRI,Sri Lanka,1988,5
+M,SRI,Sri Lanka,1992,8
+M,SRI,Sri Lanka,1996,5
+M,SRI,Sri Lanka,2000,11
+M,SRI,Sri Lanka,2004,4
+M,SRI,Sri Lanka,2008,5
+M,SRI,Sri Lanka,2012,5
+M,SRI,Sri Lanka,2016,8
+M,SSD,South Sudan,2016,2
+M,STP,Sao Tome and Principe,1996,1
+M,STP,Sao Tome and Principe,2000,1
+M,STP,Sao Tome and Principe,2004,1
+M,STP,Sao Tome and Principe,2008,3
+M,STP,Sao Tome and Principe,2012,1
+M,STP,Sao Tome and Principe,2016,2
+M,SUD,Sudan,1960,13
+M,SUD,Sudan,1968,7
+M,SUD,Sudan,1972,31
+M,SUD,Sudan,1984,9
+M,SUD,Sudan,1988,8
+M,SUD,Sudan,1992,7
+M,SUD,Sudan,1996,4
+M,SUD,Sudan,2000,2
+M,SUD,Sudan,2004,3
+M,SUD,Sudan,2008,5
+M,SUD,Sudan,2012,4
+M,SUD,Sudan,2016,4
+M,SUI,Switzerland,1896,8
+M,SUI,Switzerland,1900,47
+M,SUI,Switzerland,1904,7
+M,SUI,Switzerland,1906,45
+M,SUI,Switzerland,1908,1
+M,SUI,Switzerland,1912,7
+M,SUI,Switzerland,1920,126
+M,SUI,Switzerland,1924,294
+M,SUI,Switzerland,1928,258
+M,SUI,Switzerland,1932,21
+M,SUI,Switzerland,1936,318
+M,SUI,Switzerland,1948,348
+M,SUI,Switzerland,1952,300
+M,SUI,Switzerland,1956,84
+M,SUI,Switzerland,1960,245
+M,SUI,Switzerland,1964,213
+M,SUI,Switzerland,1968,196
+M,SUI,Switzerland,1972,255
+M,SUI,Switzerland,1976,170
+M,SUI,Switzerland,1980,132
+M,SUI,Switzerland,1984,224
+M,SUI,Switzerland,1988,204
+M,SUI,Switzerland,1992,218
+M,SUI,Switzerland,1994,68
+M,SUI,Switzerland,1996,102
+M,SUI,Switzerland,1998,83
+M,SUI,Switzerland,2000,83
+M,SUI,Switzerland,2002,121
+M,SUI,Switzerland,2004,80
+M,SUI,Switzerland,2006,119
+M,SUI,Switzerland,2008,68
+M,SUI,Switzerland,2010,124
+M,SUI,Switzerland,2012,89
+M,SUI,Switzerland,2014,125
+M,SUI,Switzerland,2016,91
+M,SUR,Suriname,1968,1
+M,SUR,Suriname,1972,3
+M,SUR,Suriname,1976,4
+M,SUR,Suriname,1984,7
+M,SUR,Suriname,1988,6
+M,SUR,Suriname,1992,7
+M,SUR,Suriname,1996,6
+M,SUR,Suriname,2000,2
+M,SUR,Suriname,2004,2
+M,SUR,Suriname,2008,2
+M,SUR,Suriname,2012,3
+M,SUR,Suriname,2016,4
+M,SVK,Slovakia,1994,41
+M,SVK,Slovakia,1996,71
+M,SVK,Slovakia,1998,45
+M,SVK,Slovakia,2000,96
+M,SVK,Slovakia,2002,56
+M,SVK,Slovakia,2004,58
+M,SVK,Slovakia,2006,76
+M,SVK,Slovakia,2008,39
+M,SVK,Slovakia,2010,64
+M,SVK,Slovakia,2012,35
+M,SVK,Slovakia,2014,74
+M,SVK,Slovakia,2016,39
+M,SWE,Sweden,1896,5
+M,SWE,Sweden,1900,27
+M,SWE,Sweden,1906,95
+M,SWE,Sweden,1908,272
+M,SWE,Sweden,1912,676
+M,SWE,Sweden,1920,381
+M,SWE,Sweden,1924,271
+M,SWE,Sweden,1928,151
+M,SWE,Sweden,1932,120
+M,SWE,Sweden,1936,235
+M,SWE,Sweden,1948,265
+M,SWE,Sweden,1952,353
+M,SWE,Sweden,1956,206
+M,SWE,Sweden,1960,260
+M,SWE,Sweden,1964,201
+M,SWE,Sweden,1968,239
+M,SWE,Sweden,1972,212
+M,SWE,Sweden,1976,190
+M,SWE,Sweden,1980,235
+M,SWE,Sweden,1984,261
+M,SWE,Sweden,1988,291
+M,SWE,Sweden,1992,277
+M,SWE,Sweden,1994,103
+M,SWE,Sweden,1996,140
+M,SWE,Sweden,1998,74
+M,SWE,Sweden,2000,123
+M,SWE,Sweden,2002,86
+M,SWE,Sweden,2004,82
+M,SWE,Sweden,2006,95
+M,SWE,Sweden,2008,72
+M,SWE,Sweden,2010,92
+M,SWE,Sweden,2012,66
+M,SWE,Sweden,2014,84
+M,SWE,Sweden,2016,74
+M,SWZ,Swaziland,1972,4
+M,SWZ,Swaziland,1984,11
+M,SWZ,Swaziland,1988,15
+M,SWZ,Swaziland,1992,13
+M,SWZ,Swaziland,1996,5
+M,SWZ,Swaziland,2000,4
+M,SWZ,Swaziland,2004,2
+M,SWZ,Swaziland,2008,2
+M,SWZ,Swaziland,2012,2
+M,SWZ,Swaziland,2016,1
+M,SYR,Syria,1948,1
+M,SYR,Syria,1968,2
+M,SYR,Syria,1972,4
+M,SYR,Syria,1980,68
+M,SYR,Syria,1984,9
+M,SYR,Syria,1988,13
+M,SYR,Syria,1992,8
+M,SYR,Syria,1996,7
+M,SYR,Syria,2000,6
+M,SYR,Syria,2004,5
+M,SYR,Syria,2008,6
+M,SYR,Syria,2012,6
+M,SYR,Syria,2016,4
+M,TAN,Tanzania,1964,4
+M,TAN,Tanzania,1968,5
+M,TAN,Tanzania,1972,22
+M,TAN,Tanzania,1980,40
+M,TAN,Tanzania,1984,18
+M,TAN,Tanzania,1988,10
+M,TAN,Tanzania,1992,9
+M,TAN,Tanzania,1996,6
+M,TAN,Tanzania,2000,3
+M,TAN,Tanzania,2004,7
+M,TAN,Tanzania,2008,7
+M,TAN,Tanzania,2012,4
+M,TAN,Tanzania,2016,5
+M,TCH,Czech Republic,1920,181
+M,TCH,Czech Republic,1924,268
+M,TCH,Czech Republic,1928,173
+M,TCH,Czech Republic,1932,45
+M,TCH,Czech Republic,1936,327
+M,TCH,Czech Republic,1948,200
+M,TCH,Czech Republic,1952,184
+M,TCH,Czech Republic,1956,167
+M,TCH,Czech Republic,1960,174
+M,TCH,Czech Republic,1964,198
+M,TCH,Czech Republic,1968,205
+M,TCH,Czech Republic,1972,253
+M,TCH,Czech Republic,1976,250
+M,TCH,Czech Republic,1980,294
+M,TCH,Czech Republic,1984,51
+M,TCH,Czech Republic,1988,224
+M,TCH,Czech Republic,1992,281
+M,TGA,Tonga,1984,7
+M,TGA,Tonga,1988,5
+M,TGA,Tonga,1992,5
+M,TGA,Tonga,1996,4
+M,TGA,Tonga,2000,2
+M,TGA,Tonga,2004,4
+M,TGA,Tonga,2008,2
+M,TGA,Tonga,2012,2
+M,TGA,Tonga,2014,1
+M,TGA,Tonga,2016,4
+M,THA,Thailand,1952,15
+M,THA,Thailand,1956,40
+M,THA,Thailand,1960,24
+M,THA,Thailand,1964,57
+M,THA,Thailand,1968,46
+M,THA,Thailand,1972,37
+M,THA,Thailand,1976,55
+M,THA,Thailand,1984,29
+M,THA,Thailand,1988,13
+M,THA,Thailand,1992,29
+M,THA,Thailand,1996,38
+M,THA,Thailand,2000,42
+M,THA,Thailand,2002,2
+M,THA,Thailand,2004,30
+M,THA,Thailand,2006,1
+M,THA,Thailand,2008,23
+M,THA,Thailand,2012,22
+M,THA,Thailand,2014,2
+M,THA,Thailand,2016,28
+M,TJK,Tajikistan,1996,6
+M,TJK,Tajikistan,2000,2
+M,TJK,Tajikistan,2002,2
+M,TJK,Tajikistan,2004,5
+M,TJK,Tajikistan,2006,3
+M,TJK,Tajikistan,2008,13
+M,TJK,Tajikistan,2010,4
+M,TJK,Tajikistan,2012,13
+M,TJK,Tajikistan,2014,1
+M,TJK,Tajikistan,2016,5
+M,TKM,Turkmenistan,1996,4
+M,TKM,Turkmenistan,2000,4
+M,TKM,Turkmenistan,2004,7
+M,TKM,Turkmenistan,2008,6
+M,TKM,Turkmenistan,2012,7
+M,TKM,Turkmenistan,2016,4
+M,TLS,Timor-Leste,2004,1
+M,TLS,Timor-Leste,2012,1
+M,TLS,Timor-Leste,2014,1
+M,TLS,Timor-Leste,2016,1
+M,TOG,Togo,1972,7
+M,TOG,Togo,1984,6
+M,TOG,Togo,1988,6
+M,TOG,Togo,1992,9
+M,TOG,Togo,1996,7
+M,TOG,Togo,2000,2
+M,TOG,Togo,2004,2
+M,TOG,Togo,2008,3
+M,TOG,Togo,2012,4
+M,TOG,Togo,2016,2
+M,TPE,Taiwan,1956,23
+M,TPE,Taiwan,1960,27
+M,TPE,Taiwan,1964,86
+M,TPE,Taiwan,1968,62
+M,TPE,Taiwan,1972,38
+M,TPE,Taiwan,1976,11
+M,TPE,Taiwan,1984,57
+M,TPE,Taiwan,1988,93
+M,TPE,Taiwan,1992,37
+M,TPE,Taiwan,1994,2
+M,TPE,Taiwan,1996,41
+M,TPE,Taiwan,1998,8
+M,TPE,Taiwan,2000,33
+M,TPE,Taiwan,2002,6
+M,TPE,Taiwan,2004,57
+M,TPE,Taiwan,2006,1
+M,TPE,Taiwan,2008,48
+M,TPE,Taiwan,2010,1
+M,TPE,Taiwan,2012,22
+M,TPE,Taiwan,2014,5
+M,TPE,Taiwan,2016,31
+M,TTO,Trinidad,1948,9
+M,TTO,Trinidad,1952,2
+M,TTO,Trinidad,1956,10
+M,TTO,Trinidad,1964,18
+M,TTO,Trinidad,1968,25
+M,TTO,Trinidad,1972,35
+M,TTO,Trinidad,1976,20
+M,TTO,Trinidad,1980,15
+M,TTO,Trinidad,1984,15
+M,TTO,Trinidad,1988,5
+M,TTO,Trinidad,1992,13
+M,TTO,Trinidad,1994,2
+M,TTO,Trinidad,1996,10
+M,TTO,Trinidad,1998,2
+M,TTO,Trinidad,2000,22
+M,TTO,Trinidad,2002,3
+M,TTO,Trinidad,2004,16
+M,TTO,Trinidad,2008,22
+M,TTO,Trinidad,2012,26
+M,TTO,Trinidad,2016,25
+M,TUN,Tunisia,1960,56
+M,TUN,Tunisia,1964,12
+M,TUN,Tunisia,1968,8
+M,TUN,Tunisia,1972,37
+M,TUN,Tunisia,1976,14
+M,TUN,Tunisia,1984,24
+M,TUN,Tunisia,1988,40
+M,TUN,Tunisia,1992,11
+M,TUN,Tunisia,1996,45
+M,TUN,Tunisia,2000,40
+M,TUN,Tunisia,2004,52
+M,TUN,Tunisia,2008,17
+M,TUN,Tunisia,2012,66
+M,TUN,Tunisia,2016,44
+M,TUR,Turkey,1906,2
+M,TUR,Turkey,1912,7
+M,TUR,Turkey,1924,23
+M,TUR,Turkey,1928,40
+M,TUR,Turkey,1932,1
+M,TUR,Turkey,1936,70
+M,TUR,Turkey,1948,96
+M,TUR,Turkey,1952,58
+M,TUR,Turkey,1956,38
+M,TUR,Turkey,1960,60
+M,TUR,Turkey,1964,37
+M,TUR,Turkey,1968,50
+M,TUR,Turkey,1972,49
+M,TUR,Turkey,1976,46
+M,TUR,Turkey,1984,70
+M,TUR,Turkey,1988,62
+M,TUR,Turkey,1992,63
+M,TUR,Turkey,1994,1
+M,TUR,Turkey,1996,48
+M,TUR,Turkey,1998,1
+M,TUR,Turkey,2000,47
+M,TUR,Turkey,2002,3
+M,TUR,Turkey,2004,47
+M,TUR,Turkey,2006,10
+M,TUR,Turkey,2008,50
+M,TUR,Turkey,2010,3
+M,TUR,Turkey,2012,52
+M,TUR,Turkey,2014,5
+M,TUR,Turkey,2016,65
+M,UAE,United Arab Emirates,1984,11
+M,UAE,United Arab Emirates,1988,36
+M,UAE,United Arab Emirates,1992,36
+M,UAE,United Arab Emirates,1996,4
+M,UAE,United Arab Emirates,2000,5
+M,UAE,United Arab Emirates,2004,5
+M,UAE,United Arab Emirates,2008,7
+M,UAE,United Arab Emirates,2012,24
+M,UAE,United Arab Emirates,2016,9
+M,UAR,Syria,1960,123
+M,UGA,Uganda,1956,5
+M,UGA,Uganda,1960,16
+M,UGA,Uganda,1964,16
+M,UGA,Uganda,1968,14
+M,UGA,Uganda,1972,33
+M,UGA,Uganda,1980,16
+M,UGA,Uganda,1984,28
+M,UGA,Uganda,1988,22
+M,UGA,Uganda,1992,7
+M,UGA,Uganda,1996,7
+M,UGA,Uganda,2000,9
+M,UGA,Uganda,2004,9
+M,UGA,Uganda,2008,9
+M,UGA,Uganda,2012,12
+M,UGA,Uganda,2016,15
+M,UKR,Ukraine,1994,30
+M,UKR,Ukraine,1996,218
+M,UKR,Ukraine,1998,53
+M,UKR,Ukraine,2000,216
+M,UKR,Ukraine,2002,68
+M,UKR,Ukraine,2004,195
+M,UKR,Ukraine,2006,61
+M,UKR,Ukraine,2008,161
+M,UKR,Ukraine,2010,44
+M,UKR,Ukraine,2012,161
+M,UKR,Ukraine,2014,45
+M,UKR,Ukraine,2016,127
+M,URS,Russia,1952,354
+M,URS,Russia,1956,401
+M,URS,Russia,1960,376
+M,URS,Russia,1964,423
+M,URS,Russia,1968,430
+M,URS,Russia,1972,476
+M,URS,Russia,1976,471
+M,URS,Russia,1980,536
+M,URS,Russia,1984,101
+M,URS,Russia,1988,527
+M,URU,Uruguay,1924,40
+M,URU,Uruguay,1928,17
+M,URU,Uruguay,1932,2
+M,URU,Uruguay,1936,40
+M,URU,Uruguay,1948,78
+M,URU,Uruguay,1952,41
+M,URU,Uruguay,1956,29
+M,URU,Uruguay,1960,42
+M,URU,Uruguay,1964,29
+M,URU,Uruguay,1968,22
+M,URU,Uruguay,1972,13
+M,URU,Uruguay,1976,12
+M,URU,Uruguay,1984,21
+M,URU,Uruguay,1988,16
+M,URU,Uruguay,1992,18
+M,URU,Uruguay,1996,13
+M,URU,Uruguay,1998,1
+M,URU,Uruguay,2000,14
+M,URU,Uruguay,2004,16
+M,URU,Uruguay,2008,10
+M,URU,Uruguay,2012,24
+M,URU,Uruguay,2016,12
+M,USA,USA,1896,27
+M,USA,USA,1900,125
+M,USA,USA,1904,1093
+M,USA,USA,1906,81
+M,USA,USA,1908,218
+M,USA,USA,1912,364
+M,USA,USA,1920,451
+M,USA,USA,1924,462
+M,USA,USA,1928,380
+M,USA,USA,1932,525
+M,USA,USA,1936,479
+M,USA,USA,1948,444
+M,USA,USA,1952,431
+M,USA,USA,1956,420
+M,USA,USA,1960,402
+M,USA,USA,1964,452
+M,USA,USA,1968,480
+M,USA,USA,1972,527
+M,USA,USA,1976,477
+M,USA,USA,1980,110
+M,USA,USA,1984,544
+M,USA,USA,1988,564
+M,USA,USA,1992,601
+M,USA,USA,1994,148
+M,USA,USA,1996,478
+M,USA,USA,1998,158
+M,USA,USA,2000,424
+M,USA,USA,2002,178
+M,USA,USA,2004,386
+M,USA,USA,2006,187
+M,USA,USA,2008,397
+M,USA,USA,2010,196
+M,USA,USA,2012,346
+M,USA,USA,2014,209
+M,USA,USA,2016,350
+M,UZB,Uzbekistan,1994,3
+M,UZB,Uzbekistan,1996,75
+M,UZB,Uzbekistan,1998,2
+M,UZB,Uzbekistan,2000,58
+M,UZB,Uzbekistan,2002,3
+M,UZB,Uzbekistan,2004,57
+M,UZB,Uzbekistan,2006,2
+M,UZB,Uzbekistan,2008,49
+M,UZB,Uzbekistan,2010,2
+M,UZB,Uzbekistan,2012,37
+M,UZB,Uzbekistan,2014,3
+M,UZB,Uzbekistan,2016,53
+M,VAN,Vanuatu,1988,4
+M,VAN,Vanuatu,1992,5
+M,VAN,Vanuatu,1996,3
+M,VAN,Vanuatu,2000,2
+M,VAN,Vanuatu,2004,1
+M,VAN,Vanuatu,2008,1
+M,VAN,Vanuatu,2012,3
+M,VAN,Vanuatu,2016,4
+M,VEN,Venezuela,1932,1
+M,VEN,Venezuela,1948,2
+M,VEN,Venezuela,1952,61
+M,VEN,Venezuela,1956,38
+M,VEN,Venezuela,1960,45
+M,VEN,Venezuela,1964,21
+M,VEN,Venezuela,1968,30
+M,VEN,Venezuela,1972,25
+M,VEN,Venezuela,1976,34
+M,VEN,Venezuela,1980,43
+M,VEN,Venezuela,1984,43
+M,VEN,Venezuela,1988,15
+M,VEN,Venezuela,1992,23
+M,VEN,Venezuela,1996,47
+M,VEN,Venezuela,2000,43
+M,VEN,Venezuela,2002,3
+M,VEN,Venezuela,2004,35
+M,VEN,Venezuela,2006,1
+M,VEN,Venezuela,2008,68
+M,VEN,Venezuela,2012,49
+M,VEN,Venezuela,2014,1
+M,VEN,Venezuela,2016,76
+M,VIE,Vietnam,1980,28
+M,VIE,Vietnam,1988,10
+M,VIE,Vietnam,1992,2
+M,VIE,Vietnam,1996,3
+M,VIE,Vietnam,2000,3
+M,VIE,Vietnam,2004,6
+M,VIE,Vietnam,2008,8
+M,VIE,Vietnam,2012,8
+M,VIE,Vietnam,2016,12
+M,VIN,Saint Vincent,1988,5
+M,VIN,Saint Vincent,1992,6
+M,VIN,Saint Vincent,1996,11
+M,VIN,Saint Vincent,2000,2
+M,VIN,Saint Vincent,2004,2
+M,VIN,Saint Vincent,2008,1
+M,VIN,Saint Vincent,2012,2
+M,VIN,Saint Vincent,2016,2
+M,VNM,Vietnam,1952,13
+M,VNM,Vietnam,1956,10
+M,VNM,Vietnam,1960,5
+M,VNM,Vietnam,1964,23
+M,VNM,Vietnam,1968,7
+M,VNM,Vietnam,1972,2
+M,WIF,Trinidad,1960,20
+M,YAR,Yemen,1984,3
+M,YAR,Yemen,1988,8
+M,YEM,Yemen,1992,8
+M,YEM,Yemen,1996,4
+M,YEM,Yemen,2000,1
+M,YEM,Yemen,2004,3
+M,YEM,Yemen,2008,7
+M,YEM,Yemen,2012,3
+M,YEM,Yemen,2016,2
+M,YMD,Yemen,1988,5
+M,YUG,Serbia,1920,15
+M,YUG,Serbia,1924,121
+M,YUG,Serbia,1928,94
+M,YUG,Serbia,1932,1
+M,YUG,Serbia,1936,182
+M,YUG,Serbia,1948,178
+M,YUG,Serbia,1952,143
+M,YUG,Serbia,1956,59
+M,YUG,Serbia,1960,163
+M,YUG,Serbia,1964,167
+M,YUG,Serbia,1968,149
+M,YUG,Serbia,1972,198
+M,YUG,Serbia,1976,129
+M,YUG,Serbia,1980,172
+M,YUG,Serbia,1984,204
+M,YUG,Serbia,1988,173
+M,YUG,Serbia,1992,53
+M,ZAM,Zambia,1964,14
+M,ZAM,Zambia,1968,7
+M,ZAM,Zambia,1972,8
+M,ZAM,Zambia,1980,43
+M,ZAM,Zambia,1984,18
+M,ZAM,Zambia,1988,33
+M,ZAM,Zambia,1992,8
+M,ZAM,Zambia,1996,7
+M,ZAM,Zambia,2000,6
+M,ZAM,Zambia,2004,4
+M,ZAM,Zambia,2008,6
+M,ZAM,Zambia,2012,5
+M,ZAM,Zambia,2016,5
+M,ZIM,Zimbabwe,1928,2
+M,ZIM,Zimbabwe,1964,27
+M,ZIM,Zimbabwe,1980,30
+M,ZIM,Zimbabwe,1984,17
+M,ZIM,Zimbabwe,1988,38
+M,ZIM,Zimbabwe,1992,16
+M,ZIM,Zimbabwe,1996,18
+M,ZIM,Zimbabwe,2000,18
+M,ZIM,Zimbabwe,2004,9
+M,ZIM,Zimbabwe,2008,8
+M,ZIM,Zimbabwe,2012,4
+M,ZIM,Zimbabwe,2014,2
+M,ZIM,Zimbabwe,2016,9
